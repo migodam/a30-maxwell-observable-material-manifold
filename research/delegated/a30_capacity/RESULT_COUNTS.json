@@ -1,0 +1,881 @@
+{
+  "scope": "EXTRACTION_OF_EXISTING_E0_RESULTS_ONLY_NO_NEW_FIT_OR_SCIENTIFIC_GATE",
+  "sources": [
+    "results/a30/capacity/fits/*.json",
+    "results/a30/capacity/TRAIN_AND_CHOICES.json",
+    "results/a30/capacity/CAPACITY_SUMMARY.json"
+  ],
+  "unit_definitions": {
+    "case_fit": "one case x method x real-budget record",
+    "start_fit": "one frozen initialization within a case-fit",
+    "atlas_trajectory_record": "stored accepted optimizer iterate, including initial/final records; rejected for primary does not imply discarded from diagnostics"
+  },
+  "totals": {
+    "case_fits": 384,
+    "unique_case_ids": 32,
+    "case_status_counts": {
+      "ACHIEVED_OFFLINE_FIT": 384
+    },
+    "case_global_vs_local_counts": {
+      "ACHIEVED_LOCAL_NONCONVEX_UPPER_BOUND": 192,
+      "CONVEX_FIXED_CHART_NUMERICAL_CERTIFIED": 192
+    },
+    "all_start_fits": 3072,
+    "all_start_iterations": {
+      "records": 3072,
+      "total": 104364,
+      "min": 0,
+      "max": 100,
+      "mean": 33.97265625,
+      "median": 12.5,
+      "zero": 1066,
+      "at_frozen_limit_100": 641
+    },
+    "all_selected_actual_box_feasible": 384
+  },
+  "per_method_budget": [
+    {
+      "method": "atlas",
+      "budget": 16,
+      "case_fit_count": 32,
+      "case_status_counts": {
+        "ACHIEVED_OFFLINE_FIT": 32
+      },
+      "case_global_vs_local_counts": {
+        "ACHIEVED_LOCAL_NONCONVEX_UPPER_BOUND": 32
+      },
+      "selected_start_termination_counts": {
+        "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH": 5,
+        "STOP: TOTAL NO. OF ITERATIONS REACHED LIMIT": 27
+      },
+      "selected_start_iterations": {
+        "records": 32,
+        "total": 3064,
+        "min": 54,
+        "max": 100,
+        "mean": 95.75,
+        "median": 100.0,
+        "zero": 0,
+        "at_frozen_limit_100": 27
+      },
+      "all_start_count": 256,
+      "eligible_start_count": 256,
+      "ineligible_start_count": 0,
+      "all_start_termination_counts": {
+        "CONVERGENCE: NORM OF PROJECTED GRADIENT <= PGTOL": 9,
+        "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH": 121,
+        "STOP: TOTAL NO. OF ITERATIONS REACHED LIMIT": 126
+      },
+      "all_start_iterations": {
+        "records": 256,
+        "total": 22304,
+        "min": 36,
+        "max": 100,
+        "mean": 87.125,
+        "median": 97.0,
+        "zero": 0,
+        "at_frozen_limit_100": 126
+      },
+      "all_start_function_evaluations_total": 24958,
+      "selected_actual_box_feasible": 32,
+      "stored_capacity_fit_cpu_seconds": 9.89956,
+      "stored_capacity_fit_wall_seconds": 10.135379333922174,
+      "atlas_digital_topology": {
+        "trajectory_records": 22560,
+        "topology_changing_records": 20368,
+        "topology_rejected_box_feasible_records": 20368,
+        "all_not_accepted_for_primary_records": 20368,
+        "box_infeasible_records": 0,
+        "starts_with_any_topology_change": 255,
+        "starts_zero_geometry_topology_ineligible": 0,
+        "unrestricted_best_diagnostic_topology_changes": 252,
+        "selected_primaries_topology_preserved": 32
+      }
+    },
+    {
+      "method": "atlas",
+      "budget": 32,
+      "case_fit_count": 32,
+      "case_status_counts": {
+        "ACHIEVED_OFFLINE_FIT": 32
+      },
+      "case_global_vs_local_counts": {
+        "ACHIEVED_LOCAL_NONCONVEX_UPPER_BOUND": 32
+      },
+      "selected_start_termination_counts": {
+        "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH": 1,
+        "STOP: TOTAL NO. OF ITERATIONS REACHED LIMIT": 31
+      },
+      "selected_start_iterations": {
+        "records": 32,
+        "total": 3199,
+        "min": 99,
+        "max": 100,
+        "mean": 99.96875,
+        "median": 100.0,
+        "zero": 0,
+        "at_frozen_limit_100": 31
+      },
+      "all_start_count": 256,
+      "eligible_start_count": 256,
+      "ineligible_start_count": 0,
+      "all_start_termination_counts": {
+        "CONVERGENCE: NORM OF PROJECTED GRADIENT <= PGTOL": 1,
+        "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH": 3,
+        "STOP: TOTAL NO. OF ITERATIONS REACHED LIMIT": 252
+      },
+      "all_start_iterations": {
+        "records": 256,
+        "total": 25469,
+        "min": 23,
+        "max": 100,
+        "mean": 99.48828125,
+        "median": 100.0,
+        "zero": 0,
+        "at_frozen_limit_100": 252
+      },
+      "all_start_function_evaluations_total": 27418,
+      "selected_actual_box_feasible": 32,
+      "stored_capacity_fit_cpu_seconds": 12.253301,
+      "stored_capacity_fit_wall_seconds": 12.44520399812609,
+      "atlas_digital_topology": {
+        "trajectory_records": 25725,
+        "topology_changing_records": 24420,
+        "topology_rejected_box_feasible_records": 24420,
+        "all_not_accepted_for_primary_records": 24420,
+        "box_infeasible_records": 0,
+        "starts_with_any_topology_change": 256,
+        "starts_zero_geometry_topology_ineligible": 0,
+        "unrestricted_best_diagnostic_topology_changes": 256,
+        "selected_primaries_topology_preserved": 32
+      }
+    },
+    {
+      "method": "atlas",
+      "budget": 64,
+      "case_fit_count": 32,
+      "case_status_counts": {
+        "ACHIEVED_OFFLINE_FIT": 32
+      },
+      "case_global_vs_local_counts": {
+        "ACHIEVED_LOCAL_NONCONVEX_UPPER_BOUND": 32
+      },
+      "selected_start_termination_counts": {
+        "STOP: TOTAL NO. OF ITERATIONS REACHED LIMIT": 32
+      },
+      "selected_start_iterations": {
+        "records": 32,
+        "total": 3200,
+        "min": 100,
+        "max": 100,
+        "mean": 100,
+        "median": 100.0,
+        "zero": 0,
+        "at_frozen_limit_100": 32
+      },
+      "all_start_count": 256,
+      "eligible_start_count": 256,
+      "ineligible_start_count": 0,
+      "all_start_termination_counts": {
+        "STOP: TOTAL NO. OF ITERATIONS REACHED LIMIT": 256
+      },
+      "all_start_iterations": {
+        "records": 256,
+        "total": 25600,
+        "min": 100,
+        "max": 100,
+        "mean": 100,
+        "median": 100.0,
+        "zero": 0,
+        "at_frozen_limit_100": 256
+      },
+      "all_start_function_evaluations_total": 27455,
+      "selected_actual_box_feasible": 32,
+      "stored_capacity_fit_cpu_seconds": 13.580481000000018,
+      "stored_capacity_fit_wall_seconds": 14.174623666156549,
+      "atlas_digital_topology": {
+        "trajectory_records": 25856,
+        "topology_changing_records": 24597,
+        "topology_rejected_box_feasible_records": 24597,
+        "all_not_accepted_for_primary_records": 24597,
+        "box_infeasible_records": 0,
+        "starts_with_any_topology_change": 256,
+        "starts_zero_geometry_topology_ineligible": 0,
+        "unrestricted_best_diagnostic_topology_changes": 256,
+        "selected_primaries_topology_preserved": 32
+      }
+    },
+    {
+      "method": "level_set",
+      "budget": 16,
+      "case_fit_count": 32,
+      "case_status_counts": {
+        "ACHIEVED_OFFLINE_FIT": 32
+      },
+      "case_global_vs_local_counts": {
+        "ACHIEVED_LOCAL_NONCONVEX_UPPER_BOUND": 32
+      },
+      "selected_start_termination_counts": {
+        "CONVERGENCE: NORM OF PROJECTED GRADIENT <= PGTOL": 9,
+        "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH": 23
+      },
+      "selected_start_iterations": {
+        "records": 32,
+        "total": 1439,
+        "min": 25,
+        "max": 71,
+        "mean": 44.96875,
+        "median": 44.5,
+        "zero": 0,
+        "at_frozen_limit_100": 0
+      },
+      "all_start_count": 256,
+      "eligible_start_count": 256,
+      "ineligible_start_count": 0,
+      "all_start_termination_counts": {
+        "CONVERGENCE: NORM OF PROJECTED GRADIENT <= PGTOL": 124,
+        "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH": 132
+      },
+      "all_start_iterations": {
+        "records": 256,
+        "total": 8647,
+        "min": 20,
+        "max": 72,
+        "mean": 33.77734375,
+        "median": 32.0,
+        "zero": 0,
+        "at_frozen_limit_100": 0
+      },
+      "all_start_function_evaluations_total": 9505,
+      "selected_actual_box_feasible": 32,
+      "stored_capacity_fit_cpu_seconds": 4.086174999999985,
+      "stored_capacity_fit_wall_seconds": 4.23945854784688
+    },
+    {
+      "method": "level_set",
+      "budget": 32,
+      "case_fit_count": 32,
+      "case_status_counts": {
+        "ACHIEVED_OFFLINE_FIT": 32
+      },
+      "case_global_vs_local_counts": {
+        "ACHIEVED_LOCAL_NONCONVEX_UPPER_BOUND": 32
+      },
+      "selected_start_termination_counts": {
+        "CONVERGENCE: NORM OF PROJECTED GRADIENT <= PGTOL": 9,
+        "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH": 23
+      },
+      "selected_start_iterations": {
+        "records": 32,
+        "total": 1517,
+        "min": 15,
+        "max": 93,
+        "mean": 47.40625,
+        "median": 37.5,
+        "zero": 0,
+        "at_frozen_limit_100": 0
+      },
+      "all_start_count": 256,
+      "eligible_start_count": 256,
+      "ineligible_start_count": 0,
+      "all_start_termination_counts": {
+        "CONVERGENCE: NORM OF PROJECTED GRADIENT <= PGTOL": 99,
+        "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH": 157
+      },
+      "all_start_iterations": {
+        "records": 256,
+        "total": 9718,
+        "min": 15,
+        "max": 93,
+        "mean": 37.9609375,
+        "median": 36.0,
+        "zero": 0,
+        "at_frozen_limit_100": 0
+      },
+      "all_start_function_evaluations_total": 10591,
+      "selected_actual_box_feasible": 32,
+      "stored_capacity_fit_cpu_seconds": 4.9340009999999985,
+      "stored_capacity_fit_wall_seconds": 5.08227374398848
+    },
+    {
+      "method": "level_set",
+      "budget": 64,
+      "case_fit_count": 32,
+      "case_status_counts": {
+        "ACHIEVED_OFFLINE_FIT": 32
+      },
+      "case_global_vs_local_counts": {
+        "ACHIEVED_LOCAL_NONCONVEX_UPPER_BOUND": 32
+      },
+      "selected_start_termination_counts": {
+        "CONVERGENCE: NORM OF PROJECTED GRADIENT <= PGTOL": 7,
+        "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH": 19,
+        "STOP: TOTAL NO. OF ITERATIONS REACHED LIMIT": 6
+      },
+      "selected_start_iterations": {
+        "records": 32,
+        "total": 1666,
+        "min": 22,
+        "max": 100,
+        "mean": 52.0625,
+        "median": 35.0,
+        "zero": 0,
+        "at_frozen_limit_100": 6
+      },
+      "all_start_count": 256,
+      "eligible_start_count": 256,
+      "ineligible_start_count": 0,
+      "all_start_termination_counts": {
+        "CONVERGENCE: NORM OF PROJECTED GRADIENT <= PGTOL": 69,
+        "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH": 180,
+        "STOP: TOTAL NO. OF ITERATIONS REACHED LIMIT": 7
+      },
+      "all_start_iterations": {
+        "records": 256,
+        "total": 10479,
+        "min": 16,
+        "max": 100,
+        "mean": 40.93359375,
+        "median": 36.5,
+        "zero": 0,
+        "at_frozen_limit_100": 7
+      },
+      "all_start_function_evaluations_total": 11422,
+      "selected_actual_box_feasible": 32,
+      "stored_capacity_fit_cpu_seconds": 6.3635670000000015,
+      "stored_capacity_fit_wall_seconds": 6.720369417977054
+    },
+    {
+      "method": "single_chart",
+      "budget": 16,
+      "case_fit_count": 32,
+      "case_status_counts": {
+        "ACHIEVED_OFFLINE_FIT": 32
+      },
+      "case_global_vs_local_counts": {
+        "CONVEX_FIXED_CHART_NUMERICAL_CERTIFIED": 32
+      },
+      "selected_start_termination_counts": {
+        "ACTIVE_SET_KKT_STATIONARY": 7,
+        "UNCONSTRAINED_GLOBAL_SOLUTION": 25
+      },
+      "selected_start_iterations": {
+        "records": 32,
+        "total": 22,
+        "min": 0,
+        "max": 4,
+        "mean": 0.6875,
+        "median": 0.0,
+        "zero": 25,
+        "at_frozen_limit_100": 0
+      },
+      "all_start_count": 256,
+      "eligible_start_count": 256,
+      "ineligible_start_count": 0,
+      "all_start_termination_counts": {
+        "ACTIVE_SET_KKT_STATIONARY": 56,
+        "UNCONSTRAINED_GLOBAL_SOLUTION": 200
+      },
+      "all_start_iterations": {
+        "records": 256,
+        "total": 176,
+        "min": 0,
+        "max": 4,
+        "mean": 0.6875,
+        "median": 0.0,
+        "zero": 200,
+        "at_frozen_limit_100": 0
+      },
+      "all_start_function_evaluations_total": 632,
+      "selected_actual_box_feasible": 32,
+      "stored_capacity_fit_cpu_seconds": 0.17935800000000457,
+      "stored_capacity_fit_wall_seconds": 0.18869958200957626,
+      "affine_qp": {
+        "selected_numerically_certified": 32,
+        "selected_uncertified_achieved": 0,
+        "all_start_numerically_certified": 256,
+        "all_start_uncertified_achieved": 0,
+        "scope": "COUNTS_OF_EXISTING_FIXED_CHART_NUMERICAL_CERTIFICATE_FLAGS_ONLY"
+      }
+    },
+    {
+      "method": "single_chart",
+      "budget": 32,
+      "case_fit_count": 32,
+      "case_status_counts": {
+        "ACHIEVED_OFFLINE_FIT": 32
+      },
+      "case_global_vs_local_counts": {
+        "CONVEX_FIXED_CHART_NUMERICAL_CERTIFIED": 32
+      },
+      "selected_start_termination_counts": {
+        "ACTIVE_SET_KKT_STATIONARY": 22,
+        "UNCONSTRAINED_GLOBAL_SOLUTION": 10
+      },
+      "selected_start_iterations": {
+        "records": 32,
+        "total": 102,
+        "min": 0,
+        "max": 7,
+        "mean": 3.1875,
+        "median": 4.0,
+        "zero": 10,
+        "at_frozen_limit_100": 0
+      },
+      "all_start_count": 256,
+      "eligible_start_count": 256,
+      "ineligible_start_count": 0,
+      "all_start_termination_counts": {
+        "ACTIVE_SET_KKT_STATIONARY": 176,
+        "UNCONSTRAINED_GLOBAL_SOLUTION": 80
+      },
+      "all_start_iterations": {
+        "records": 256,
+        "total": 810,
+        "min": 0,
+        "max": 9,
+        "mean": 3.1640625,
+        "median": 4.0,
+        "zero": 80,
+        "at_frozen_limit_100": 0
+      },
+      "all_start_function_evaluations_total": 1146,
+      "selected_actual_box_feasible": 32,
+      "stored_capacity_fit_cpu_seconds": 0.3676270000000108,
+      "stored_capacity_fit_wall_seconds": 0.3711570838931948,
+      "affine_qp": {
+        "selected_numerically_certified": 32,
+        "selected_uncertified_achieved": 0,
+        "all_start_numerically_certified": 256,
+        "all_start_uncertified_achieved": 0,
+        "scope": "COUNTS_OF_EXISTING_FIXED_CHART_NUMERICAL_CERTIFICATE_FLAGS_ONLY"
+      }
+    },
+    {
+      "method": "single_chart",
+      "budget": 64,
+      "case_fit_count": 32,
+      "case_status_counts": {
+        "ACHIEVED_OFFLINE_FIT": 32
+      },
+      "case_global_vs_local_counts": {
+        "CONVEX_FIXED_CHART_NUMERICAL_CERTIFIED": 32
+      },
+      "selected_start_termination_counts": {
+        "ACTIVE_SET_KKT_STATIONARY": 24,
+        "UNCONSTRAINED_GLOBAL_SOLUTION": 8
+      },
+      "selected_start_iterations": {
+        "records": 32,
+        "total": 127,
+        "min": 0,
+        "max": 10,
+        "mean": 3.96875,
+        "median": 4.0,
+        "zero": 8,
+        "at_frozen_limit_100": 0
+      },
+      "all_start_count": 256,
+      "eligible_start_count": 256,
+      "ineligible_start_count": 0,
+      "all_start_termination_counts": {
+        "ACTIVE_SET_KKT_STATIONARY": 192,
+        "UNCONSTRAINED_GLOBAL_SOLUTION": 64
+      },
+      "all_start_iterations": {
+        "records": 256,
+        "total": 1016,
+        "min": 0,
+        "max": 10,
+        "mean": 3.96875,
+        "median": 4.0,
+        "zero": 64,
+        "at_frozen_limit_100": 0
+      },
+      "all_start_function_evaluations_total": 1336,
+      "selected_actual_box_feasible": 32,
+      "stored_capacity_fit_cpu_seconds": 0.7304939999999731,
+      "stored_capacity_fit_wall_seconds": 0.7489425420062616,
+      "affine_qp": {
+        "selected_numerically_certified": 32,
+        "selected_uncertified_achieved": 0,
+        "all_start_numerically_certified": 256,
+        "all_start_uncertified_achieved": 0,
+        "scope": "COUNTS_OF_EXISTING_FIXED_CHART_NUMERICAL_CERTIFICATE_FLAGS_ONLY"
+      }
+    },
+    {
+      "method": "sparse",
+      "budget": 16,
+      "case_fit_count": 32,
+      "case_status_counts": {
+        "ACHIEVED_OFFLINE_FIT": 32
+      },
+      "case_global_vs_local_counts": {
+        "CONVEX_FIXED_CHART_NUMERICAL_CERTIFIED": 32
+      },
+      "selected_start_termination_counts": {
+        "UNCONSTRAINED_GLOBAL_SOLUTION": 32
+      },
+      "selected_start_iterations": {
+        "records": 32,
+        "total": 0,
+        "min": 0,
+        "max": 0,
+        "mean": 0,
+        "median": 0.0,
+        "zero": 32,
+        "at_frozen_limit_100": 0
+      },
+      "all_start_count": 256,
+      "eligible_start_count": 256,
+      "ineligible_start_count": 0,
+      "all_start_termination_counts": {
+        "ACTIVE_SET_KKT_STATIONARY": 2,
+        "UNCONSTRAINED_GLOBAL_SOLUTION": 254
+      },
+      "all_start_iterations": {
+        "records": 256,
+        "total": 6,
+        "min": 0,
+        "max": 3,
+        "mean": 0.0234375,
+        "median": 0.0,
+        "zero": 254,
+        "at_frozen_limit_100": 0
+      },
+      "all_start_function_evaluations_total": 516,
+      "selected_actual_box_feasible": 32,
+      "stored_capacity_fit_cpu_seconds": 0.192935999999992,
+      "stored_capacity_fit_wall_seconds": 0.19392708293162286,
+      "affine_qp": {
+        "selected_numerically_certified": 32,
+        "selected_uncertified_achieved": 0,
+        "all_start_numerically_certified": 256,
+        "all_start_uncertified_achieved": 0,
+        "scope": "COUNTS_OF_EXISTING_FIXED_CHART_NUMERICAL_CERTIFICATE_FLAGS_ONLY"
+      }
+    },
+    {
+      "method": "sparse",
+      "budget": 32,
+      "case_fit_count": 32,
+      "case_status_counts": {
+        "ACHIEVED_OFFLINE_FIT": 32
+      },
+      "case_global_vs_local_counts": {
+        "CONVEX_FIXED_CHART_NUMERICAL_CERTIFIED": 32
+      },
+      "selected_start_termination_counts": {
+        "ACTIVE_SET_KKT_STATIONARY": 1,
+        "UNCONSTRAINED_GLOBAL_SOLUTION": 31
+      },
+      "selected_start_iterations": {
+        "records": 32,
+        "total": 3,
+        "min": 0,
+        "max": 3,
+        "mean": 0.09375,
+        "median": 0.0,
+        "zero": 31,
+        "at_frozen_limit_100": 0
+      },
+      "all_start_count": 256,
+      "eligible_start_count": 256,
+      "ineligible_start_count": 0,
+      "all_start_termination_counts": {
+        "ACTIVE_SET_KKT_STATIONARY": 6,
+        "UNCONSTRAINED_GLOBAL_SOLUTION": 250
+      },
+      "all_start_iterations": {
+        "records": 256,
+        "total": 18,
+        "min": 0,
+        "max": 3,
+        "mean": 0.0703125,
+        "median": 0.0,
+        "zero": 250,
+        "at_frozen_limit_100": 0
+      },
+      "all_start_function_evaluations_total": 524,
+      "selected_actual_box_feasible": 32,
+      "stored_capacity_fit_cpu_seconds": 0.27882500000001054,
+      "stored_capacity_fit_wall_seconds": 0.2840544188511558,
+      "affine_qp": {
+        "selected_numerically_certified": 32,
+        "selected_uncertified_achieved": 0,
+        "all_start_numerically_certified": 256,
+        "all_start_uncertified_achieved": 0,
+        "scope": "COUNTS_OF_EXISTING_FIXED_CHART_NUMERICAL_CERTIFICATE_FLAGS_ONLY"
+      }
+    },
+    {
+      "method": "sparse",
+      "budget": 64,
+      "case_fit_count": 32,
+      "case_status_counts": {
+        "ACHIEVED_OFFLINE_FIT": 32
+      },
+      "case_global_vs_local_counts": {
+        "CONVEX_FIXED_CHART_NUMERICAL_CERTIFIED": 32
+      },
+      "selected_start_termination_counts": {
+        "ACTIVE_SET_KKT_STATIONARY": 7,
+        "UNCONSTRAINED_GLOBAL_SOLUTION": 25
+      },
+      "selected_start_iterations": {
+        "records": 32,
+        "total": 23,
+        "min": 0,
+        "max": 5,
+        "mean": 0.71875,
+        "median": 0.0,
+        "zero": 25,
+        "at_frozen_limit_100": 0
+      },
+      "all_start_count": 256,
+      "eligible_start_count": 256,
+      "ineligible_start_count": 0,
+      "all_start_termination_counts": {
+        "ACTIVE_SET_KKT_STATIONARY": 38,
+        "UNCONSTRAINED_GLOBAL_SOLUTION": 218
+      },
+      "all_start_iterations": {
+        "records": 256,
+        "total": 121,
+        "min": 0,
+        "max": 5,
+        "mean": 0.47265625,
+        "median": 0.0,
+        "zero": 218,
+        "at_frozen_limit_100": 0
+      },
+      "all_start_function_evaluations_total": 595,
+      "selected_actual_box_feasible": 32,
+      "stored_capacity_fit_cpu_seconds": 0.5277800000000066,
+      "stored_capacity_fit_wall_seconds": 0.538582249020692,
+      "affine_qp": {
+        "selected_numerically_certified": 32,
+        "selected_uncertified_achieved": 0,
+        "all_start_numerically_certified": 256,
+        "all_start_uncertified_achieved": 0,
+        "scope": "COUNTS_OF_EXISTING_FIXED_CHART_NUMERICAL_CERTIFICATE_FLAGS_ONLY"
+      }
+    }
+  ],
+  "affine_qp_totals": {
+    "selected_numerically_certified": 192,
+    "selected_uncertified_achieved": 0,
+    "all_start_numerically_certified": 1536,
+    "all_start_uncertified_achieved": 0
+  },
+  "uncertified_selected_affine_achieved_fits": [],
+  "atlas_train_and_frozen_start_eligibility": [
+    {
+      "budget": 16,
+      "train_template_count": 64,
+      "train_eligible_charts": 62,
+      "train_ineligible_charts": 2,
+      "train_ineligibility_reason_counts": {
+        "ZERO_GEOMETRY_SMOOTHING_CHANGES_DIGITAL_TOPOLOGY": 2
+      },
+      "frozen_case_count": 32,
+      "frozen_start_count": 256,
+      "frozen_eligible_starts": 256,
+      "frozen_ineligible_starts": 0,
+      "frozen_start_ineligibility_reason_counts": {}
+    },
+    {
+      "budget": 32,
+      "train_template_count": 64,
+      "train_eligible_charts": 31,
+      "train_ineligible_charts": 33,
+      "train_ineligibility_reason_counts": {
+        "INSUFFICIENT_DISTINCT_TRAIN_GEOMETRY_CONTROLS": 31,
+        "ZERO_GEOMETRY_SMOOTHING_CHANGES_DIGITAL_TOPOLOGY": 2
+      },
+      "frozen_case_count": 32,
+      "frozen_start_count": 256,
+      "frozen_eligible_starts": 256,
+      "frozen_ineligible_starts": 0,
+      "frozen_start_ineligibility_reason_counts": {}
+    },
+    {
+      "budget": 64,
+      "train_template_count": 64,
+      "train_eligible_charts": 5,
+      "train_ineligible_charts": 59,
+      "train_ineligibility_reason_counts": {
+        "INSUFFICIENT_DISTINCT_TRAIN_GEOMETRY_CONTROLS": 59,
+        "ZERO_GEOMETRY_SMOOTHING_CHANGES_DIGITAL_TOPOLOGY": 2
+      },
+      "frozen_case_count": 32,
+      "frozen_start_count": 256,
+      "frozen_eligible_starts": 256,
+      "frozen_ineligible_starts": 0,
+      "frozen_start_ineligibility_reason_counts": {}
+    }
+  ],
+  "atlas_topology_totals": {
+    "trajectory_records": 74141,
+    "topology_changing_records": 69385,
+    "topology_rejected_box_feasible_records": 69385,
+    "all_not_accepted_for_primary_records": 69385,
+    "box_infeasible_records": 0,
+    "starts_with_any_topology_change": 767,
+    "starts_zero_geometry_topology_ineligible": 0,
+    "unrestricted_best_diagnostic_topology_changes": 764,
+    "selected_primaries_topology_preserved": 96
+  },
+  "sparse64_pca64_saved_parent_gains": {
+    "sparse_64": {
+      "status": "COMPLETE",
+      "complex": {
+        "parent_count": 12,
+        "point": 0.35689623780940255,
+        "median": 0.3523084663619065,
+        "ci95": [
+          0.29504242111512596,
+          0.4281295417893644
+        ],
+        "statistical_unit": "EXPOSED_PARENT_EXPLORATORY",
+        "bootstrap_samples": 2000,
+        "seed": 291011
+      },
+      "family": {
+        "asymmetric_piecewise": {
+          "parent_count": 4,
+          "point": 0.3440927959967622,
+          "median": 0.3441528432571681,
+          "ci95": [
+            0.3063062819664314,
+            0.38181926276668704
+          ],
+          "statistical_unit": "EXPOSED_PARENT_EXPLORATORY",
+          "bootstrap_samples": 2000,
+          "seed": 291011
+        },
+        "mixed_scale": {
+          "parent_count": 4,
+          "point": 0.3329509374720054,
+          "median": 0.3452862895860794,
+          "ci95": [
+            0.2452162862527822,
+            0.40835023657715463
+          ],
+          "statistical_unit": "EXPOSED_PARENT_EXPLORATORY",
+          "bootstrap_samples": 2000,
+          "seed": 291011
+        },
+        "shell": {
+          "parent_count": 4,
+          "point": 0.39364497995944014,
+          "median": 0.3805058750837492,
+          "ci95": [
+            0.22290318856006683,
+            0.5775258762345045
+          ],
+          "statistical_unit": "EXPOSED_PARENT_EXPLORATORY",
+          "bootstrap_samples": 2000,
+          "seed": 291011
+        },
+        "smooth": {
+          "parent_count": 4,
+          "point": 0.5609663879596016,
+          "median": 0.5607003672181552,
+          "ci95": [
+            0.4597149315779384,
+            0.6622178443412647
+          ],
+          "statistical_unit": "EXPOSED_PARENT_EXPLORATORY",
+          "bootstrap_samples": 2000,
+          "seed": 291011
+        }
+      }
+    },
+    "single_chart_64": {
+      "status": "COMPLETE",
+      "complex": {
+        "parent_count": 12,
+        "point": 0.21907423487773717,
+        "median": 0.23512530713972712,
+        "ci95": [
+          0.15250040510002527,
+          0.2804729483987879
+        ],
+        "statistical_unit": "EXPOSED_PARENT_EXPLORATORY",
+        "bootstrap_samples": 2000,
+        "seed": 291011
+      },
+      "family": {
+        "asymmetric_piecewise": {
+          "parent_count": 4,
+          "point": 0.2606690832583259,
+          "median": 0.2521619203158776,
+          "ci95": [
+            0.2110273986623904,
+            0.31031076785426137
+          ],
+          "statistical_unit": "EXPOSED_PARENT_EXPLORATORY",
+          "bootstrap_samples": 2000,
+          "seed": 291011
+        },
+        "mixed_scale": {
+          "parent_count": 4,
+          "point": 0.1780280299289581,
+          "median": 0.17815221259147843,
+          "ci95": [
+            0.08796905749242226,
+            0.268087002365494
+          ],
+          "statistical_unit": "EXPOSED_PARENT_EXPLORATORY",
+          "bootstrap_samples": 2000,
+          "seed": 291011
+        },
+        "shell": {
+          "parent_count": 4,
+          "point": 0.2185255914459275,
+          "median": 0.24190558307065863,
+          "ci95": [
+            0.05291796466194733,
+            0.36075322660517667
+          ],
+          "statistical_unit": "EXPOSED_PARENT_EXPLORATORY",
+          "bootstrap_samples": 2000,
+          "seed": 291011
+        },
+        "smooth": {
+          "parent_count": 4,
+          "point": 0.4572840718814454,
+          "median": 0.41850946034710834,
+          "ci95": [
+            0.06350719344357618,
+            0.8510609503193145
+          ],
+          "statistical_unit": "EXPOSED_PARENT_EXPLORATORY",
+          "bootstrap_samples": 2000,
+          "seed": 291011
+        }
+      }
+    }
+  },
+  "gain_definition": "Saved per-parent (mean-two-background baseline NRMSE - mean-two-background achieved candidate NRMSE) / mean-two-background baseline NRMSE; no recomputation or new bootstrap",
+  "limitations": [
+    "All capacity fits and selection are OFFLINE on exposed development parents; this extraction establishes no online selection, recovery or physics evidence.",
+    "Geometry achieved errors are local nonconvex upper bounds. Iteration-cap terminations and topology-rejected trajectories do not establish global representation failure.",
+    "Affine certificate flags apply only to each fixed frozen support/chart and use floating numerical diagnostics. Uncertified achieved fits remain attained error upper bounds.",
+    "Atlas primary acceptance uses the frozen digital predicate only. TRAIN-chart ineligibility counts differ from frozen-start and trajectory rejection counts; no continuous reach/topology guarantee is implied.",
+    "Sparse truth-selected unconstrained best-s tail is separate from the attained N3/TRAIN-frozen-support box-constrained fit.",
+    "Saved parent bootstrap intervals are exploratory on exposed data; each family has four parents. Parent Codex owns scientific interpretation and gates."
+  ],
+  "analysis_cost": {
+    "scope": "SUM_OF_PYTHON_RESULT_READING_AND_AGGREGATION_PHASES; excludes model thinking, tool dispatch and final output write",
+    "wall_seconds": 1.1992066660313867,
+    "cpu_seconds": 1.006605,
+    "physics_calls": 0,
+    "fits_rerun": 0,
+    "new_inputs_read": 0,
+    "tests_added_or_run": 0,
+    "implementation_changed": false
+  }
+}

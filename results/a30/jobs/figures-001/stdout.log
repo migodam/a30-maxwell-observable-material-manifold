@@ -1,0 +1,19 @@
+{
+  "figure_count": 3,
+  "output": "/Volumes/migodam's-external-brain/Research/Inv_SLAM/Gaussian/A30/a30-maxwell-material-manifold/results/a30/figures",
+  "metadata_output": "/Volumes/migodam's-external-brain/Research/Inv_SLAM/Gaussian/A30/a30-maxwell-material-manifold/research/delegated/a30_plots",
+  "statuses": {
+    "fig04_capacity_parameter_budget": "COMPLETE",
+    "fig05_fixed_material_images": "COMPLETE",
+    "fig06_every_parent_gain": "COMPLETE"
+  },
+  "timing": {
+    "wall_seconds": 1.052220750018023,
+    "process_cpu_seconds": 1.004013,
+    "GPU_seconds": 0,
+    "Maxwell_calls": 0,
+    "training_updates": 0,
+    "locked_reads": 0,
+    "charge_method": "nested evidence; use the inclusive a30_job wrapper receipt once"
+  }
+}

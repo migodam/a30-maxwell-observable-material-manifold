@@ -1,0 +1,410 @@
+{"event": "RHS_RESERVED", "amount": 8, "cumulative": 8, "limit": 16384, "stage": "e1", "timestamp_utc": "2026-10-11T15:21:42Z", "role": "cached_LU_audit_forward"}
+{"event": "RHS_RESERVED", "amount": 32, "cumulative": 40, "limit": 16384, "stage": "e1", "timestamp_utc": "2026-10-11T15:21:42Z", "role": "receiver_transfer_adjoint"}
+{"event": "STATE_RESERVED", "amount": 1, "cumulative": 1, "limit": 192, "stage": "e1", "timestamp_utc": "2026-10-11T15:21:42Z", "resolution": 24, "purpose": "A30_E1:p250065_weak_a1_snr20:nominal_cavity", "material_shape": [576]}
+{"event": "RHS_RESERVED", "amount": 8, "cumulative": 48, "limit": 16384, "stage": "e1", "timestamp_utc": "2026-10-11T15:21:42Z", "role": "full_forward"}
+{"event": "STATE_RESERVED", "amount": 1, "cumulative": 2, "limit": 192, "stage": "e1", "timestamp_utc": "2026-10-11T15:21:42Z", "resolution": 24, "purpose": "A30_E1:p250065_weak_a1_snr20:compensated_a", "material_shape": [576]}
+{"event": "RHS_RESERVED", "amount": 8, "cumulative": 56, "limit": 16384, "stage": "e1", "timestamp_utc": "2026-10-11T15:21:42Z", "role": "full_forward"}
+{"event": "STATE_RESERVED", "amount": 1, "cumulative": 3, "limit": 192, "stage": "e1", "timestamp_utc": "2026-10-11T15:21:42Z", "resolution": 24, "purpose": "A30_E1:p250065_weak_a1_snr20:compensated_b", "material_shape": [576]}
+{"event": "RHS_RESERVED", "amount": 8, "cumulative": 64, "limit": 16384, "stage": "e1", "timestamp_utc": "2026-10-11T15:21:42Z", "role": "full_forward"}
+{"event": "STATE_RESERVED", "amount": 1, "cumulative": 4, "limit": 192, "stage": "e1", "timestamp_utc": "2026-10-11T15:21:42Z", "resolution": 24, "purpose": "A30_E1:p250065_weak_a1_snr20:L_compensated_a", "material_shape": [576]}
+{"event": "RHS_RESERVED", "amount": 8, "cumulative": 72, "limit": 16384, "stage": "e1", "timestamp_utc": "2026-10-11T15:21:42Z", "role": "full_forward"}
+{"event": "STATE_RESERVED", "amount": 1, "cumulative": 5, "limit": 192, "stage": "e1", "timestamp_utc": "2026-10-11T15:21:42Z", "resolution": 24, "purpose": "A30_E1:p250065_weak_a1_snr20:L_compensated_b", "material_shape": [576]}
+{"event": "RHS_RESERVED", "amount": 8, "cumulative": 80, "limit": 16384, "stage": "e1", "timestamp_utc": "2026-10-11T15:21:42Z", "role": "full_forward"}
+{"event": "RHS_RESERVED", "amount": 8, "cumulative": 88, "limit": 16384, "stage": "e1", "timestamp_utc": "2026-10-11T15:21:42Z", "role": "cached_LU_audit_forward"}
+{"event": "RHS_RESERVED", "amount": 32, "cumulative": 120, "limit": 16384, "stage": "e1", "timestamp_utc": "2026-10-11T15:21:42Z", "role": "receiver_transfer_adjoint"}
+{"event": "STATE_RESERVED", "amount": 1, "cumulative": 6, "limit": 192, "stage": "e1", "timestamp_utc": "2026-10-11T15:21:42Z", "resolution": 24, "purpose": "A30_E1:p250065_ring_a1_snr20:nominal_cavity", "material_shape": [576]}
+{"event": "RHS_RESERVED", "amount": 8, "cumulative": 128, "limit": 16384, "stage": "e1", "timestamp_utc": "2026-10-11T15:21:42Z", "role": "full_forward"}
+{"event": "STATE_RESERVED", "amount": 1, "cumulative": 7, "limit": 192, "stage": "e1", "timestamp_utc": "2026-10-11T15:21:42Z", "resolution": 24, "purpose": "A30_E1:p250065_ring_a1_snr20:compensated_a", "material_shape": [576]}
+{"event": "RHS_RESERVED", "amount": 8, "cumulative": 136, "limit": 16384, "stage": "e1", "timestamp_utc": "2026-10-11T15:21:42Z", "role": "full_forward"}
+{"event": "STATE_RESERVED", "amount": 1, "cumulative": 8, "limit": 192, "stage": "e1", "timestamp_utc": "2026-10-11T15:21:42Z", "resolution": 24, "purpose": "A30_E1:p250065_ring_a1_snr20:compensated_b", "material_shape": [576]}
+{"event": "RHS_RESERVED", "amount": 8, "cumulative": 144, "limit": 16384, "stage": "e1", "timestamp_utc": "2026-10-11T15:21:42Z", "role": "full_forward"}
+{"event": "STATE_RESERVED", "amount": 1, "cumulative": 9, "limit": 192, "stage": "e1", "timestamp_utc": "2026-10-11T15:21:42Z", "resolution": 24, "purpose": "A30_E1:p250065_ring_a1_snr20:L_compensated_a", "material_shape": [576]}
+{"event": "RHS_RESERVED", "amount": 8, "cumulative": 152, "limit": 16384, "stage": "e1", "timestamp_utc": "2026-10-11T15:21:42Z", "role": "full_forward"}
+{"event": "STATE_RESERVED", "amount": 1, "cumulative": 10, "limit": 192, "stage": "e1", "timestamp_utc": "2026-10-11T15:21:42Z", "resolution": 24, "purpose": "A30_E1:p250065_ring_a1_snr20:L_compensated_b", "material_shape": [576]}
+{"event": "RHS_RESERVED", "amount": 8, "cumulative": 160, "limit": 16384, "stage": "e1", "timestamp_utc": "2026-10-11T15:21:42Z", "role": "full_forward"}
+{"event": "RHS_RESERVED", "amount": 8, "cumulative": 168, "limit": 16384, "stage": "e1", "timestamp_utc": "2026-10-11T15:21:42Z", "role": "cached_LU_audit_forward"}
+{"event": "RHS_RESERVED", "amount": 32, "cumulative": 200, "limit": 16384, "stage": "e1", "timestamp_utc": "2026-10-11T15:21:42Z", "role": "receiver_transfer_adjoint"}
+{"event": "STATE_RESERVED", "amount": 1, "cumulative": 11, "limit": 192, "stage": "e1", "timestamp_utc": "2026-10-11T15:21:42Z", "resolution": 24, "purpose": "A30_E1:p250069_ring_a1_snr20:nominal_cavity", "material_shape": [576]}
+{"event": "RHS_RESERVED", "amount": 8, "cumulative": 208, "limit": 16384, "stage": "e1", "timestamp_utc": "2026-10-11T15:21:42Z", "role": "full_forward"}
+{"event": "STATE_RESERVED", "amount": 1, "cumulative": 12, "limit": 192, "stage": "e1", "timestamp_utc": "2026-10-11T15:21:42Z", "resolution": 24, "purpose": "A30_E1:p250069_ring_a1_snr20:compensated_a", "material_shape": [576]}
+{"event": "RHS_RESERVED", "amount": 8, "cumulative": 216, "limit": 16384, "stage": "e1", "timestamp_utc": "2026-10-11T15:21:42Z", "role": "full_forward"}
+{"event": "STATE_RESERVED", "amount": 1, "cumulative": 13, "limit": 192, "stage": "e1", "timestamp_utc": "2026-10-11T15:21:43Z", "resolution": 24, "purpose": "A30_E1:p250069_ring_a1_snr20:compensated_b", "material_shape": [576]}
+{"event": "RHS_RESERVED", "amount": 8, "cumulative": 224, "limit": 16384, "stage": "e1", "timestamp_utc": "2026-10-11T15:21:43Z", "role": "full_forward"}
+{"event": "STATE_RESERVED", "amount": 1, "cumulative": 14, "limit": 192, "stage": "e1", "timestamp_utc": "2026-10-11T15:21:43Z", "resolution": 24, "purpose": "A30_E1:p250069_ring_a1_snr20:L_compensated_a", "material_shape": [576]}
+{"event": "RHS_RESERVED", "amount": 8, "cumulative": 232, "limit": 16384, "stage": "e1", "timestamp_utc": "2026-10-11T15:21:43Z", "role": "full_forward"}
+{"event": "STATE_RESERVED", "amount": 1, "cumulative": 15, "limit": 192, "stage": "e1", "timestamp_utc": "2026-10-11T15:21:43Z", "resolution": 24, "purpose": "A30_E1:p250069_ring_a1_snr20:L_compensated_b", "material_shape": [576]}
+{"event": "RHS_RESERVED", "amount": 8, "cumulative": 240, "limit": 16384, "stage": "e1", "timestamp_utc": "2026-10-11T15:21:43Z", "role": "full_forward"}
+{"event": "RHS_RESERVED", "amount": 8, "cumulative": 248, "limit": 16384, "stage": "e1", "timestamp_utc": "2026-10-11T15:21:43Z", "role": "cached_LU_audit_forward"}
+{"event": "RHS_RESERVED", "amount": 32, "cumulative": 280, "limit": 16384, "stage": "e1", "timestamp_utc": "2026-10-11T15:21:43Z", "role": "receiver_transfer_adjoint"}
+{"event": "STATE_RESERVED", "amount": 1, "cumulative": 16, "limit": 192, "stage": "e1", "timestamp_utc": "2026-10-11T15:21:43Z", "resolution": 24, "purpose": "A30_E1:p250077_weak_a1_snr20:nominal_cavity", "material_shape": [576]}
+{"event": "RHS_RESERVED", "amount": 8, "cumulative": 288, "limit": 16384, "stage": "e1", "timestamp_utc": "2026-10-11T15:21:43Z", "role": "full_forward"}
+{"event": "STATE_RESERVED", "amount": 1, "cumulative": 17, "limit": 192, "stage": "e1", "timestamp_utc": "2026-10-11T15:21:43Z", "resolution": 24, "purpose": "A30_E1:p250077_weak_a1_snr20:compensated_a", "material_shape": [576]}
+{"event": "RHS_RESERVED", "amount": 8, "cumulative": 296, "limit": 16384, "stage": "e1", "timestamp_utc": "2026-10-11T15:21:43Z", "role": "full_forward"}
+{"event": "STATE_RESERVED", "amount": 1, "cumulative": 18, "limit": 192, "stage": "e1", "timestamp_utc": "2026-10-11T15:21:43Z", "resolution": 24, "purpose": "A30_E1:p250077_weak_a1_snr20:compensated_b", "material_shape": [576]}
+{"event": "RHS_RESERVED", "amount": 8, "cumulative": 304, "limit": 16384, "stage": "e1", "timestamp_utc": "2026-10-11T15:21:43Z", "role": "full_forward"}
+{"event": "STATE_RESERVED", "amount": 1, "cumulative": 19, "limit": 192, "stage": "e1", "timestamp_utc": "2026-10-11T15:21:43Z", "resolution": 24, "purpose": "A30_E1:p250077_weak_a1_snr20:L_compensated_a", "material_shape": [576]}
+{"event": "RHS_RESERVED", "amount": 8, "cumulative": 312, "limit": 16384, "stage": "e1", "timestamp_utc": "2026-10-11T15:21:43Z", "role": "full_forward"}
+{"event": "STATE_RESERVED", "amount": 1, "cumulative": 20, "limit": 192, "stage": "e1", "timestamp_utc": "2026-10-11T15:21:43Z", "resolution": 24, "purpose": "A30_E1:p250077_weak_a1_snr20:L_compensated_b", "material_shape": [576]}
+{"event": "RHS_RESERVED", "amount": 8, "cumulative": 320, "limit": 16384, "stage": "e1", "timestamp_utc": "2026-10-11T15:21:43Z", "role": "full_forward"}
+{"event": "RHS_RESERVED", "amount": 8, "cumulative": 328, "limit": 16384, "stage": "e1", "timestamp_utc": "2026-10-11T15:21:43Z", "role": "cached_LU_audit_forward"}
+{"event": "RHS_RESERVED", "amount": 32, "cumulative": 360, "limit": 16384, "stage": "e1", "timestamp_utc": "2026-10-11T15:21:43Z", "role": "receiver_transfer_adjoint"}
+{"event": "STATE_RESERVED", "amount": 1, "cumulative": 21, "limit": 192, "stage": "e1", "timestamp_utc": "2026-10-11T15:21:43Z", "resolution": 24, "purpose": "A30_E1:p250077_ring_a1_snr20:nominal_cavity", "material_shape": [576]}
+{"event": "RHS_RESERVED", "amount": 8, "cumulative": 368, "limit": 16384, "stage": "e1", "timestamp_utc": "2026-10-11T15:21:43Z", "role": "full_forward"}
+{"event": "STATE_RESERVED", "amount": 1, "cumulative": 22, "limit": 192, "stage": "e1", "timestamp_utc": "2026-10-11T15:21:43Z", "resolution": 24, "purpose": "A30_E1:p250077_ring_a1_snr20:compensated_a", "material_shape": [576]}
+{"event": "RHS_RESERVED", "amount": 8, "cumulative": 376, "limit": 16384, "stage": "e1", "timestamp_utc": "2026-10-11T15:21:43Z", "role": "full_forward"}
+{"event": "STATE_RESERVED", "amount": 1, "cumulative": 23, "limit": 192, "stage": "e1", "timestamp_utc": "2026-10-11T15:21:43Z", "resolution": 24, "purpose": "A30_E1:p250077_ring_a1_snr20:compensated_b", "material_shape": [576]}
+{"event": "RHS_RESERVED", "amount": 8, "cumulative": 384, "limit": 16384, "stage": "e1", "timestamp_utc": "2026-10-11T15:21:43Z", "role": "full_forward"}
+{"event": "STATE_RESERVED", "amount": 1, "cumulative": 24, "limit": 192, "stage": "e1", "timestamp_utc": "2026-10-11T15:21:43Z", "resolution": 24, "purpose": "A30_E1:p250077_ring_a1_snr20:L_compensated_a", "material_shape": [576]}
+{"event": "RHS_RESERVED", "amount": 8, "cumulative": 392, "limit": 16384, "stage": "e1", "timestamp_utc": "2026-10-11T15:21:43Z", "role": "full_forward"}
+{"event": "STATE_RESERVED", "amount": 1, "cumulative": 25, "limit": 192, "stage": "e1", "timestamp_utc": "2026-10-11T15:21:43Z", "resolution": 24, "purpose": "A30_E1:p250077_ring_a1_snr20:L_compensated_b", "material_shape": [576]}
+{"event": "RHS_RESERVED", "amount": 8, "cumulative": 400, "limit": 16384, "stage": "e1", "timestamp_utc": "2026-10-11T15:21:43Z", "role": "full_forward"}
+{"event": "RHS_RESERVED", "amount": 8, "cumulative": 408, "limit": 16384, "stage": "e1", "timestamp_utc": "2026-10-11T15:21:43Z", "role": "cached_LU_audit_forward"}
+{"event": "RHS_RESERVED", "amount": 32, "cumulative": 440, "limit": 16384, "stage": "e1", "timestamp_utc": "2026-10-11T15:21:43Z", "role": "receiver_transfer_adjoint"}
+{"event": "STATE_RESERVED", "amount": 1, "cumulative": 26, "limit": 192, "stage": "e1", "timestamp_utc": "2026-10-11T15:21:43Z", "resolution": 24, "purpose": "A30_E1:p250073_weak_a1_snr20:nominal_cavity", "material_shape": [576]}
+{"event": "RHS_RESERVED", "amount": 8, "cumulative": 448, "limit": 16384, "stage": "e1", "timestamp_utc": "2026-10-11T15:21:43Z", "role": "full_forward"}
+{"event": "STATE_RESERVED", "amount": 1, "cumulative": 27, "limit": 192, "stage": "e1", "timestamp_utc": "2026-10-11T15:21:43Z", "resolution": 24, "purpose": "A30_E1:p250073_weak_a1_snr20:compensated_a", "material_shape": [576]}
+{"event": "RHS_RESERVED", "amount": 8, "cumulative": 456, "limit": 16384, "stage": "e1", "timestamp_utc": "2026-10-11T15:21:43Z", "role": "full_forward"}
+{"event": "STATE_RESERVED", "amount": 1, "cumulative": 28, "limit": 192, "stage": "e1", "timestamp_utc": "2026-10-11T15:21:43Z", "resolution": 24, "purpose": "A30_E1:p250073_weak_a1_snr20:compensated_b", "material_shape": [576]}
+{"event": "RHS_RESERVED", "amount": 8, "cumulative": 464, "limit": 16384, "stage": "e1", "timestamp_utc": "2026-10-11T15:21:43Z", "role": "full_forward"}
+{"event": "STATE_RESERVED", "amount": 1, "cumulative": 29, "limit": 192, "stage": "e1", "timestamp_utc": "2026-10-11T15:21:43Z", "resolution": 24, "purpose": "A30_E1:p250073_weak_a1_snr20:L_compensated_a", "material_shape": [576]}
+{"event": "RHS_RESERVED", "amount": 8, "cumulative": 472, "limit": 16384, "stage": "e1", "timestamp_utc": "2026-10-11T15:21:43Z", "role": "full_forward"}
+{"event": "STATE_RESERVED", "amount": 1, "cumulative": 30, "limit": 192, "stage": "e1", "timestamp_utc": "2026-10-11T15:21:43Z", "resolution": 24, "purpose": "A30_E1:p250073_weak_a1_snr20:L_compensated_b", "material_shape": [576]}
+{"event": "RHS_RESERVED", "amount": 8, "cumulative": 480, "limit": 16384, "stage": "e1", "timestamp_utc": "2026-10-11T15:21:43Z", "role": "full_forward"}
+{"event": "RHS_RESERVED", "amount": 8, "cumulative": 488, "limit": 16384, "stage": "e1", "timestamp_utc": "2026-10-11T15:21:43Z", "role": "cached_LU_audit_forward"}
+{"event": "RHS_RESERVED", "amount": 32, "cumulative": 520, "limit": 16384, "stage": "e1", "timestamp_utc": "2026-10-11T15:21:43Z", "role": "receiver_transfer_adjoint"}
+{"event": "STATE_RESERVED", "amount": 1, "cumulative": 31, "limit": 192, "stage": "e1", "timestamp_utc": "2026-10-11T15:21:43Z", "resolution": 24, "purpose": "A30_E1:p250073_ring_a1_snr20:nominal_cavity", "material_shape": [576]}
+{"event": "RHS_RESERVED", "amount": 8, "cumulative": 528, "limit": 16384, "stage": "e1", "timestamp_utc": "2026-10-11T15:21:43Z", "role": "full_forward"}
+{"event": "STATE_RESERVED", "amount": 1, "cumulative": 32, "limit": 192, "stage": "e1", "timestamp_utc": "2026-10-11T15:21:43Z", "resolution": 24, "purpose": "A30_E1:p250073_ring_a1_snr20:compensated_a", "material_shape": [576]}
+{"event": "RHS_RESERVED", "amount": 8, "cumulative": 536, "limit": 16384, "stage": "e1", "timestamp_utc": "2026-10-11T15:21:43Z", "role": "full_forward"}
+{"event": "STATE_RESERVED", "amount": 1, "cumulative": 33, "limit": 192, "stage": "e1", "timestamp_utc": "2026-10-11T15:21:43Z", "resolution": 24, "purpose": "A30_E1:p250073_ring_a1_snr20:compensated_b", "material_shape": [576]}
+{"event": "RHS_RESERVED", "amount": 8, "cumulative": 544, "limit": 16384, "stage": "e1", "timestamp_utc": "2026-10-11T15:21:43Z", "role": "full_forward"}
+{"event": "STATE_RESERVED", "amount": 1, "cumulative": 34, "limit": 192, "stage": "e1", "timestamp_utc": "2026-10-11T15:21:43Z", "resolution": 24, "purpose": "A30_E1:p250073_ring_a1_snr20:L_compensated_a", "material_shape": [576]}
+{"event": "RHS_RESERVED", "amount": 8, "cumulative": 552, "limit": 16384, "stage": "e1", "timestamp_utc": "2026-10-11T15:21:43Z", "role": "full_forward"}
+{"event": "STATE_RESERVED", "amount": 1, "cumulative": 35, "limit": 192, "stage": "e1", "timestamp_utc": "2026-10-11T15:21:43Z", "resolution": 24, "purpose": "A30_E1:p250073_ring_a1_snr20:L_compensated_b", "material_shape": [576]}
+{"event": "RHS_RESERVED", "amount": 8, "cumulative": 560, "limit": 16384, "stage": "e1", "timestamp_utc": "2026-10-11T15:21:43Z", "role": "full_forward"}
+{"event": "RHS_RESERVED", "amount": 8, "cumulative": 568, "limit": 16384, "stage": "e1", "timestamp_utc": "2026-10-11T15:21:43Z", "role": "cached_LU_audit_forward"}
+{"event": "RHS_RESERVED", "amount": 32, "cumulative": 600, "limit": 16384, "stage": "e1", "timestamp_utc": "2026-10-11T15:21:43Z", "role": "receiver_transfer_adjoint"}
+{"event": "STATE_RESERVED", "amount": 1, "cumulative": 36, "limit": 192, "stage": "e1", "timestamp_utc": "2026-10-11T15:21:43Z", "resolution": 24, "purpose": "A30_E1:p250066_weak_a1_snr20:nominal_cavity", "material_shape": [576]}
+{"event": "RHS_RESERVED", "amount": 8, "cumulative": 608, "limit": 16384, "stage": "e1", "timestamp_utc": "2026-10-11T15:21:43Z", "role": "full_forward"}
+{"event": "STATE_RESERVED", "amount": 1, "cumulative": 37, "limit": 192, "stage": "e1", "timestamp_utc": "2026-10-11T15:21:43Z", "resolution": 24, "purpose": "A30_E1:p250066_weak_a1_snr20:compensated_a", "material_shape": [576]}
+{"event": "RHS_RESERVED", "amount": 8, "cumulative": 616, "limit": 16384, "stage": "e1", "timestamp_utc": "2026-10-11T15:21:43Z", "role": "full_forward"}
+{"event": "STATE_RESERVED", "amount": 1, "cumulative": 38, "limit": 192, "stage": "e1", "timestamp_utc": "2026-10-11T15:21:43Z", "resolution": 24, "purpose": "A30_E1:p250066_weak_a1_snr20:compensated_b", "material_shape": [576]}
+{"event": "RHS_RESERVED", "amount": 8, "cumulative": 624, "limit": 16384, "stage": "e1", "timestamp_utc": "2026-10-11T15:21:43Z", "role": "full_forward"}
+{"event": "STATE_RESERVED", "amount": 1, "cumulative": 39, "limit": 192, "stage": "e1", "timestamp_utc": "2026-10-11T15:21:43Z", "resolution": 24, "purpose": "A30_E1:p250066_weak_a1_snr20:L_compensated_a", "material_shape": [576]}
+{"event": "RHS_RESERVED", "amount": 8, "cumulative": 632, "limit": 16384, "stage": "e1", "timestamp_utc": "2026-10-11T15:21:43Z", "role": "full_forward"}
+{"event": "STATE_RESERVED", "amount": 1, "cumulative": 40, "limit": 192, "stage": "e1", "timestamp_utc": "2026-10-11T15:21:43Z", "resolution": 24, "purpose": "A30_E1:p250066_weak_a1_snr20:L_compensated_b", "material_shape": [576]}
+{"event": "RHS_RESERVED", "amount": 8, "cumulative": 640, "limit": 16384, "stage": "e1", "timestamp_utc": "2026-10-11T15:21:43Z", "role": "full_forward"}
+{"event": "RHS_RESERVED", "amount": 8, "cumulative": 648, "limit": 16384, "stage": "e1", "timestamp_utc": "2026-10-11T15:21:43Z", "role": "cached_LU_audit_forward"}
+{"event": "RHS_RESERVED", "amount": 32, "cumulative": 680, "limit": 16384, "stage": "e1", "timestamp_utc": "2026-10-11T15:21:43Z", "role": "receiver_transfer_adjoint"}
+{"event": "STATE_RESERVED", "amount": 1, "cumulative": 41, "limit": 192, "stage": "e1", "timestamp_utc": "2026-10-11T15:21:43Z", "resolution": 24, "purpose": "A30_E1:p250066_ring_a1_snr20:nominal_cavity", "material_shape": [576]}
+{"event": "RHS_RESERVED", "amount": 8, "cumulative": 688, "limit": 16384, "stage": "e1", "timestamp_utc": "2026-10-11T15:21:43Z", "role": "full_forward"}
+{"event": "STATE_RESERVED", "amount": 1, "cumulative": 42, "limit": 192, "stage": "e1", "timestamp_utc": "2026-10-11T15:21:43Z", "resolution": 24, "purpose": "A30_E1:p250066_ring_a1_snr20:compensated_a", "material_shape": [576]}
+{"event": "RHS_RESERVED", "amount": 8, "cumulative": 696, "limit": 16384, "stage": "e1", "timestamp_utc": "2026-10-11T15:21:43Z", "role": "full_forward"}
+{"event": "STATE_RESERVED", "amount": 1, "cumulative": 43, "limit": 192, "stage": "e1", "timestamp_utc": "2026-10-11T15:21:43Z", "resolution": 24, "purpose": "A30_E1:p250066_ring_a1_snr20:compensated_b", "material_shape": [576]}
+{"event": "RHS_RESERVED", "amount": 8, "cumulative": 704, "limit": 16384, "stage": "e1", "timestamp_utc": "2026-10-11T15:21:43Z", "role": "full_forward"}
+{"event": "STATE_RESERVED", "amount": 1, "cumulative": 44, "limit": 192, "stage": "e1", "timestamp_utc": "2026-10-11T15:21:43Z", "resolution": 24, "purpose": "A30_E1:p250066_ring_a1_snr20:L_compensated_a", "material_shape": [576]}
+{"event": "RHS_RESERVED", "amount": 8, "cumulative": 712, "limit": 16384, "stage": "e1", "timestamp_utc": "2026-10-11T15:21:43Z", "role": "full_forward"}
+{"event": "STATE_RESERVED", "amount": 1, "cumulative": 45, "limit": 192, "stage": "e1", "timestamp_utc": "2026-10-11T15:21:43Z", "resolution": 24, "purpose": "A30_E1:p250066_ring_a1_snr20:L_compensated_b", "material_shape": [576]}
+{"event": "RHS_RESERVED", "amount": 8, "cumulative": 720, "limit": 16384, "stage": "e1", "timestamp_utc": "2026-10-11T15:21:43Z", "role": "full_forward"}
+{"event": "RHS_RESERVED", "amount": 8, "cumulative": 728, "limit": 16384, "stage": "e1", "timestamp_utc": "2026-10-11T15:21:43Z", "role": "cached_LU_audit_forward"}
+{"event": "RHS_RESERVED", "amount": 32, "cumulative": 760, "limit": 16384, "stage": "e1", "timestamp_utc": "2026-10-11T15:21:43Z", "role": "receiver_transfer_adjoint"}
+{"event": "STATE_RESERVED", "amount": 1, "cumulative": 46, "limit": 192, "stage": "e1", "timestamp_utc": "2026-10-11T15:21:43Z", "resolution": 24, "purpose": "A30_E1:p250070_weak_a1_snr20:nominal_cavity", "material_shape": [576]}
+{"event": "RHS_RESERVED", "amount": 8, "cumulative": 768, "limit": 16384, "stage": "e1", "timestamp_utc": "2026-10-11T15:21:43Z", "role": "full_forward"}
+{"event": "STATE_RESERVED", "amount": 1, "cumulative": 47, "limit": 192, "stage": "e1", "timestamp_utc": "2026-10-11T15:21:43Z", "resolution": 24, "purpose": "A30_E1:p250070_weak_a1_snr20:compensated_a", "material_shape": [576]}
+{"event": "RHS_RESERVED", "amount": 8, "cumulative": 776, "limit": 16384, "stage": "e1", "timestamp_utc": "2026-10-11T15:21:43Z", "role": "full_forward"}
+{"event": "STATE_RESERVED", "amount": 1, "cumulative": 48, "limit": 192, "stage": "e1", "timestamp_utc": "2026-10-11T15:21:43Z", "resolution": 24, "purpose": "A30_E1:p250070_weak_a1_snr20:compensated_b", "material_shape": [576]}
+{"event": "RHS_RESERVED", "amount": 8, "cumulative": 784, "limit": 16384, "stage": "e1", "timestamp_utc": "2026-10-11T15:21:43Z", "role": "full_forward"}
+{"event": "STATE_RESERVED", "amount": 1, "cumulative": 49, "limit": 192, "stage": "e1", "timestamp_utc": "2026-10-11T15:21:43Z", "resolution": 24, "purpose": "A30_E1:p250070_weak_a1_snr20:L_compensated_a", "material_shape": [576]}
+{"event": "RHS_RESERVED", "amount": 8, "cumulative": 792, "limit": 16384, "stage": "e1", "timestamp_utc": "2026-10-11T15:21:43Z", "role": "full_forward"}
+{"event": "STATE_RESERVED", "amount": 1, "cumulative": 50, "limit": 192, "stage": "e1", "timestamp_utc": "2026-10-11T15:21:43Z", "resolution": 24, "purpose": "A30_E1:p250070_weak_a1_snr20:L_compensated_b", "material_shape": [576]}
+{"event": "RHS_RESERVED", "amount": 8, "cumulative": 800, "limit": 16384, "stage": "e1", "timestamp_utc": "2026-10-11T15:21:43Z", "role": "full_forward"}
+{"event": "RHS_RESERVED", "amount": 8, "cumulative": 808, "limit": 16384, "stage": "e1", "timestamp_utc": "2026-10-11T15:21:43Z", "role": "cached_LU_audit_forward"}
+{"event": "RHS_RESERVED", "amount": 32, "cumulative": 840, "limit": 16384, "stage": "e1", "timestamp_utc": "2026-10-11T15:21:43Z", "role": "receiver_transfer_adjoint"}
+{"event": "STATE_RESERVED", "amount": 1, "cumulative": 51, "limit": 192, "stage": "e1", "timestamp_utc": "2026-10-11T15:21:43Z", "resolution": 24, "purpose": "A30_E1:p250070_ring_a1_snr20:nominal_cavity", "material_shape": [576]}
+{"event": "RHS_RESERVED", "amount": 8, "cumulative": 848, "limit": 16384, "stage": "e1", "timestamp_utc": "2026-10-11T15:21:43Z", "role": "full_forward"}
+{"event": "STATE_RESERVED", "amount": 1, "cumulative": 52, "limit": 192, "stage": "e1", "timestamp_utc": "2026-10-11T15:21:44Z", "resolution": 24, "purpose": "A30_E1:p250070_ring_a1_snr20:compensated_a", "material_shape": [576]}
+{"event": "RHS_RESERVED", "amount": 8, "cumulative": 856, "limit": 16384, "stage": "e1", "timestamp_utc": "2026-10-11T15:21:44Z", "role": "full_forward"}
+{"event": "STATE_RESERVED", "amount": 1, "cumulative": 53, "limit": 192, "stage": "e1", "timestamp_utc": "2026-10-11T15:21:44Z", "resolution": 24, "purpose": "A30_E1:p250070_ring_a1_snr20:compensated_b", "material_shape": [576]}
+{"event": "RHS_RESERVED", "amount": 8, "cumulative": 864, "limit": 16384, "stage": "e1", "timestamp_utc": "2026-10-11T15:21:44Z", "role": "full_forward"}
+{"event": "STATE_RESERVED", "amount": 1, "cumulative": 54, "limit": 192, "stage": "e1", "timestamp_utc": "2026-10-11T15:21:44Z", "resolution": 24, "purpose": "A30_E1:p250070_ring_a1_snr20:L_compensated_a", "material_shape": [576]}
+{"event": "RHS_RESERVED", "amount": 8, "cumulative": 872, "limit": 16384, "stage": "e1", "timestamp_utc": "2026-10-11T15:21:44Z", "role": "full_forward"}
+{"event": "STATE_RESERVED", "amount": 1, "cumulative": 55, "limit": 192, "stage": "e1", "timestamp_utc": "2026-10-11T15:21:44Z", "resolution": 24, "purpose": "A30_E1:p250070_ring_a1_snr20:L_compensated_b", "material_shape": [576]}
+{"event": "RHS_RESERVED", "amount": 8, "cumulative": 880, "limit": 16384, "stage": "e1", "timestamp_utc": "2026-10-11T15:21:44Z", "role": "full_forward"}
+{"event": "RHS_RESERVED", "amount": 8, "cumulative": 888, "limit": 16384, "stage": "e1", "timestamp_utc": "2026-10-11T15:21:44Z", "role": "cached_LU_audit_forward"}
+{"event": "RHS_RESERVED", "amount": 32, "cumulative": 920, "limit": 16384, "stage": "e1", "timestamp_utc": "2026-10-11T15:21:44Z", "role": "receiver_transfer_adjoint"}
+{"event": "STATE_RESERVED", "amount": 1, "cumulative": 56, "limit": 192, "stage": "e1", "timestamp_utc": "2026-10-11T15:21:44Z", "resolution": 24, "purpose": "A30_E1:p250078_weak_a1_snr20:nominal_cavity", "material_shape": [576]}
+{"event": "RHS_RESERVED", "amount": 8, "cumulative": 928, "limit": 16384, "stage": "e1", "timestamp_utc": "2026-10-11T15:21:44Z", "role": "full_forward"}
+{"event": "STATE_RESERVED", "amount": 1, "cumulative": 57, "limit": 192, "stage": "e1", "timestamp_utc": "2026-10-11T15:21:44Z", "resolution": 24, "purpose": "A30_E1:p250078_weak_a1_snr20:compensated_a", "material_shape": [576]}
+{"event": "RHS_RESERVED", "amount": 8, "cumulative": 936, "limit": 16384, "stage": "e1", "timestamp_utc": "2026-10-11T15:21:44Z", "role": "full_forward"}
+{"event": "STATE_RESERVED", "amount": 1, "cumulative": 58, "limit": 192, "stage": "e1", "timestamp_utc": "2026-10-11T15:21:44Z", "resolution": 24, "purpose": "A30_E1:p250078_weak_a1_snr20:compensated_b", "material_shape": [576]}
+{"event": "RHS_RESERVED", "amount": 8, "cumulative": 944, "limit": 16384, "stage": "e1", "timestamp_utc": "2026-10-11T15:21:44Z", "role": "full_forward"}
+{"event": "STATE_RESERVED", "amount": 1, "cumulative": 59, "limit": 192, "stage": "e1", "timestamp_utc": "2026-10-11T15:21:44Z", "resolution": 24, "purpose": "A30_E1:p250078_weak_a1_snr20:L_compensated_a", "material_shape": [576]}
+{"event": "RHS_RESERVED", "amount": 8, "cumulative": 952, "limit": 16384, "stage": "e1", "timestamp_utc": "2026-10-11T15:21:44Z", "role": "full_forward"}
+{"event": "STATE_RESERVED", "amount": 1, "cumulative": 60, "limit": 192, "stage": "e1", "timestamp_utc": "2026-10-11T15:21:44Z", "resolution": 24, "purpose": "A30_E1:p250078_weak_a1_snr20:L_compensated_b", "material_shape": [576]}
+{"event": "RHS_RESERVED", "amount": 8, "cumulative": 960, "limit": 16384, "stage": "e1", "timestamp_utc": "2026-10-11T15:21:44Z", "role": "full_forward"}
+{"event": "RHS_RESERVED", "amount": 8, "cumulative": 968, "limit": 16384, "stage": "e1", "timestamp_utc": "2026-10-11T15:21:44Z", "role": "cached_LU_audit_forward"}
+{"event": "RHS_RESERVED", "amount": 32, "cumulative": 1000, "limit": 16384, "stage": "e1", "timestamp_utc": "2026-10-11T15:21:44Z", "role": "receiver_transfer_adjoint"}
+{"event": "STATE_RESERVED", "amount": 1, "cumulative": 61, "limit": 192, "stage": "e1", "timestamp_utc": "2026-10-11T15:21:44Z", "resolution": 24, "purpose": "A30_E1:p250078_ring_a1_snr20:nominal_cavity", "material_shape": [576]}
+{"event": "RHS_RESERVED", "amount": 8, "cumulative": 1008, "limit": 16384, "stage": "e1", "timestamp_utc": "2026-10-11T15:21:44Z", "role": "full_forward"}
+{"event": "STATE_RESERVED", "amount": 1, "cumulative": 62, "limit": 192, "stage": "e1", "timestamp_utc": "2026-10-11T15:21:44Z", "resolution": 24, "purpose": "A30_E1:p250078_ring_a1_snr20:compensated_a", "material_shape": [576]}
+{"event": "RHS_RESERVED", "amount": 8, "cumulative": 1016, "limit": 16384, "stage": "e1", "timestamp_utc": "2026-10-11T15:21:44Z", "role": "full_forward"}
+{"event": "STATE_RESERVED", "amount": 1, "cumulative": 63, "limit": 192, "stage": "e1", "timestamp_utc": "2026-10-11T15:21:44Z", "resolution": 24, "purpose": "A30_E1:p250078_ring_a1_snr20:compensated_b", "material_shape": [576]}
+{"event": "RHS_RESERVED", "amount": 8, "cumulative": 1024, "limit": 16384, "stage": "e1", "timestamp_utc": "2026-10-11T15:21:44Z", "role": "full_forward"}
+{"event": "STATE_RESERVED", "amount": 1, "cumulative": 64, "limit": 192, "stage": "e1", "timestamp_utc": "2026-10-11T15:21:44Z", "resolution": 24, "purpose": "A30_E1:p250078_ring_a1_snr20:L_compensated_a", "material_shape": [576]}
+{"event": "RHS_RESERVED", "amount": 8, "cumulative": 1032, "limit": 16384, "stage": "e1", "timestamp_utc": "2026-10-11T15:21:44Z", "role": "full_forward"}
+{"event": "STATE_RESERVED", "amount": 1, "cumulative": 65, "limit": 192, "stage": "e1", "timestamp_utc": "2026-10-11T15:21:44Z", "resolution": 24, "purpose": "A30_E1:p250078_ring_a1_snr20:L_compensated_b", "material_shape": [576]}
+{"event": "RHS_RESERVED", "amount": 8, "cumulative": 1040, "limit": 16384, "stage": "e1", "timestamp_utc": "2026-10-11T15:21:44Z", "role": "full_forward"}
+{"event": "RHS_RESERVED", "amount": 8, "cumulative": 1048, "limit": 16384, "stage": "e1", "timestamp_utc": "2026-10-11T15:21:44Z", "role": "cached_LU_audit_forward"}
+{"event": "RHS_RESERVED", "amount": 32, "cumulative": 1080, "limit": 16384, "stage": "e1", "timestamp_utc": "2026-10-11T15:21:44Z", "role": "receiver_transfer_adjoint"}
+{"event": "STATE_RESERVED", "amount": 1, "cumulative": 66, "limit": 192, "stage": "e1", "timestamp_utc": "2026-10-11T15:21:44Z", "resolution": 24, "purpose": "A30_E1:p250074_weak_a1_snr20:nominal_cavity", "material_shape": [576]}
+{"event": "RHS_RESERVED", "amount": 8, "cumulative": 1088, "limit": 16384, "stage": "e1", "timestamp_utc": "2026-10-11T15:21:44Z", "role": "full_forward"}
+{"event": "STATE_RESERVED", "amount": 1, "cumulative": 67, "limit": 192, "stage": "e1", "timestamp_utc": "2026-10-11T15:21:44Z", "resolution": 24, "purpose": "A30_E1:p250074_weak_a1_snr20:compensated_a", "material_shape": [576]}
+{"event": "RHS_RESERVED", "amount": 8, "cumulative": 1096, "limit": 16384, "stage": "e1", "timestamp_utc": "2026-10-11T15:21:44Z", "role": "full_forward"}
+{"event": "STATE_RESERVED", "amount": 1, "cumulative": 68, "limit": 192, "stage": "e1", "timestamp_utc": "2026-10-11T15:21:44Z", "resolution": 24, "purpose": "A30_E1:p250074_weak_a1_snr20:compensated_b", "material_shape": [576]}
+{"event": "RHS_RESERVED", "amount": 8, "cumulative": 1104, "limit": 16384, "stage": "e1", "timestamp_utc": "2026-10-11T15:21:44Z", "role": "full_forward"}
+{"event": "STATE_RESERVED", "amount": 1, "cumulative": 69, "limit": 192, "stage": "e1", "timestamp_utc": "2026-10-11T15:21:44Z", "resolution": 24, "purpose": "A30_E1:p250074_weak_a1_snr20:L_compensated_a", "material_shape": [576]}
+{"event": "RHS_RESERVED", "amount": 8, "cumulative": 1112, "limit": 16384, "stage": "e1", "timestamp_utc": "2026-10-11T15:21:44Z", "role": "full_forward"}
+{"event": "STATE_RESERVED", "amount": 1, "cumulative": 70, "limit": 192, "stage": "e1", "timestamp_utc": "2026-10-11T15:21:44Z", "resolution": 24, "purpose": "A30_E1:p250074_weak_a1_snr20:L_compensated_b", "material_shape": [576]}
+{"event": "RHS_RESERVED", "amount": 8, "cumulative": 1120, "limit": 16384, "stage": "e1", "timestamp_utc": "2026-10-11T15:21:44Z", "role": "full_forward"}
+{"event": "RHS_RESERVED", "amount": 8, "cumulative": 1128, "limit": 16384, "stage": "e1", "timestamp_utc": "2026-10-11T15:21:44Z", "role": "cached_LU_audit_forward"}
+{"event": "RHS_RESERVED", "amount": 32, "cumulative": 1160, "limit": 16384, "stage": "e1", "timestamp_utc": "2026-10-11T15:21:44Z", "role": "receiver_transfer_adjoint"}
+{"event": "STATE_RESERVED", "amount": 1, "cumulative": 71, "limit": 192, "stage": "e1", "timestamp_utc": "2026-10-11T15:21:44Z", "resolution": 24, "purpose": "A30_E1:p250067_weak_a1_snr20:nominal_cavity", "material_shape": [576]}
+{"event": "RHS_RESERVED", "amount": 8, "cumulative": 1168, "limit": 16384, "stage": "e1", "timestamp_utc": "2026-10-11T15:21:44Z", "role": "full_forward"}
+{"event": "STATE_RESERVED", "amount": 1, "cumulative": 72, "limit": 192, "stage": "e1", "timestamp_utc": "2026-10-11T15:21:44Z", "resolution": 24, "purpose": "A30_E1:p250067_weak_a1_snr20:compensated_a", "material_shape": [576]}
+{"event": "RHS_RESERVED", "amount": 8, "cumulative": 1176, "limit": 16384, "stage": "e1", "timestamp_utc": "2026-10-11T15:21:44Z", "role": "full_forward"}
+{"event": "STATE_RESERVED", "amount": 1, "cumulative": 73, "limit": 192, "stage": "e1", "timestamp_utc": "2026-10-11T15:21:44Z", "resolution": 24, "purpose": "A30_E1:p250067_weak_a1_snr20:compensated_b", "material_shape": [576]}
+{"event": "RHS_RESERVED", "amount": 8, "cumulative": 1184, "limit": 16384, "stage": "e1", "timestamp_utc": "2026-10-11T15:21:44Z", "role": "full_forward"}
+{"event": "STATE_RESERVED", "amount": 1, "cumulative": 74, "limit": 192, "stage": "e1", "timestamp_utc": "2026-10-11T15:21:44Z", "resolution": 24, "purpose": "A30_E1:p250067_weak_a1_snr20:L_compensated_a", "material_shape": [576]}
+{"event": "RHS_RESERVED", "amount": 8, "cumulative": 1192, "limit": 16384, "stage": "e1", "timestamp_utc": "2026-10-11T15:21:44Z", "role": "full_forward"}
+{"event": "STATE_RESERVED", "amount": 1, "cumulative": 75, "limit": 192, "stage": "e1", "timestamp_utc": "2026-10-11T15:21:44Z", "resolution": 24, "purpose": "A30_E1:p250067_weak_a1_snr20:L_compensated_b", "material_shape": [576]}
+{"event": "RHS_RESERVED", "amount": 8, "cumulative": 1200, "limit": 16384, "stage": "e1", "timestamp_utc": "2026-10-11T15:21:44Z", "role": "full_forward"}
+{"event": "RHS_RESERVED", "amount": 8, "cumulative": 1208, "limit": 16384, "stage": "e1", "timestamp_utc": "2026-10-11T15:25:38Z", "role": "cached_LU_audit_forward"}
+{"event": "RHS_RESERVED", "amount": 32, "cumulative": 1240, "limit": 16384, "stage": "e1", "timestamp_utc": "2026-10-11T15:25:38Z", "role": "receiver_transfer_adjoint"}
+{"event": "STATE_RESERVED", "amount": 1, "cumulative": 76, "limit": 192, "stage": "e1", "timestamp_utc": "2026-10-11T15:25:39Z", "resolution": 24, "purpose": "A30_E1:p250065_weak_a1_snr20:compensated_a", "material_shape": [576]}
+{"event": "RHS_RESERVED", "amount": 8, "cumulative": 1248, "limit": 16384, "stage": "e1", "timestamp_utc": "2026-10-11T15:25:39Z", "role": "full_forward"}
+{"event": "STATE_RESERVED", "amount": 1, "cumulative": 77, "limit": 192, "stage": "e1", "timestamp_utc": "2026-10-11T15:25:39Z", "resolution": 24, "purpose": "A30_E1:p250065_weak_a1_snr20:compensated_b", "material_shape": [576]}
+{"event": "RHS_RESERVED", "amount": 8, "cumulative": 1256, "limit": 16384, "stage": "e1", "timestamp_utc": "2026-10-11T15:25:39Z", "role": "full_forward"}
+{"event": "STATE_RESERVED", "amount": 1, "cumulative": 78, "limit": 192, "stage": "e1", "timestamp_utc": "2026-10-11T15:25:39Z", "resolution": 24, "purpose": "A30_E1:p250065_weak_a1_snr20:L_compensated_a", "material_shape": [576]}
+{"event": "RHS_RESERVED", "amount": 8, "cumulative": 1264, "limit": 16384, "stage": "e1", "timestamp_utc": "2026-10-11T15:25:39Z", "role": "full_forward"}
+{"event": "STATE_RESERVED", "amount": 1, "cumulative": 79, "limit": 192, "stage": "e1", "timestamp_utc": "2026-10-11T15:25:39Z", "resolution": 24, "purpose": "A30_E1:p250065_weak_a1_snr20:L_compensated_b", "material_shape": [576]}
+{"event": "RHS_RESERVED", "amount": 8, "cumulative": 1272, "limit": 16384, "stage": "e1", "timestamp_utc": "2026-10-11T15:25:39Z", "role": "full_forward"}
+{"event": "RHS_RESERVED", "amount": 8, "cumulative": 1280, "limit": 16384, "stage": "e1", "timestamp_utc": "2026-10-11T15:25:39Z", "role": "cached_LU_audit_forward"}
+{"event": "RHS_RESERVED", "amount": 32, "cumulative": 1312, "limit": 16384, "stage": "e1", "timestamp_utc": "2026-10-11T15:25:39Z", "role": "receiver_transfer_adjoint"}
+{"event": "STATE_RESERVED", "amount": 1, "cumulative": 80, "limit": 192, "stage": "e1", "timestamp_utc": "2026-10-11T15:25:40Z", "resolution": 24, "purpose": "A30_E1:p250065_ring_a1_snr20:compensated_a", "material_shape": [576]}
+{"event": "RHS_RESERVED", "amount": 8, "cumulative": 1320, "limit": 16384, "stage": "e1", "timestamp_utc": "2026-10-11T15:25:40Z", "role": "full_forward"}
+{"event": "STATE_RESERVED", "amount": 1, "cumulative": 81, "limit": 192, "stage": "e1", "timestamp_utc": "2026-10-11T15:25:40Z", "resolution": 24, "purpose": "A30_E1:p250065_ring_a1_snr20:compensated_b", "material_shape": [576]}
+{"event": "RHS_RESERVED", "amount": 8, "cumulative": 1328, "limit": 16384, "stage": "e1", "timestamp_utc": "2026-10-11T15:25:40Z", "role": "full_forward"}
+{"event": "STATE_RESERVED", "amount": 1, "cumulative": 82, "limit": 192, "stage": "e1", "timestamp_utc": "2026-10-11T15:25:40Z", "resolution": 24, "purpose": "A30_E1:p250065_ring_a1_snr20:L_compensated_a", "material_shape": [576]}
+{"event": "RHS_RESERVED", "amount": 8, "cumulative": 1336, "limit": 16384, "stage": "e1", "timestamp_utc": "2026-10-11T15:25:40Z", "role": "full_forward"}
+{"event": "STATE_RESERVED", "amount": 1, "cumulative": 83, "limit": 192, "stage": "e1", "timestamp_utc": "2026-10-11T15:25:40Z", "resolution": 24, "purpose": "A30_E1:p250065_ring_a1_snr20:L_compensated_b", "material_shape": [576]}
+{"event": "RHS_RESERVED", "amount": 8, "cumulative": 1344, "limit": 16384, "stage": "e1", "timestamp_utc": "2026-10-11T15:25:40Z", "role": "full_forward"}
+{"event": "RHS_RESERVED", "amount": 8, "cumulative": 1352, "limit": 16384, "stage": "e1", "timestamp_utc": "2026-10-11T15:25:40Z", "role": "cached_LU_audit_forward"}
+{"event": "RHS_RESERVED", "amount": 32, "cumulative": 1384, "limit": 16384, "stage": "e1", "timestamp_utc": "2026-10-11T15:25:40Z", "role": "receiver_transfer_adjoint"}
+{"event": "STATE_RESERVED", "amount": 1, "cumulative": 84, "limit": 192, "stage": "e1", "timestamp_utc": "2026-10-11T15:25:40Z", "resolution": 24, "purpose": "A30_E1:p250069_ring_a1_snr20:compensated_a", "material_shape": [576]}
+{"event": "RHS_RESERVED", "amount": 8, "cumulative": 1392, "limit": 16384, "stage": "e1", "timestamp_utc": "2026-10-11T15:25:40Z", "role": "full_forward"}
+{"event": "STATE_RESERVED", "amount": 1, "cumulative": 85, "limit": 192, "stage": "e1", "timestamp_utc": "2026-10-11T15:25:40Z", "resolution": 24, "purpose": "A30_E1:p250069_ring_a1_snr20:compensated_b", "material_shape": [576]}
+{"event": "RHS_RESERVED", "amount": 8, "cumulative": 1400, "limit": 16384, "stage": "e1", "timestamp_utc": "2026-10-11T15:25:40Z", "role": "full_forward"}
+{"event": "STATE_RESERVED", "amount": 1, "cumulative": 86, "limit": 192, "stage": "e1", "timestamp_utc": "2026-10-11T15:25:40Z", "resolution": 24, "purpose": "A30_E1:p250069_ring_a1_snr20:L_compensated_a", "material_shape": [576]}
+{"event": "RHS_RESERVED", "amount": 8, "cumulative": 1408, "limit": 16384, "stage": "e1", "timestamp_utc": "2026-10-11T15:25:40Z", "role": "full_forward"}
+{"event": "STATE_RESERVED", "amount": 1, "cumulative": 87, "limit": 192, "stage": "e1", "timestamp_utc": "2026-10-11T15:25:40Z", "resolution": 24, "purpose": "A30_E1:p250069_ring_a1_snr20:L_compensated_b", "material_shape": [576]}
+{"event": "RHS_RESERVED", "amount": 8, "cumulative": 1416, "limit": 16384, "stage": "e1", "timestamp_utc": "2026-10-11T15:25:40Z", "role": "full_forward"}
+{"event": "RHS_RESERVED", "amount": 8, "cumulative": 1424, "limit": 16384, "stage": "e1", "timestamp_utc": "2026-10-11T15:25:40Z", "role": "cached_LU_audit_forward"}
+{"event": "RHS_RESERVED", "amount": 32, "cumulative": 1456, "limit": 16384, "stage": "e1", "timestamp_utc": "2026-10-11T15:25:40Z", "role": "receiver_transfer_adjoint"}
+{"event": "STATE_RESERVED", "amount": 1, "cumulative": 88, "limit": 192, "stage": "e1", "timestamp_utc": "2026-10-11T15:25:41Z", "resolution": 24, "purpose": "A30_E1:p250077_weak_a1_snr20:compensated_a", "material_shape": [576]}
+{"event": "RHS_RESERVED", "amount": 8, "cumulative": 1464, "limit": 16384, "stage": "e1", "timestamp_utc": "2026-10-11T15:25:41Z", "role": "full_forward"}
+{"event": "STATE_RESERVED", "amount": 1, "cumulative": 89, "limit": 192, "stage": "e1", "timestamp_utc": "2026-10-11T15:25:41Z", "resolution": 24, "purpose": "A30_E1:p250077_weak_a1_snr20:compensated_b", "material_shape": [576]}
+{"event": "RHS_RESERVED", "amount": 8, "cumulative": 1472, "limit": 16384, "stage": "e1", "timestamp_utc": "2026-10-11T15:25:41Z", "role": "full_forward"}
+{"event": "STATE_RESERVED", "amount": 1, "cumulative": 90, "limit": 192, "stage": "e1", "timestamp_utc": "2026-10-11T15:25:41Z", "resolution": 24, "purpose": "A30_E1:p250077_weak_a1_snr20:L_compensated_a", "material_shape": [576]}
+{"event": "RHS_RESERVED", "amount": 8, "cumulative": 1480, "limit": 16384, "stage": "e1", "timestamp_utc": "2026-10-11T15:25:41Z", "role": "full_forward"}
+{"event": "STATE_RESERVED", "amount": 1, "cumulative": 91, "limit": 192, "stage": "e1", "timestamp_utc": "2026-10-11T15:25:41Z", "resolution": 24, "purpose": "A30_E1:p250077_weak_a1_snr20:L_compensated_b", "material_shape": [576]}
+{"event": "RHS_RESERVED", "amount": 8, "cumulative": 1488, "limit": 16384, "stage": "e1", "timestamp_utc": "2026-10-11T15:25:41Z", "role": "full_forward"}
+{"event": "RHS_RESERVED", "amount": 8, "cumulative": 1496, "limit": 16384, "stage": "e1", "timestamp_utc": "2026-10-11T15:25:41Z", "role": "cached_LU_audit_forward"}
+{"event": "RHS_RESERVED", "amount": 32, "cumulative": 1528, "limit": 16384, "stage": "e1", "timestamp_utc": "2026-10-11T15:25:41Z", "role": "receiver_transfer_adjoint"}
+{"event": "STATE_RESERVED", "amount": 1, "cumulative": 92, "limit": 192, "stage": "e1", "timestamp_utc": "2026-10-11T15:25:41Z", "resolution": 24, "purpose": "A30_E1:p250077_ring_a1_snr20:compensated_a", "material_shape": [576]}
+{"event": "RHS_RESERVED", "amount": 8, "cumulative": 1536, "limit": 16384, "stage": "e1", "timestamp_utc": "2026-10-11T15:25:41Z", "role": "full_forward"}
+{"event": "STATE_RESERVED", "amount": 1, "cumulative": 93, "limit": 192, "stage": "e1", "timestamp_utc": "2026-10-11T15:25:41Z", "resolution": 24, "purpose": "A30_E1:p250077_ring_a1_snr20:compensated_b", "material_shape": [576]}
+{"event": "RHS_RESERVED", "amount": 8, "cumulative": 1544, "limit": 16384, "stage": "e1", "timestamp_utc": "2026-10-11T15:25:41Z", "role": "full_forward"}
+{"event": "STATE_RESERVED", "amount": 1, "cumulative": 94, "limit": 192, "stage": "e1", "timestamp_utc": "2026-10-11T15:25:41Z", "resolution": 24, "purpose": "A30_E1:p250077_ring_a1_snr20:L_compensated_a", "material_shape": [576]}
+{"event": "RHS_RESERVED", "amount": 8, "cumulative": 1552, "limit": 16384, "stage": "e1", "timestamp_utc": "2026-10-11T15:25:41Z", "role": "full_forward"}
+{"event": "STATE_RESERVED", "amount": 1, "cumulative": 95, "limit": 192, "stage": "e1", "timestamp_utc": "2026-10-11T15:25:41Z", "resolution": 24, "purpose": "A30_E1:p250077_ring_a1_snr20:L_compensated_b", "material_shape": [576]}
+{"event": "RHS_RESERVED", "amount": 8, "cumulative": 1560, "limit": 16384, "stage": "e1", "timestamp_utc": "2026-10-11T15:25:41Z", "role": "full_forward"}
+{"event": "RHS_RESERVED", "amount": 8, "cumulative": 1568, "limit": 16384, "stage": "e1", "timestamp_utc": "2026-10-11T15:25:41Z", "role": "cached_LU_audit_forward"}
+{"event": "RHS_RESERVED", "amount": 32, "cumulative": 1600, "limit": 16384, "stage": "e1", "timestamp_utc": "2026-10-11T15:25:41Z", "role": "receiver_transfer_adjoint"}
+{"event": "STATE_RESERVED", "amount": 1, "cumulative": 96, "limit": 192, "stage": "e1", "timestamp_utc": "2026-10-11T15:25:42Z", "resolution": 24, "purpose": "A30_E1:p250073_weak_a1_snr20:compensated_a", "material_shape": [576]}
+{"event": "RHS_RESERVED", "amount": 8, "cumulative": 1608, "limit": 16384, "stage": "e1", "timestamp_utc": "2026-10-11T15:25:42Z", "role": "full_forward"}
+{"event": "STATE_RESERVED", "amount": 1, "cumulative": 97, "limit": 192, "stage": "e1", "timestamp_utc": "2026-10-11T15:25:42Z", "resolution": 24, "purpose": "A30_E1:p250073_weak_a1_snr20:compensated_b", "material_shape": [576]}
+{"event": "RHS_RESERVED", "amount": 8, "cumulative": 1616, "limit": 16384, "stage": "e1", "timestamp_utc": "2026-10-11T15:25:42Z", "role": "full_forward"}
+{"event": "STATE_RESERVED", "amount": 1, "cumulative": 98, "limit": 192, "stage": "e1", "timestamp_utc": "2026-10-11T15:25:42Z", "resolution": 24, "purpose": "A30_E1:p250073_weak_a1_snr20:L_compensated_a", "material_shape": [576]}
+{"event": "RHS_RESERVED", "amount": 8, "cumulative": 1624, "limit": 16384, "stage": "e1", "timestamp_utc": "2026-10-11T15:25:42Z", "role": "full_forward"}
+{"event": "STATE_RESERVED", "amount": 1, "cumulative": 99, "limit": 192, "stage": "e1", "timestamp_utc": "2026-10-11T15:25:42Z", "resolution": 24, "purpose": "A30_E1:p250073_weak_a1_snr20:L_compensated_b", "material_shape": [576]}
+{"event": "RHS_RESERVED", "amount": 8, "cumulative": 1632, "limit": 16384, "stage": "e1", "timestamp_utc": "2026-10-11T15:25:42Z", "role": "full_forward"}
+{"event": "RHS_RESERVED", "amount": 8, "cumulative": 1640, "limit": 16384, "stage": "e1", "timestamp_utc": "2026-10-11T15:25:42Z", "role": "cached_LU_audit_forward"}
+{"event": "RHS_RESERVED", "amount": 32, "cumulative": 1672, "limit": 16384, "stage": "e1", "timestamp_utc": "2026-10-11T15:25:42Z", "role": "receiver_transfer_adjoint"}
+{"event": "STATE_RESERVED", "amount": 1, "cumulative": 100, "limit": 192, "stage": "e1", "timestamp_utc": "2026-10-11T15:25:43Z", "resolution": 24, "purpose": "A30_E1:p250073_ring_a1_snr20:compensated_a", "material_shape": [576]}
+{"event": "RHS_RESERVED", "amount": 8, "cumulative": 1680, "limit": 16384, "stage": "e1", "timestamp_utc": "2026-10-11T15:25:43Z", "role": "full_forward"}
+{"event": "STATE_RESERVED", "amount": 1, "cumulative": 101, "limit": 192, "stage": "e1", "timestamp_utc": "2026-10-11T15:25:43Z", "resolution": 24, "purpose": "A30_E1:p250073_ring_a1_snr20:compensated_b", "material_shape": [576]}
+{"event": "RHS_RESERVED", "amount": 8, "cumulative": 1688, "limit": 16384, "stage": "e1", "timestamp_utc": "2026-10-11T15:25:43Z", "role": "full_forward"}
+{"event": "STATE_RESERVED", "amount": 1, "cumulative": 102, "limit": 192, "stage": "e1", "timestamp_utc": "2026-10-11T15:25:43Z", "resolution": 24, "purpose": "A30_E1:p250073_ring_a1_snr20:L_compensated_a", "material_shape": [576]}
+{"event": "RHS_RESERVED", "amount": 8, "cumulative": 1696, "limit": 16384, "stage": "e1", "timestamp_utc": "2026-10-11T15:25:43Z", "role": "full_forward"}
+{"event": "STATE_RESERVED", "amount": 1, "cumulative": 103, "limit": 192, "stage": "e1", "timestamp_utc": "2026-10-11T15:25:43Z", "resolution": 24, "purpose": "A30_E1:p250073_ring_a1_snr20:L_compensated_b", "material_shape": [576]}
+{"event": "RHS_RESERVED", "amount": 8, "cumulative": 1704, "limit": 16384, "stage": "e1", "timestamp_utc": "2026-10-11T15:25:43Z", "role": "full_forward"}
+{"event": "RHS_RESERVED", "amount": 8, "cumulative": 1712, "limit": 16384, "stage": "e1", "timestamp_utc": "2026-10-11T15:25:43Z", "role": "cached_LU_audit_forward"}
+{"event": "RHS_RESERVED", "amount": 32, "cumulative": 1744, "limit": 16384, "stage": "e1", "timestamp_utc": "2026-10-11T15:25:43Z", "role": "receiver_transfer_adjoint"}
+{"event": "STATE_RESERVED", "amount": 1, "cumulative": 104, "limit": 192, "stage": "e1", "timestamp_utc": "2026-10-11T15:25:43Z", "resolution": 24, "purpose": "A30_E1:p250066_weak_a1_snr20:compensated_a", "material_shape": [576]}
+{"event": "RHS_RESERVED", "amount": 8, "cumulative": 1752, "limit": 16384, "stage": "e1", "timestamp_utc": "2026-10-11T15:25:43Z", "role": "full_forward"}
+{"event": "STATE_RESERVED", "amount": 1, "cumulative": 105, "limit": 192, "stage": "e1", "timestamp_utc": "2026-10-11T15:25:43Z", "resolution": 24, "purpose": "A30_E1:p250066_weak_a1_snr20:compensated_b", "material_shape": [576]}
+{"event": "RHS_RESERVED", "amount": 8, "cumulative": 1760, "limit": 16384, "stage": "e1", "timestamp_utc": "2026-10-11T15:25:43Z", "role": "full_forward"}
+{"event": "RHS_RESERVED", "amount": 8, "cumulative": 1768, "limit": 16384, "stage": "e1", "timestamp_utc": "2026-10-11T15:25:43Z", "role": "cached_LU_audit_forward"}
+{"event": "RHS_RESERVED", "amount": 32, "cumulative": 1800, "limit": 16384, "stage": "e1", "timestamp_utc": "2026-10-11T15:25:43Z", "role": "receiver_transfer_adjoint"}
+{"event": "STATE_RESERVED", "amount": 1, "cumulative": 106, "limit": 192, "stage": "e1", "timestamp_utc": "2026-10-11T15:25:44Z", "resolution": 24, "purpose": "A30_E1:p250066_ring_a1_snr20:compensated_a", "material_shape": [576]}
+{"event": "RHS_RESERVED", "amount": 8, "cumulative": 1808, "limit": 16384, "stage": "e1", "timestamp_utc": "2026-10-11T15:25:44Z", "role": "full_forward"}
+{"event": "STATE_RESERVED", "amount": 1, "cumulative": 107, "limit": 192, "stage": "e1", "timestamp_utc": "2026-10-11T15:25:44Z", "resolution": 24, "purpose": "A30_E1:p250066_ring_a1_snr20:compensated_b", "material_shape": [576]}
+{"event": "RHS_RESERVED", "amount": 8, "cumulative": 1816, "limit": 16384, "stage": "e1", "timestamp_utc": "2026-10-11T15:25:44Z", "role": "full_forward"}
+{"event": "RHS_RESERVED", "amount": 8, "cumulative": 1824, "limit": 16384, "stage": "e1", "timestamp_utc": "2026-10-11T15:25:44Z", "role": "cached_LU_audit_forward"}
+{"event": "RHS_RESERVED", "amount": 32, "cumulative": 1856, "limit": 16384, "stage": "e1", "timestamp_utc": "2026-10-11T15:25:44Z", "role": "receiver_transfer_adjoint"}
+{"event": "STATE_RESERVED", "amount": 1, "cumulative": 108, "limit": 192, "stage": "e1", "timestamp_utc": "2026-10-11T15:25:44Z", "resolution": 24, "purpose": "A30_E1:p250070_weak_a1_snr20:compensated_a", "material_shape": [576]}
+{"event": "RHS_RESERVED", "amount": 8, "cumulative": 1864, "limit": 16384, "stage": "e1", "timestamp_utc": "2026-10-11T15:25:44Z", "role": "full_forward"}
+{"event": "STATE_RESERVED", "amount": 1, "cumulative": 109, "limit": 192, "stage": "e1", "timestamp_utc": "2026-10-11T15:25:44Z", "resolution": 24, "purpose": "A30_E1:p250070_weak_a1_snr20:compensated_b", "material_shape": [576]}
+{"event": "RHS_RESERVED", "amount": 8, "cumulative": 1872, "limit": 16384, "stage": "e1", "timestamp_utc": "2026-10-11T15:25:44Z", "role": "full_forward"}
+{"event": "RHS_RESERVED", "amount": 8, "cumulative": 1880, "limit": 16384, "stage": "e1", "timestamp_utc": "2026-10-11T15:25:44Z", "role": "cached_LU_audit_forward"}
+{"event": "RHS_RESERVED", "amount": 32, "cumulative": 1912, "limit": 16384, "stage": "e1", "timestamp_utc": "2026-10-11T15:25:44Z", "role": "receiver_transfer_adjoint"}
+{"event": "STATE_RESERVED", "amount": 1, "cumulative": 110, "limit": 192, "stage": "e1", "timestamp_utc": "2026-10-11T15:25:45Z", "resolution": 24, "purpose": "A30_E1:p250070_ring_a1_snr20:compensated_a", "material_shape": [576]}
+{"event": "RHS_RESERVED", "amount": 8, "cumulative": 1920, "limit": 16384, "stage": "e1", "timestamp_utc": "2026-10-11T15:25:45Z", "role": "full_forward"}
+{"event": "STATE_RESERVED", "amount": 1, "cumulative": 111, "limit": 192, "stage": "e1", "timestamp_utc": "2026-10-11T15:25:45Z", "resolution": 24, "purpose": "A30_E1:p250070_ring_a1_snr20:compensated_b", "material_shape": [576]}
+{"event": "RHS_RESERVED", "amount": 8, "cumulative": 1928, "limit": 16384, "stage": "e1", "timestamp_utc": "2026-10-11T15:25:45Z", "role": "full_forward"}
+{"event": "RHS_RESERVED", "amount": 8, "cumulative": 1936, "limit": 16384, "stage": "e1", "timestamp_utc": "2026-10-11T15:25:45Z", "role": "cached_LU_audit_forward"}
+{"event": "RHS_RESERVED", "amount": 32, "cumulative": 1968, "limit": 16384, "stage": "e1", "timestamp_utc": "2026-10-11T15:25:45Z", "role": "receiver_transfer_adjoint"}
+{"event": "STATE_RESERVED", "amount": 1, "cumulative": 112, "limit": 192, "stage": "e1", "timestamp_utc": "2026-10-11T15:25:45Z", "resolution": 24, "purpose": "A30_E1:p250078_weak_a1_snr20:compensated_a", "material_shape": [576]}
+{"event": "RHS_RESERVED", "amount": 8, "cumulative": 1976, "limit": 16384, "stage": "e1", "timestamp_utc": "2026-10-11T15:25:45Z", "role": "full_forward"}
+{"event": "STATE_RESERVED", "amount": 1, "cumulative": 113, "limit": 192, "stage": "e1", "timestamp_utc": "2026-10-11T15:25:45Z", "resolution": 24, "purpose": "A30_E1:p250078_weak_a1_snr20:compensated_b", "material_shape": [576]}
+{"event": "RHS_RESERVED", "amount": 8, "cumulative": 1984, "limit": 16384, "stage": "e1", "timestamp_utc": "2026-10-11T15:25:45Z", "role": "full_forward"}
+{"event": "RHS_RESERVED", "amount": 8, "cumulative": 1992, "limit": 16384, "stage": "e1", "timestamp_utc": "2026-10-11T15:25:46Z", "role": "cached_LU_audit_forward"}
+{"event": "RHS_RESERVED", "amount": 32, "cumulative": 2024, "limit": 16384, "stage": "e1", "timestamp_utc": "2026-10-11T15:25:46Z", "role": "receiver_transfer_adjoint"}
+{"event": "STATE_RESERVED", "amount": 1, "cumulative": 114, "limit": 192, "stage": "e1", "timestamp_utc": "2026-10-11T15:25:46Z", "resolution": 24, "purpose": "A30_E1:p250078_ring_a1_snr20:compensated_a", "material_shape": [576]}
+{"event": "RHS_RESERVED", "amount": 8, "cumulative": 2032, "limit": 16384, "stage": "e1", "timestamp_utc": "2026-10-11T15:25:46Z", "role": "full_forward"}
+{"event": "STATE_RESERVED", "amount": 1, "cumulative": 115, "limit": 192, "stage": "e1", "timestamp_utc": "2026-10-11T15:25:46Z", "resolution": 24, "purpose": "A30_E1:p250078_ring_a1_snr20:compensated_b", "material_shape": [576]}
+{"event": "RHS_RESERVED", "amount": 8, "cumulative": 2040, "limit": 16384, "stage": "e1", "timestamp_utc": "2026-10-11T15:25:46Z", "role": "full_forward"}
+{"event": "RHS_RESERVED", "amount": 8, "cumulative": 2048, "limit": 16384, "stage": "e1", "timestamp_utc": "2026-10-11T15:25:46Z", "role": "cached_LU_audit_forward"}
+{"event": "RHS_RESERVED", "amount": 32, "cumulative": 2080, "limit": 16384, "stage": "e1", "timestamp_utc": "2026-10-11T15:25:46Z", "role": "receiver_transfer_adjoint"}
+{"event": "STATE_RESERVED", "amount": 1, "cumulative": 116, "limit": 192, "stage": "e1", "timestamp_utc": "2026-10-11T15:25:47Z", "resolution": 24, "purpose": "A30_E1:p250074_weak_a1_snr20:compensated_a", "material_shape": [576]}
+{"event": "RHS_RESERVED", "amount": 8, "cumulative": 2088, "limit": 16384, "stage": "e1", "timestamp_utc": "2026-10-11T15:25:47Z", "role": "full_forward"}
+{"event": "STATE_RESERVED", "amount": 1, "cumulative": 117, "limit": 192, "stage": "e1", "timestamp_utc": "2026-10-11T15:25:47Z", "resolution": 24, "purpose": "A30_E1:p250074_weak_a1_snr20:compensated_b", "material_shape": [576]}
+{"event": "RHS_RESERVED", "amount": 8, "cumulative": 2096, "limit": 16384, "stage": "e1", "timestamp_utc": "2026-10-11T15:25:47Z", "role": "full_forward"}
+{"event": "RHS_RESERVED", "amount": 8, "cumulative": 2104, "limit": 16384, "stage": "e1", "timestamp_utc": "2026-10-11T15:25:47Z", "role": "cached_LU_audit_forward"}
+{"event": "RHS_RESERVED", "amount": 32, "cumulative": 2136, "limit": 16384, "stage": "e1", "timestamp_utc": "2026-10-11T15:25:47Z", "role": "receiver_transfer_adjoint"}
+{"event": "STATE_RESERVED", "amount": 1, "cumulative": 118, "limit": 192, "stage": "e1", "timestamp_utc": "2026-10-11T15:25:47Z", "resolution": 24, "purpose": "A30_E1:p250067_weak_a1_snr20:compensated_a", "material_shape": [576]}
+{"event": "RHS_RESERVED", "amount": 8, "cumulative": 2144, "limit": 16384, "stage": "e1", "timestamp_utc": "2026-10-11T15:25:47Z", "role": "full_forward"}
+{"event": "STATE_RESERVED", "amount": 1, "cumulative": 119, "limit": 192, "stage": "e1", "timestamp_utc": "2026-10-11T15:25:47Z", "resolution": 24, "purpose": "A30_E1:p250067_weak_a1_snr20:compensated_b", "material_shape": [576]}
+{"event": "RHS_RESERVED", "amount": 8, "cumulative": 2152, "limit": 16384, "stage": "e1", "timestamp_utc": "2026-10-11T15:25:47Z", "role": "full_forward"}
+{"event": "RHS_RESERVED", "amount": 8, "cumulative": 2160, "limit": 16384, "stage": "e1", "timestamp_utc": "2026-10-11T15:25:47Z", "role": "cached_LU_audit_forward"}
+{"event": "RHS_RESERVED", "amount": 32, "cumulative": 2192, "limit": 16384, "stage": "e1", "timestamp_utc": "2026-10-11T15:25:47Z", "role": "receiver_transfer_adjoint"}
+{"event": "STATE_RESERVED", "amount": 1, "cumulative": 120, "limit": 192, "stage": "e1", "timestamp_utc": "2026-10-11T15:25:47Z", "resolution": 24, "purpose": "A30_E1:p250067_ring_a1_snr20:nominal_cavity", "material_shape": [576]}
+{"event": "RHS_RESERVED", "amount": 8, "cumulative": 2200, "limit": 16384, "stage": "e1", "timestamp_utc": "2026-10-11T15:25:47Z", "role": "full_forward"}
+{"event": "STATE_RESERVED", "amount": 1, "cumulative": 121, "limit": 192, "stage": "e1", "timestamp_utc": "2026-10-11T15:25:48Z", "resolution": 24, "purpose": "A30_E1:p250067_ring_a1_snr20:compensated_a", "material_shape": [576]}
+{"event": "RHS_RESERVED", "amount": 8, "cumulative": 2208, "limit": 16384, "stage": "e1", "timestamp_utc": "2026-10-11T15:25:48Z", "role": "full_forward"}
+{"event": "STATE_RESERVED", "amount": 1, "cumulative": 122, "limit": 192, "stage": "e1", "timestamp_utc": "2026-10-11T15:25:48Z", "resolution": 24, "purpose": "A30_E1:p250067_ring_a1_snr20:compensated_b", "material_shape": [576]}
+{"event": "RHS_RESERVED", "amount": 8, "cumulative": 2216, "limit": 16384, "stage": "e1", "timestamp_utc": "2026-10-11T15:25:48Z", "role": "full_forward"}
+{"event": "RHS_RESERVED", "amount": 8, "cumulative": 2224, "limit": 16384, "stage": "e1", "timestamp_utc": "2026-10-11T15:25:48Z", "role": "cached_LU_audit_forward"}
+{"event": "RHS_RESERVED", "amount": 32, "cumulative": 2256, "limit": 16384, "stage": "e1", "timestamp_utc": "2026-10-11T15:25:48Z", "role": "receiver_transfer_adjoint"}
+{"event": "STATE_RESERVED", "amount": 1, "cumulative": 123, "limit": 192, "stage": "e1", "timestamp_utc": "2026-10-11T15:25:48Z", "resolution": 24, "purpose": "A30_E1:p250071_weak_a1_snr20:nominal_cavity", "material_shape": [576]}
+{"event": "RHS_RESERVED", "amount": 8, "cumulative": 2264, "limit": 16384, "stage": "e1", "timestamp_utc": "2026-10-11T15:25:48Z", "role": "full_forward"}
+{"event": "STATE_RESERVED", "amount": 1, "cumulative": 124, "limit": 192, "stage": "e1", "timestamp_utc": "2026-10-11T15:25:48Z", "resolution": 24, "purpose": "A30_E1:p250071_weak_a1_snr20:compensated_a", "material_shape": [576]}
+{"event": "RHS_RESERVED", "amount": 8, "cumulative": 2272, "limit": 16384, "stage": "e1", "timestamp_utc": "2026-10-11T15:25:48Z", "role": "full_forward"}
+{"event": "STATE_RESERVED", "amount": 1, "cumulative": 125, "limit": 192, "stage": "e1", "timestamp_utc": "2026-10-11T15:25:48Z", "resolution": 24, "purpose": "A30_E1:p250071_weak_a1_snr20:compensated_b", "material_shape": [576]}
+{"event": "RHS_RESERVED", "amount": 8, "cumulative": 2280, "limit": 16384, "stage": "e1", "timestamp_utc": "2026-10-11T15:25:48Z", "role": "full_forward"}
+{"event": "RHS_RESERVED", "amount": 8, "cumulative": 2288, "limit": 16384, "stage": "e1", "timestamp_utc": "2026-10-11T15:25:48Z", "role": "cached_LU_audit_forward"}
+{"event": "RHS_RESERVED", "amount": 32, "cumulative": 2320, "limit": 16384, "stage": "e1", "timestamp_utc": "2026-10-11T15:25:48Z", "role": "receiver_transfer_adjoint"}
+{"event": "STATE_RESERVED", "amount": 1, "cumulative": 126, "limit": 192, "stage": "e1", "timestamp_utc": "2026-10-11T15:25:48Z", "resolution": 24, "purpose": "A30_E1:p250071_ring_a1_snr20:nominal_cavity", "material_shape": [576]}
+{"event": "RHS_RESERVED", "amount": 8, "cumulative": 2328, "limit": 16384, "stage": "e1", "timestamp_utc": "2026-10-11T15:25:48Z", "role": "full_forward"}
+{"event": "STATE_RESERVED", "amount": 1, "cumulative": 127, "limit": 192, "stage": "e1", "timestamp_utc": "2026-10-11T15:25:49Z", "resolution": 24, "purpose": "A30_E1:p250071_ring_a1_snr20:compensated_a", "material_shape": [576]}
+{"event": "RHS_RESERVED", "amount": 8, "cumulative": 2336, "limit": 16384, "stage": "e1", "timestamp_utc": "2026-10-11T15:25:49Z", "role": "full_forward"}
+{"event": "STATE_RESERVED", "amount": 1, "cumulative": 128, "limit": 192, "stage": "e1", "timestamp_utc": "2026-10-11T15:25:49Z", "resolution": 24, "purpose": "A30_E1:p250071_ring_a1_snr20:compensated_b", "material_shape": [576]}
+{"event": "RHS_RESERVED", "amount": 8, "cumulative": 2344, "limit": 16384, "stage": "e1", "timestamp_utc": "2026-10-11T15:25:49Z", "role": "full_forward"}
+{"event": "RHS_RESERVED", "amount": 8, "cumulative": 2352, "limit": 16384, "stage": "e1", "timestamp_utc": "2026-10-11T15:25:49Z", "role": "cached_LU_audit_forward"}
+{"event": "RHS_RESERVED", "amount": 32, "cumulative": 2384, "limit": 16384, "stage": "e1", "timestamp_utc": "2026-10-11T15:25:49Z", "role": "receiver_transfer_adjoint"}
+{"event": "STATE_RESERVED", "amount": 1, "cumulative": 129, "limit": 192, "stage": "e1", "timestamp_utc": "2026-10-11T15:25:49Z", "resolution": 24, "purpose": "A30_E1:p250079_weak_a1_snr20:nominal_cavity", "material_shape": [576]}
+{"event": "RHS_RESERVED", "amount": 8, "cumulative": 2392, "limit": 16384, "stage": "e1", "timestamp_utc": "2026-10-11T15:25:49Z", "role": "full_forward"}
+{"event": "STATE_RESERVED", "amount": 1, "cumulative": 130, "limit": 192, "stage": "e1", "timestamp_utc": "2026-10-11T15:25:49Z", "resolution": 24, "purpose": "A30_E1:p250079_weak_a1_snr20:compensated_a", "material_shape": [576]}
+{"event": "RHS_RESERVED", "amount": 8, "cumulative": 2400, "limit": 16384, "stage": "e1", "timestamp_utc": "2026-10-11T15:25:49Z", "role": "full_forward"}
+{"event": "STATE_RESERVED", "amount": 1, "cumulative": 131, "limit": 192, "stage": "e1", "timestamp_utc": "2026-10-11T15:25:49Z", "resolution": 24, "purpose": "A30_E1:p250079_weak_a1_snr20:compensated_b", "material_shape": [576]}
+{"event": "RHS_RESERVED", "amount": 8, "cumulative": 2408, "limit": 16384, "stage": "e1", "timestamp_utc": "2026-10-11T15:25:49Z", "role": "full_forward"}
+{"event": "RHS_RESERVED", "amount": 8, "cumulative": 2416, "limit": 16384, "stage": "e1", "timestamp_utc": "2026-10-11T15:25:49Z", "role": "cached_LU_audit_forward"}
+{"event": "RHS_RESERVED", "amount": 32, "cumulative": 2448, "limit": 16384, "stage": "e1", "timestamp_utc": "2026-10-11T15:25:49Z", "role": "receiver_transfer_adjoint"}
+{"event": "STATE_RESERVED", "amount": 1, "cumulative": 132, "limit": 192, "stage": "e1", "timestamp_utc": "2026-10-11T15:25:49Z", "resolution": 24, "purpose": "A30_E1:p250079_ring_a1_snr20:nominal_cavity", "material_shape": [576]}
+{"event": "RHS_RESERVED", "amount": 8, "cumulative": 2456, "limit": 16384, "stage": "e1", "timestamp_utc": "2026-10-11T15:25:49Z", "role": "full_forward"}
+{"event": "STATE_RESERVED", "amount": 1, "cumulative": 133, "limit": 192, "stage": "e1", "timestamp_utc": "2026-10-11T15:25:50Z", "resolution": 24, "purpose": "A30_E1:p250079_ring_a1_snr20:compensated_a", "material_shape": [576]}
+{"event": "RHS_RESERVED", "amount": 8, "cumulative": 2464, "limit": 16384, "stage": "e1", "timestamp_utc": "2026-10-11T15:25:50Z", "role": "full_forward"}
+{"event": "STATE_RESERVED", "amount": 1, "cumulative": 134, "limit": 192, "stage": "e1", "timestamp_utc": "2026-10-11T15:25:50Z", "resolution": 24, "purpose": "A30_E1:p250079_ring_a1_snr20:compensated_b", "material_shape": [576]}
+{"event": "RHS_RESERVED", "amount": 8, "cumulative": 2472, "limit": 16384, "stage": "e1", "timestamp_utc": "2026-10-11T15:25:50Z", "role": "full_forward"}
+{"event": "RHS_RESERVED", "amount": 8, "cumulative": 2480, "limit": 16384, "stage": "e1", "timestamp_utc": "2026-10-11T15:25:50Z", "role": "cached_LU_audit_forward"}
+{"event": "RHS_RESERVED", "amount": 32, "cumulative": 2512, "limit": 16384, "stage": "e1", "timestamp_utc": "2026-10-11T15:25:50Z", "role": "receiver_transfer_adjoint"}
+{"event": "STATE_RESERVED", "amount": 1, "cumulative": 135, "limit": 192, "stage": "e1", "timestamp_utc": "2026-10-11T15:25:50Z", "resolution": 24, "purpose": "A30_E1:p250075_weak_a1_snr20:nominal_cavity", "material_shape": [576]}
+{"event": "RHS_RESERVED", "amount": 8, "cumulative": 2520, "limit": 16384, "stage": "e1", "timestamp_utc": "2026-10-11T15:25:50Z", "role": "full_forward"}
+{"event": "STATE_RESERVED", "amount": 1, "cumulative": 136, "limit": 192, "stage": "e1", "timestamp_utc": "2026-10-11T15:25:50Z", "resolution": 24, "purpose": "A30_E1:p250075_weak_a1_snr20:compensated_a", "material_shape": [576]}
+{"event": "RHS_RESERVED", "amount": 8, "cumulative": 2528, "limit": 16384, "stage": "e1", "timestamp_utc": "2026-10-11T15:25:50Z", "role": "full_forward"}
+{"event": "STATE_RESERVED", "amount": 1, "cumulative": 137, "limit": 192, "stage": "e1", "timestamp_utc": "2026-10-11T15:25:50Z", "resolution": 24, "purpose": "A30_E1:p250075_weak_a1_snr20:compensated_b", "material_shape": [576]}
+{"event": "RHS_RESERVED", "amount": 8, "cumulative": 2536, "limit": 16384, "stage": "e1", "timestamp_utc": "2026-10-11T15:25:50Z", "role": "full_forward"}
+{"event": "RHS_RESERVED", "amount": 8, "cumulative": 2544, "limit": 16384, "stage": "e1", "timestamp_utc": "2026-10-11T15:25:50Z", "role": "cached_LU_audit_forward"}
+{"event": "RHS_RESERVED", "amount": 32, "cumulative": 2576, "limit": 16384, "stage": "e1", "timestamp_utc": "2026-10-11T15:25:50Z", "role": "receiver_transfer_adjoint"}
+{"event": "STATE_RESERVED", "amount": 1, "cumulative": 138, "limit": 192, "stage": "e1", "timestamp_utc": "2026-10-11T15:25:50Z", "resolution": 24, "purpose": "A30_E1:p250075_ring_a1_snr20:nominal_cavity", "material_shape": [576]}
+{"event": "RHS_RESERVED", "amount": 8, "cumulative": 2584, "limit": 16384, "stage": "e1", "timestamp_utc": "2026-10-11T15:25:50Z", "role": "full_forward"}
+{"event": "STATE_RESERVED", "amount": 1, "cumulative": 139, "limit": 192, "stage": "e1", "timestamp_utc": "2026-10-11T15:25:51Z", "resolution": 24, "purpose": "A30_E1:p250075_ring_a1_snr20:compensated_a", "material_shape": [576]}
+{"event": "RHS_RESERVED", "amount": 8, "cumulative": 2592, "limit": 16384, "stage": "e1", "timestamp_utc": "2026-10-11T15:25:51Z", "role": "full_forward"}
+{"event": "STATE_RESERVED", "amount": 1, "cumulative": 140, "limit": 192, "stage": "e1", "timestamp_utc": "2026-10-11T15:25:51Z", "resolution": 24, "purpose": "A30_E1:p250075_ring_a1_snr20:compensated_b", "material_shape": [576]}
+{"event": "RHS_RESERVED", "amount": 8, "cumulative": 2600, "limit": 16384, "stage": "e1", "timestamp_utc": "2026-10-11T15:25:51Z", "role": "full_forward"}
+{"event": "RHS_RESERVED", "amount": 8, "cumulative": 2608, "limit": 16384, "stage": "e1", "timestamp_utc": "2026-10-11T15:25:51Z", "role": "cached_LU_audit_forward"}
+{"event": "RHS_RESERVED", "amount": 32, "cumulative": 2640, "limit": 16384, "stage": "e1", "timestamp_utc": "2026-10-11T15:25:51Z", "role": "receiver_transfer_adjoint"}
+{"event": "STATE_RESERVED", "amount": 1, "cumulative": 141, "limit": 192, "stage": "e1", "timestamp_utc": "2026-10-11T15:25:51Z", "resolution": 24, "purpose": "A30_E1:p250068_weak_a1_snr20:nominal_cavity", "material_shape": [576]}
+{"event": "RHS_RESERVED", "amount": 8, "cumulative": 2648, "limit": 16384, "stage": "e1", "timestamp_utc": "2026-10-11T15:25:51Z", "role": "full_forward"}
+{"event": "STATE_RESERVED", "amount": 1, "cumulative": 142, "limit": 192, "stage": "e1", "timestamp_utc": "2026-10-11T15:25:52Z", "resolution": 24, "purpose": "A30_E1:p250068_weak_a1_snr20:compensated_a", "material_shape": [576]}
+{"event": "RHS_RESERVED", "amount": 8, "cumulative": 2656, "limit": 16384, "stage": "e1", "timestamp_utc": "2026-10-11T15:25:52Z", "role": "full_forward"}
+{"event": "STATE_RESERVED", "amount": 1, "cumulative": 143, "limit": 192, "stage": "e1", "timestamp_utc": "2026-10-11T15:25:52Z", "resolution": 24, "purpose": "A30_E1:p250068_weak_a1_snr20:compensated_b", "material_shape": [576]}
+{"event": "RHS_RESERVED", "amount": 8, "cumulative": 2664, "limit": 16384, "stage": "e1", "timestamp_utc": "2026-10-11T15:25:52Z", "role": "full_forward"}
+{"event": "RHS_RESERVED", "amount": 8, "cumulative": 2672, "limit": 16384, "stage": "e1", "timestamp_utc": "2026-10-11T15:25:52Z", "role": "cached_LU_audit_forward"}
+{"event": "RHS_RESERVED", "amount": 32, "cumulative": 2704, "limit": 16384, "stage": "e1", "timestamp_utc": "2026-10-11T15:25:52Z", "role": "receiver_transfer_adjoint"}
+{"event": "STATE_RESERVED", "amount": 1, "cumulative": 144, "limit": 192, "stage": "e1", "timestamp_utc": "2026-10-11T15:25:52Z", "resolution": 24, "purpose": "A30_E1:p250068_ring_a1_snr20:nominal_cavity", "material_shape": [576]}
+{"event": "RHS_RESERVED", "amount": 8, "cumulative": 2712, "limit": 16384, "stage": "e1", "timestamp_utc": "2026-10-11T15:25:52Z", "role": "full_forward"}
+{"event": "STATE_RESERVED", "amount": 1, "cumulative": 145, "limit": 192, "stage": "e1", "timestamp_utc": "2026-10-11T15:25:53Z", "resolution": 24, "purpose": "A30_E1:p250068_ring_a1_snr20:compensated_a", "material_shape": [576]}
+{"event": "RHS_RESERVED", "amount": 8, "cumulative": 2720, "limit": 16384, "stage": "e1", "timestamp_utc": "2026-10-11T15:25:53Z", "role": "full_forward"}
+{"event": "STATE_RESERVED", "amount": 1, "cumulative": 146, "limit": 192, "stage": "e1", "timestamp_utc": "2026-10-11T15:25:53Z", "resolution": 24, "purpose": "A30_E1:p250068_ring_a1_snr20:compensated_b", "material_shape": [576]}
+{"event": "RHS_RESERVED", "amount": 8, "cumulative": 2728, "limit": 16384, "stage": "e1", "timestamp_utc": "2026-10-11T15:25:53Z", "role": "full_forward"}
+{"event": "RHS_RESERVED", "amount": 8, "cumulative": 2736, "limit": 16384, "stage": "e1", "timestamp_utc": "2026-10-11T15:25:53Z", "role": "cached_LU_audit_forward"}
+{"event": "RHS_RESERVED", "amount": 32, "cumulative": 2768, "limit": 16384, "stage": "e1", "timestamp_utc": "2026-10-11T15:25:53Z", "role": "receiver_transfer_adjoint"}
+{"event": "STATE_RESERVED", "amount": 1, "cumulative": 147, "limit": 192, "stage": "e1", "timestamp_utc": "2026-10-11T15:25:53Z", "resolution": 24, "purpose": "A30_E1:p250072_weak_a1_snr20:nominal_cavity", "material_shape": [576]}
+{"event": "RHS_RESERVED", "amount": 8, "cumulative": 2776, "limit": 16384, "stage": "e1", "timestamp_utc": "2026-10-11T15:25:53Z", "role": "full_forward"}
+{"event": "STATE_RESERVED", "amount": 1, "cumulative": 148, "limit": 192, "stage": "e1", "timestamp_utc": "2026-10-11T15:25:53Z", "resolution": 24, "purpose": "A30_E1:p250072_weak_a1_snr20:compensated_a", "material_shape": [576]}
+{"event": "RHS_RESERVED", "amount": 8, "cumulative": 2784, "limit": 16384, "stage": "e1", "timestamp_utc": "2026-10-11T15:25:53Z", "role": "full_forward"}
+{"event": "STATE_RESERVED", "amount": 1, "cumulative": 149, "limit": 192, "stage": "e1", "timestamp_utc": "2026-10-11T15:25:53Z", "resolution": 24, "purpose": "A30_E1:p250072_weak_a1_snr20:compensated_b", "material_shape": [576]}
+{"event": "RHS_RESERVED", "amount": 8, "cumulative": 2792, "limit": 16384, "stage": "e1", "timestamp_utc": "2026-10-11T15:25:53Z", "role": "full_forward"}
+{"event": "RHS_RESERVED", "amount": 8, "cumulative": 2800, "limit": 16384, "stage": "e1", "timestamp_utc": "2026-10-11T15:25:53Z", "role": "cached_LU_audit_forward"}
+{"event": "RHS_RESERVED", "amount": 32, "cumulative": 2832, "limit": 16384, "stage": "e1", "timestamp_utc": "2026-10-11T15:25:53Z", "role": "receiver_transfer_adjoint"}
+{"event": "STATE_RESERVED", "amount": 1, "cumulative": 150, "limit": 192, "stage": "e1", "timestamp_utc": "2026-10-11T15:25:53Z", "resolution": 24, "purpose": "A30_E1:p250080_weak_a1_snr20:nominal_cavity", "material_shape": [576]}
+{"event": "RHS_RESERVED", "amount": 8, "cumulative": 2840, "limit": 16384, "stage": "e1", "timestamp_utc": "2026-10-11T15:25:53Z", "role": "full_forward"}
+{"event": "STATE_RESERVED", "amount": 1, "cumulative": 151, "limit": 192, "stage": "e1", "timestamp_utc": "2026-10-11T15:25:54Z", "resolution": 24, "purpose": "A30_E1:p250080_weak_a1_snr20:compensated_a", "material_shape": [576]}
+{"event": "RHS_RESERVED", "amount": 8, "cumulative": 2848, "limit": 16384, "stage": "e1", "timestamp_utc": "2026-10-11T15:25:54Z", "role": "full_forward"}
+{"event": "STATE_RESERVED", "amount": 1, "cumulative": 152, "limit": 192, "stage": "e1", "timestamp_utc": "2026-10-11T15:25:54Z", "resolution": 24, "purpose": "A30_E1:p250080_weak_a1_snr20:compensated_b", "material_shape": [576]}
+{"event": "RHS_RESERVED", "amount": 8, "cumulative": 2856, "limit": 16384, "stage": "e1", "timestamp_utc": "2026-10-11T15:25:54Z", "role": "full_forward"}
+{"event": "RHS_RESERVED", "amount": 8, "cumulative": 2864, "limit": 16384, "stage": "e1", "timestamp_utc": "2026-10-11T15:25:54Z", "role": "cached_LU_audit_forward"}
+{"event": "RHS_RESERVED", "amount": 32, "cumulative": 2896, "limit": 16384, "stage": "e1", "timestamp_utc": "2026-10-11T15:25:54Z", "role": "receiver_transfer_adjoint"}
+{"event": "STATE_RESERVED", "amount": 1, "cumulative": 153, "limit": 192, "stage": "e1", "timestamp_utc": "2026-10-11T15:25:54Z", "resolution": 24, "purpose": "A30_E1:p250080_ring_a1_snr20:nominal_cavity", "material_shape": [576]}
+{"event": "RHS_RESERVED", "amount": 8, "cumulative": 2904, "limit": 16384, "stage": "e1", "timestamp_utc": "2026-10-11T15:25:54Z", "role": "full_forward"}
+{"event": "STATE_RESERVED", "amount": 1, "cumulative": 154, "limit": 192, "stage": "e1", "timestamp_utc": "2026-10-11T15:25:54Z", "resolution": 24, "purpose": "A30_E1:p250080_ring_a1_snr20:compensated_a", "material_shape": [576]}
+{"event": "RHS_RESERVED", "amount": 8, "cumulative": 2912, "limit": 16384, "stage": "e1", "timestamp_utc": "2026-10-11T15:25:54Z", "role": "full_forward"}
+{"event": "STATE_RESERVED", "amount": 1, "cumulative": 155, "limit": 192, "stage": "e1", "timestamp_utc": "2026-10-11T15:25:54Z", "resolution": 24, "purpose": "A30_E1:p250080_ring_a1_snr20:compensated_b", "material_shape": [576]}
+{"event": "RHS_RESERVED", "amount": 8, "cumulative": 2920, "limit": 16384, "stage": "e1", "timestamp_utc": "2026-10-11T15:25:54Z", "role": "full_forward"}
+{"event": "RHS_RESERVED", "amount": 8, "cumulative": 2928, "limit": 16384, "stage": "e1", "timestamp_utc": "2026-10-11T15:25:54Z", "role": "cached_LU_audit_forward"}
+{"event": "RHS_RESERVED", "amount": 32, "cumulative": 2960, "limit": 16384, "stage": "e1", "timestamp_utc": "2026-10-11T15:25:54Z", "role": "receiver_transfer_adjoint"}
+{"event": "STATE_RESERVED", "amount": 1, "cumulative": 156, "limit": 192, "stage": "e1", "timestamp_utc": "2026-10-11T15:25:54Z", "resolution": 24, "purpose": "A30_E1:p250076_weak_a1_snr20:nominal_cavity", "material_shape": [576]}
+{"event": "RHS_RESERVED", "amount": 8, "cumulative": 2968, "limit": 16384, "stage": "e1", "timestamp_utc": "2026-10-11T15:25:54Z", "role": "full_forward"}
+{"event": "STATE_RESERVED", "amount": 1, "cumulative": 157, "limit": 192, "stage": "e1", "timestamp_utc": "2026-10-11T15:25:55Z", "resolution": 24, "purpose": "A30_E1:p250076_weak_a1_snr20:compensated_a", "material_shape": [576]}
+{"event": "RHS_RESERVED", "amount": 8, "cumulative": 2976, "limit": 16384, "stage": "e1", "timestamp_utc": "2026-10-11T15:25:55Z", "role": "full_forward"}
+{"event": "STATE_RESERVED", "amount": 1, "cumulative": 158, "limit": 192, "stage": "e1", "timestamp_utc": "2026-10-11T15:25:55Z", "resolution": 24, "purpose": "A30_E1:p250076_weak_a1_snr20:compensated_b", "material_shape": [576]}
+{"event": "RHS_RESERVED", "amount": 8, "cumulative": 2984, "limit": 16384, "stage": "e1", "timestamp_utc": "2026-10-11T15:25:55Z", "role": "full_forward"}
+{"event": "RHS_RESERVED", "amount": 8, "cumulative": 2992, "limit": 16384, "stage": "e1", "timestamp_utc": "2026-10-11T15:25:55Z", "role": "cached_LU_audit_forward"}
+{"event": "RHS_RESERVED", "amount": 32, "cumulative": 3024, "limit": 16384, "stage": "e1", "timestamp_utc": "2026-10-11T15:25:55Z", "role": "receiver_transfer_adjoint"}
+{"event": "STATE_RESERVED", "amount": 1, "cumulative": 159, "limit": 192, "stage": "e1", "timestamp_utc": "2026-10-11T15:25:55Z", "resolution": 24, "purpose": "A30_E1:p250076_ring_a1_snr20:nominal_cavity", "material_shape": [576]}
+{"event": "RHS_RESERVED", "amount": 8, "cumulative": 3032, "limit": 16384, "stage": "e1", "timestamp_utc": "2026-10-11T15:25:55Z", "role": "full_forward"}
+{"event": "STATE_RESERVED", "amount": 1, "cumulative": 160, "limit": 192, "stage": "e1", "timestamp_utc": "2026-10-11T15:25:55Z", "resolution": 24, "purpose": "A30_E1:p250076_ring_a1_snr20:compensated_a", "material_shape": [576]}
+{"event": "RHS_RESERVED", "amount": 8, "cumulative": 3040, "limit": 16384, "stage": "e1", "timestamp_utc": "2026-10-11T15:25:55Z", "role": "full_forward"}
+{"event": "STATE_RESERVED", "amount": 1, "cumulative": 161, "limit": 192, "stage": "e1", "timestamp_utc": "2026-10-11T15:25:55Z", "resolution": 24, "purpose": "A30_E1:p250076_ring_a1_snr20:compensated_b", "material_shape": [576]}
+{"event": "RHS_RESERVED", "amount": 8, "cumulative": 3048, "limit": 16384, "stage": "e1", "timestamp_utc": "2026-10-11T15:25:55Z", "role": "full_forward"}

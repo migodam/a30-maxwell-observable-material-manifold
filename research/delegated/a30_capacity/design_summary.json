@@ -1,0 +1,87 @@
+{
+  "status": "PARENT_REVIEWED_WITH_TOPOLOGY_CLARIFICATION_READY_TO_FREEZE",
+  "development_labels_opened": false,
+  "scientific_runs": "NOT_RUN",
+  "scope": "Ordinary TRAIN-only representation construction and explicit OFFLINE material-capacity fitting; zero physics calls, no training, no final scientific gates.",
+  "coordinates": {
+    "train": "64 independent parent normalized complex increments, shape 64x576; no background replication",
+    "baseline_delta": "N3 normalized increment, shape 576",
+    "truth": "Actual complex material, accepted only by explicit OFFLINE fit function",
+    "background": "Known actual complex material, scalar or 576",
+    "actual_decoder": "background + amplitude_scale * normalized_delta; amplitude_scale defaults to 1 and parent run sets 1.2",
+    "fixed_W": "positive diagonal cell weights, default 1/576 per pixel, repeated once for real and imaginary coordinates"
+  },
+  "budgets": [
+    16,
+    32,
+    64
+  ],
+  "start_rule": {
+    "maximum": 8,
+    "common_sources": "start 0 is N3; starts 1..7 are the first seven TRAIN parents sorted by W distance from N3, with parent-index tie break",
+    "selection": "All TRAIN template/topology and sparse support choices fixed without truth by freeze_case before OFFLINE optimization",
+    "iterations_per_start_maximum": 100,
+    "trajectories": "Store initial and each accepted iterate parameters/objective, best feasible value, optimizer status/reason and evaluation counts",
+    "geometry": "Each source chooses its nearest eligible TRAIN template using W distance; initialization is zero geometry plus independent regional complex contrasts least-squares fitted to that source",
+    "sparse": "For each source choose exactly budget largest absolute W-Haar real-coordinate coefficients, including independent imaginary coefficients; freeze support before fitting",
+    "single_chart": "One common TRAIN SVD basis, eight projected source initializations; no truth-selected basis or discrete chart"
+  },
+  "methods": {
+    "atlas": {
+      "discrete_index": "TRAIN support digital topology: 4-connected foreground, 8-connected background, components/holes/Euler; phase adjacency is also recorded; no dataset family labels",
+      "support_mask": "abs(TRAIN normalized delta) >= 0.25 * per-parent max magnitude",
+      "phases": "Up to three nonempty deterministic TRAIN magnitude-quantile bands inside occupancy; tied bands collapse. A phase may have multiple connected pieces, disclosed in metadata. Each retained phase has its own independent real and imaginary contrast.",
+      "geometry": "TRAIN signed-distance fields shifted by partition-of-unity Gaussian normal-displacement controls anchored at distinct digital boundary points; nearest-boundary projection is frozen from TRAIN. These are allowed normal-boundary coefficients, not claimed B-splines.",
+      "geometry_bound": "Every control lies in [-2,2] pixel units; positive partition-of-unity fields bound displacement by 2 pixels per phase",
+      "parameter_count": "Exactly budget = (budget - 2*phase_count) free real geometry controls + 2*phase_count free real contrast values; templates unable to provide that independent basis are flagged ineligible, never padded",
+      "rasterization": "Differentiable softmax partition with background logit zero and phase signed-distance logits / 0.5 pixel. Explicit mixture rule sums phase occupancies to <=1.",
+      "topology": "Primary image is the best exact-box-feasible iterate preserving TRAIN digital support components/holes, per-phase components/holes, and phase adjacency. Topology-changing trajectories are retained as OFFLINE diagnostics, never accepted as atlas primary. The fixed 0.5-pixel rasterization is audited at zero geometry; smoothing-induced topology change makes that start ineligible. This is a digital predicate, not continuous topology/reach certification.",
+      "bias": "Separately report TRAIN phase-quantization loss and soft-rasterization loss at zero geometry, plus achieved image versus hard partition discrepancy",
+      "topology_predicate": "Support is sum(softmax phase occupancies)>=0.5; occupied cells are assigned to highest-occupancy phase with deterministic tie break. Compare 4-foreground/8-background signatures and phase adjacency to original TRAIN partition, independent of truth thresholds."
+    },
+    "level_set": {
+      "phases": "Identical TRAIN-only phase partition and independent contrasts as atlas",
+      "geometry": "Signed-distance perturbations by low-frequency real 2D DCT modes ordered by squared frequency, allocated across phases by boundary size",
+      "geometry_bound": "Each of g controls is bounded by +/-3/g pixels after each basis field is normalized to sup-norm <=1; total displacement <=3 pixels per phase",
+      "parameter_count": "Exactly budget = g + 2*phase_count real coordinates; numerical basis/tangent rank reported, deficient charts ineligible",
+      "rasterization": "Same fixed 0.5-pixel softmax partition and explicit mixture rule as atlas",
+      "topology": "Topology can change; record changes without a topology-preserving claim",
+      "bias": "Report phase-quantization and soft-rasterization discrepancies separately"
+    },
+    "sparse": {
+      "basis": "W-orthogonal separable 2D Haar transform on 24x24: dyadic block decomposition 24->12->6->3, then fixed orthonormal 3x3 DCT coarse transform; no padding to 32",
+      "parameter_count": "Exactly budget selected real coefficients across 576 real and 576 imaginary coordinates",
+      "actual_fit": "Convex quadratic least-squares in each N3/TRAIN-frozen support under linear actual-material box constraints; no post-fit material clipping",
+      "certificate": "Report primal feasibility, stationarity/dual/complementarity residuals and a feasible Frank-Wolfe linear-oracle gap when available; floating numerical certificates only, fail label if not certified",
+      "offline_tail": "Separately calculate exact unconstrained orthogonal best-budget-term coefficient tail from truth-background and truth-selected support, explicitly OFFLINE; never feed it into actual supports or candidate initialization",
+      "interpretation": "Best-term tail and actual fixed-support constrained QP are different classes; report their gap"
+    },
+    "single_chart": {
+      "basis": "Uncentered SVD of 64 independent TRAIN normalized increments in 1152 fixed-W real coordinates",
+      "parameter_count": "Use first budget real singular directions; budget 64 requires numerical rank 64; never center then silently pad rank 63",
+      "actual_fit": "Convex constrained affine QP under exact actual-material box, no image clipping",
+      "certificate": "Same primal/KKT/FW numerical checks as sparse"
+    }
+  },
+  "actual_material_bounds": {
+    "real": [
+      -0.5,
+      4.0
+    ],
+    "imaginary": [
+      0.0,
+      0.5
+    ],
+    "geometry_contrasts": "Conservative common regional contrast box from background extrema and amplitude_scale guarantees every regional endpoint and mixture obey actual material bounds. Report this stronger restriction explicitly.",
+    "floating_boundary_policy": "Any inward-nextafter parameter safeguard is recorded as ULP rounding protection, not a hidden feasibility tolerance. Actual image feasibility is checked with exact comparisons; infeasible iterations cannot be the reported image.",
+    "affine_repair": "If a numerically returned parameter violates exact box by rounding, contract along its coefficient ray toward feasible zero-delta/background; retain same basis/support and record contraction. Never clip material pixels."
+  },
+  "output_contract": {
+    "prepare_train": "Frozen model with read-only TRAIN arrays, basis/phase metadata, rank/eligibility, and exact-budget checks; accepts no development truth",
+    "freeze_case": "Truth-free frozen sources, templates/supports and initial parameters",
+    "fit_capacity": "OFFLINE result with image/delta/params, all trajectories, exact dimensions, strict box feasibility, optimizer and global-versus-local labels, independent capacity loss fields, morphology supplied only by parent",
+    "global_labels": "Geometry: ACHIEVED_LOCAL_NONCONVEX_UPPER_BOUND; atlas additionally requires the frozen digital topology predicate. Affine: CONVEX_FIXED_CHART_NUMERICAL_CERTIFIED only when numerical certificate passes; discrete chart/support union is finite achieved fit, not unrestricted global capacity.",
+    "no_online_truth": "No target-based function is usable for online chart/support selection or candidate generation"
+  },
+  "verification": "Synthetic unittest only using existing A25 .venv_a25 numpy/scipy; no development scoring, solver calls, package installs or locked payload access"
+}

@@ -1,0 +1,931 @@
+[
+  {
+    "archive": "inputs/a25/train.npz",
+    "fields": [
+      "amplitude",
+      "background_id",
+      "case_id",
+      "family",
+      "geometry_descriptor",
+      "manifest_id",
+      "noise_db",
+      "ood_type",
+      "parent_id",
+      "sigma",
+      "split",
+      "status",
+      "variant_id"
+    ],
+    "role": "identity_condition_metadata_only",
+    "truth_or_chi_or_current_or_clean_values_read": false
+  },
+  {
+    "archive": "inputs/a25/validation.npz",
+    "fields": [
+      "amplitude",
+      "background_id",
+      "case_id",
+      "family",
+      "geometry_descriptor",
+      "manifest_id",
+      "noise_db",
+      "ood_type",
+      "parent_id",
+      "sigma",
+      "split",
+      "status",
+      "variant_id"
+    ],
+    "role": "identity_condition_metadata_only",
+    "truth_or_chi_or_current_or_clean_values_read": false
+  },
+  {
+    "archive": "results/a29/OFFLINE_TARGETS.npz",
+    "fields": [
+      "background_id",
+      "case_id",
+      "family",
+      "parent_id"
+    ],
+    "role": "identity_condition_metadata_only",
+    "truth_or_chi_or_current_or_clean_values_read": false
+  },
+  {
+    "archive": "results/a29/pools/p250065_weak_a1_snr20.npz",
+    "fields": [
+      "categories",
+      "ids",
+      "sigma",
+      "small_indices"
+    ],
+    "role": "identity_condition_metadata_only",
+    "truth_or_chi_or_current_or_clean_values_read": false
+  },
+  {
+    "archive": "results/a29/pools/p250065_ring_a1_snr20.npz",
+    "fields": [
+      "categories",
+      "ids",
+      "sigma",
+      "small_indices"
+    ],
+    "role": "identity_condition_metadata_only",
+    "truth_or_chi_or_current_or_clean_values_read": false
+  },
+  {
+    "archive": "results/a29/pools/p250066_weak_a1_snr20.npz",
+    "fields": [
+      "categories",
+      "ids",
+      "sigma",
+      "small_indices"
+    ],
+    "role": "identity_condition_metadata_only",
+    "truth_or_chi_or_current_or_clean_values_read": false
+  },
+  {
+    "archive": "results/a29/pools/p250066_ring_a1_snr20.npz",
+    "fields": [
+      "categories",
+      "ids",
+      "sigma",
+      "small_indices"
+    ],
+    "role": "identity_condition_metadata_only",
+    "truth_or_chi_or_current_or_clean_values_read": false
+  },
+  {
+    "archive": "results/a29/pools/p250067_weak_a1_snr20.npz",
+    "fields": [
+      "categories",
+      "ids",
+      "sigma",
+      "small_indices"
+    ],
+    "role": "identity_condition_metadata_only",
+    "truth_or_chi_or_current_or_clean_values_read": false
+  },
+  {
+    "archive": "results/a29/pools/p250067_ring_a1_snr20.npz",
+    "fields": [
+      "categories",
+      "ids",
+      "sigma",
+      "small_indices"
+    ],
+    "role": "identity_condition_metadata_only",
+    "truth_or_chi_or_current_or_clean_values_read": false
+  },
+  {
+    "archive": "results/a29/pools/p250068_weak_a1_snr20.npz",
+    "fields": [
+      "categories",
+      "ids",
+      "sigma",
+      "small_indices"
+    ],
+    "role": "identity_condition_metadata_only",
+    "truth_or_chi_or_current_or_clean_values_read": false
+  },
+  {
+    "archive": "results/a29/pools/p250068_ring_a1_snr20.npz",
+    "fields": [
+      "categories",
+      "ids",
+      "sigma",
+      "small_indices"
+    ],
+    "role": "identity_condition_metadata_only",
+    "truth_or_chi_or_current_or_clean_values_read": false
+  },
+  {
+    "archive": "results/a29/pools/p250069_weak_a1_snr20.npz",
+    "fields": [
+      "categories",
+      "ids",
+      "sigma",
+      "small_indices"
+    ],
+    "role": "identity_condition_metadata_only",
+    "truth_or_chi_or_current_or_clean_values_read": false
+  },
+  {
+    "archive": "results/a29/pools/p250069_ring_a1_snr20.npz",
+    "fields": [
+      "categories",
+      "ids",
+      "sigma",
+      "small_indices"
+    ],
+    "role": "identity_condition_metadata_only",
+    "truth_or_chi_or_current_or_clean_values_read": false
+  },
+  {
+    "archive": "results/a29/pools/p250070_weak_a1_snr20.npz",
+    "fields": [
+      "categories",
+      "ids",
+      "sigma",
+      "small_indices"
+    ],
+    "role": "identity_condition_metadata_only",
+    "truth_or_chi_or_current_or_clean_values_read": false
+  },
+  {
+    "archive": "results/a29/pools/p250070_ring_a1_snr20.npz",
+    "fields": [
+      "categories",
+      "ids",
+      "sigma",
+      "small_indices"
+    ],
+    "role": "identity_condition_metadata_only",
+    "truth_or_chi_or_current_or_clean_values_read": false
+  },
+  {
+    "archive": "results/a29/pools/p250071_weak_a1_snr20.npz",
+    "fields": [
+      "categories",
+      "ids",
+      "sigma",
+      "small_indices"
+    ],
+    "role": "identity_condition_metadata_only",
+    "truth_or_chi_or_current_or_clean_values_read": false
+  },
+  {
+    "archive": "results/a29/pools/p250071_ring_a1_snr20.npz",
+    "fields": [
+      "categories",
+      "ids",
+      "sigma",
+      "small_indices"
+    ],
+    "role": "identity_condition_metadata_only",
+    "truth_or_chi_or_current_or_clean_values_read": false
+  },
+  {
+    "archive": "results/a29/pools/p250072_weak_a1_snr20.npz",
+    "fields": [
+      "categories",
+      "ids",
+      "sigma",
+      "small_indices"
+    ],
+    "role": "identity_condition_metadata_only",
+    "truth_or_chi_or_current_or_clean_values_read": false
+  },
+  {
+    "archive": "results/a29/pools/p250072_ring_a1_snr20.npz",
+    "fields": [
+      "categories",
+      "ids",
+      "sigma",
+      "small_indices"
+    ],
+    "role": "identity_condition_metadata_only",
+    "truth_or_chi_or_current_or_clean_values_read": false
+  },
+  {
+    "archive": "results/a29/pools/p250073_weak_a1_snr20.npz",
+    "fields": [
+      "categories",
+      "ids",
+      "sigma",
+      "small_indices"
+    ],
+    "role": "identity_condition_metadata_only",
+    "truth_or_chi_or_current_or_clean_values_read": false
+  },
+  {
+    "archive": "results/a29/pools/p250073_ring_a1_snr20.npz",
+    "fields": [
+      "categories",
+      "ids",
+      "sigma",
+      "small_indices"
+    ],
+    "role": "identity_condition_metadata_only",
+    "truth_or_chi_or_current_or_clean_values_read": false
+  },
+  {
+    "archive": "results/a29/pools/p250074_weak_a1_snr20.npz",
+    "fields": [
+      "categories",
+      "ids",
+      "sigma",
+      "small_indices"
+    ],
+    "role": "identity_condition_metadata_only",
+    "truth_or_chi_or_current_or_clean_values_read": false
+  },
+  {
+    "archive": "results/a29/pools/p250074_ring_a1_snr20.npz",
+    "fields": [
+      "categories",
+      "ids",
+      "sigma",
+      "small_indices"
+    ],
+    "role": "identity_condition_metadata_only",
+    "truth_or_chi_or_current_or_clean_values_read": false
+  },
+  {
+    "archive": "results/a29/pools/p250075_weak_a1_snr20.npz",
+    "fields": [
+      "categories",
+      "ids",
+      "sigma",
+      "small_indices"
+    ],
+    "role": "identity_condition_metadata_only",
+    "truth_or_chi_or_current_or_clean_values_read": false
+  },
+  {
+    "archive": "results/a29/pools/p250075_ring_a1_snr20.npz",
+    "fields": [
+      "categories",
+      "ids",
+      "sigma",
+      "small_indices"
+    ],
+    "role": "identity_condition_metadata_only",
+    "truth_or_chi_or_current_or_clean_values_read": false
+  },
+  {
+    "archive": "results/a29/pools/p250076_weak_a1_snr20.npz",
+    "fields": [
+      "categories",
+      "ids",
+      "sigma",
+      "small_indices"
+    ],
+    "role": "identity_condition_metadata_only",
+    "truth_or_chi_or_current_or_clean_values_read": false
+  },
+  {
+    "archive": "results/a29/pools/p250076_ring_a1_snr20.npz",
+    "fields": [
+      "categories",
+      "ids",
+      "sigma",
+      "small_indices"
+    ],
+    "role": "identity_condition_metadata_only",
+    "truth_or_chi_or_current_or_clean_values_read": false
+  },
+  {
+    "archive": "results/a29/pools/p250077_weak_a1_snr20.npz",
+    "fields": [
+      "categories",
+      "ids",
+      "sigma",
+      "small_indices"
+    ],
+    "role": "identity_condition_metadata_only",
+    "truth_or_chi_or_current_or_clean_values_read": false
+  },
+  {
+    "archive": "results/a29/pools/p250077_ring_a1_snr20.npz",
+    "fields": [
+      "categories",
+      "ids",
+      "sigma",
+      "small_indices"
+    ],
+    "role": "identity_condition_metadata_only",
+    "truth_or_chi_or_current_or_clean_values_read": false
+  },
+  {
+    "archive": "results/a29/pools/p250078_weak_a1_snr20.npz",
+    "fields": [
+      "categories",
+      "ids",
+      "sigma",
+      "small_indices"
+    ],
+    "role": "identity_condition_metadata_only",
+    "truth_or_chi_or_current_or_clean_values_read": false
+  },
+  {
+    "archive": "results/a29/pools/p250078_ring_a1_snr20.npz",
+    "fields": [
+      "categories",
+      "ids",
+      "sigma",
+      "small_indices"
+    ],
+    "role": "identity_condition_metadata_only",
+    "truth_or_chi_or_current_or_clean_values_read": false
+  },
+  {
+    "archive": "results/a29/pools/p250079_weak_a1_snr20.npz",
+    "fields": [
+      "categories",
+      "ids",
+      "sigma",
+      "small_indices"
+    ],
+    "role": "identity_condition_metadata_only",
+    "truth_or_chi_or_current_or_clean_values_read": false
+  },
+  {
+    "archive": "results/a29/pools/p250079_ring_a1_snr20.npz",
+    "fields": [
+      "categories",
+      "ids",
+      "sigma",
+      "small_indices"
+    ],
+    "role": "identity_condition_metadata_only",
+    "truth_or_chi_or_current_or_clean_values_read": false
+  },
+  {
+    "archive": "results/a29/pools/p250080_weak_a1_snr20.npz",
+    "fields": [
+      "categories",
+      "ids",
+      "sigma",
+      "small_indices"
+    ],
+    "role": "identity_condition_metadata_only",
+    "truth_or_chi_or_current_or_clean_values_read": false
+  },
+  {
+    "archive": "results/a29/pools/p250080_ring_a1_snr20.npz",
+    "fields": [
+      "categories",
+      "ids",
+      "sigma",
+      "small_indices"
+    ],
+    "role": "identity_condition_metadata_only",
+    "truth_or_chi_or_current_or_clean_values_read": false
+  },
+  {
+    "archive": "inputs/a26/results/a26/evaluation/261009/PREDICTIONS.npz",
+    "fields": [
+      "amplitude",
+      "background_id",
+      "case_id",
+      "family",
+      "parent_id",
+      "sigma",
+      "split"
+    ],
+    "role": "identity_condition_metadata_only",
+    "truth_or_chi_or_current_or_clean_values_read": false
+  },
+  {
+    "archive": "inputs/a28/results/a28/anatomy/p250065_weak_a1_snr20.npz",
+    "fields": [
+      "case_id"
+    ],
+    "role": "identity_condition_metadata_only",
+    "truth_or_chi_or_current_or_clean_values_read": false
+  },
+  {
+    "archive": "inputs/a28/results/a28/exact_states/p250065_weak_a1_snr20.npz",
+    "fields": [
+      "cache_protocol"
+    ],
+    "role": "identity_condition_metadata_only",
+    "truth_or_chi_or_current_or_clean_values_read": false
+  },
+  {
+    "archive": "inputs/a28/results/a28/anatomy/p250065_ring_a1_snr20.npz",
+    "fields": [
+      "case_id"
+    ],
+    "role": "identity_condition_metadata_only",
+    "truth_or_chi_or_current_or_clean_values_read": false
+  },
+  {
+    "archive": "inputs/a28/results/a28/exact_states/p250065_ring_a1_snr20.npz",
+    "fields": [
+      "cache_protocol"
+    ],
+    "role": "identity_condition_metadata_only",
+    "truth_or_chi_or_current_or_clean_values_read": false
+  },
+  {
+    "archive": "inputs/a28/results/a28/anatomy/p250066_weak_a1_snr20.npz",
+    "fields": [
+      "case_id"
+    ],
+    "role": "identity_condition_metadata_only",
+    "truth_or_chi_or_current_or_clean_values_read": false
+  },
+  {
+    "archive": "inputs/a28/results/a28/exact_states/p250066_weak_a1_snr20.npz",
+    "fields": [
+      "cache_protocol"
+    ],
+    "role": "identity_condition_metadata_only",
+    "truth_or_chi_or_current_or_clean_values_read": false
+  },
+  {
+    "archive": "inputs/a28/results/a28/anatomy/p250066_ring_a1_snr20.npz",
+    "fields": [
+      "case_id"
+    ],
+    "role": "identity_condition_metadata_only",
+    "truth_or_chi_or_current_or_clean_values_read": false
+  },
+  {
+    "archive": "inputs/a28/results/a28/exact_states/p250066_ring_a1_snr20.npz",
+    "fields": [
+      "cache_protocol"
+    ],
+    "role": "identity_condition_metadata_only",
+    "truth_or_chi_or_current_or_clean_values_read": false
+  },
+  {
+    "archive": "inputs/a28/results/a28/anatomy/p250067_weak_a1_snr20.npz",
+    "fields": [
+      "case_id"
+    ],
+    "role": "identity_condition_metadata_only",
+    "truth_or_chi_or_current_or_clean_values_read": false
+  },
+  {
+    "archive": "inputs/a28/results/a28/exact_states/p250067_weak_a1_snr20.npz",
+    "fields": [
+      "cache_protocol"
+    ],
+    "role": "identity_condition_metadata_only",
+    "truth_or_chi_or_current_or_clean_values_read": false
+  },
+  {
+    "archive": "inputs/a28/results/a28/anatomy/p250067_ring_a1_snr20.npz",
+    "fields": [
+      "case_id"
+    ],
+    "role": "identity_condition_metadata_only",
+    "truth_or_chi_or_current_or_clean_values_read": false
+  },
+  {
+    "archive": "inputs/a28/results/a28/exact_states/p250067_ring_a1_snr20.npz",
+    "fields": [
+      "cache_protocol"
+    ],
+    "role": "identity_condition_metadata_only",
+    "truth_or_chi_or_current_or_clean_values_read": false
+  },
+  {
+    "archive": "inputs/a28/results/a28/anatomy/p250068_weak_a1_snr20.npz",
+    "fields": [
+      "case_id"
+    ],
+    "role": "identity_condition_metadata_only",
+    "truth_or_chi_or_current_or_clean_values_read": false
+  },
+  {
+    "archive": "inputs/a28/results/a28/exact_states/p250068_weak_a1_snr20.npz",
+    "fields": [
+      "cache_protocol"
+    ],
+    "role": "identity_condition_metadata_only",
+    "truth_or_chi_or_current_or_clean_values_read": false
+  },
+  {
+    "archive": "inputs/a28/results/a28/anatomy/p250068_ring_a1_snr20.npz",
+    "fields": [
+      "case_id"
+    ],
+    "role": "identity_condition_metadata_only",
+    "truth_or_chi_or_current_or_clean_values_read": false
+  },
+  {
+    "archive": "inputs/a28/results/a28/exact_states/p250068_ring_a1_snr20.npz",
+    "fields": [
+      "cache_protocol"
+    ],
+    "role": "identity_condition_metadata_only",
+    "truth_or_chi_or_current_or_clean_values_read": false
+  },
+  {
+    "archive": "inputs/a28/results/a28/anatomy/p250069_weak_a1_snr20.npz",
+    "fields": [
+      "case_id"
+    ],
+    "role": "identity_condition_metadata_only",
+    "truth_or_chi_or_current_or_clean_values_read": false
+  },
+  {
+    "archive": "inputs/a28/results/a28/exact_states/p250069_weak_a1_snr20.npz",
+    "fields": [
+      "cache_protocol"
+    ],
+    "role": "identity_condition_metadata_only",
+    "truth_or_chi_or_current_or_clean_values_read": false
+  },
+  {
+    "archive": "inputs/a28/results/a28/anatomy/p250069_ring_a1_snr20.npz",
+    "fields": [
+      "case_id"
+    ],
+    "role": "identity_condition_metadata_only",
+    "truth_or_chi_or_current_or_clean_values_read": false
+  },
+  {
+    "archive": "inputs/a28/results/a28/exact_states/p250069_ring_a1_snr20.npz",
+    "fields": [
+      "cache_protocol"
+    ],
+    "role": "identity_condition_metadata_only",
+    "truth_or_chi_or_current_or_clean_values_read": false
+  },
+  {
+    "archive": "inputs/a28/results/a28/anatomy/p250070_weak_a1_snr20.npz",
+    "fields": [
+      "case_id"
+    ],
+    "role": "identity_condition_metadata_only",
+    "truth_or_chi_or_current_or_clean_values_read": false
+  },
+  {
+    "archive": "inputs/a28/results/a28/exact_states/p250070_weak_a1_snr20.npz",
+    "fields": [
+      "cache_protocol"
+    ],
+    "role": "identity_condition_metadata_only",
+    "truth_or_chi_or_current_or_clean_values_read": false
+  },
+  {
+    "archive": "inputs/a28/results/a28/anatomy/p250070_ring_a1_snr20.npz",
+    "fields": [
+      "case_id"
+    ],
+    "role": "identity_condition_metadata_only",
+    "truth_or_chi_or_current_or_clean_values_read": false
+  },
+  {
+    "archive": "inputs/a28/results/a28/exact_states/p250070_ring_a1_snr20.npz",
+    "fields": [
+      "cache_protocol"
+    ],
+    "role": "identity_condition_metadata_only",
+    "truth_or_chi_or_current_or_clean_values_read": false
+  },
+  {
+    "archive": "inputs/a28/results/a28/anatomy/p250071_weak_a1_snr20.npz",
+    "fields": [
+      "case_id"
+    ],
+    "role": "identity_condition_metadata_only",
+    "truth_or_chi_or_current_or_clean_values_read": false
+  },
+  {
+    "archive": "inputs/a28/results/a28/exact_states/p250071_weak_a1_snr20.npz",
+    "fields": [
+      "cache_protocol"
+    ],
+    "role": "identity_condition_metadata_only",
+    "truth_or_chi_or_current_or_clean_values_read": false
+  },
+  {
+    "archive": "inputs/a28/results/a28/anatomy/p250071_ring_a1_snr20.npz",
+    "fields": [
+      "case_id"
+    ],
+    "role": "identity_condition_metadata_only",
+    "truth_or_chi_or_current_or_clean_values_read": false
+  },
+  {
+    "archive": "inputs/a28/results/a28/exact_states/p250071_ring_a1_snr20.npz",
+    "fields": [
+      "cache_protocol"
+    ],
+    "role": "identity_condition_metadata_only",
+    "truth_or_chi_or_current_or_clean_values_read": false
+  },
+  {
+    "archive": "inputs/a28/results/a28/anatomy/p250072_weak_a1_snr20.npz",
+    "fields": [
+      "case_id"
+    ],
+    "role": "identity_condition_metadata_only",
+    "truth_or_chi_or_current_or_clean_values_read": false
+  },
+  {
+    "archive": "inputs/a28/results/a28/exact_states/p250072_weak_a1_snr20.npz",
+    "fields": [
+      "cache_protocol"
+    ],
+    "role": "identity_condition_metadata_only",
+    "truth_or_chi_or_current_or_clean_values_read": false
+  },
+  {
+    "archive": "inputs/a28/results/a28/anatomy/p250072_ring_a1_snr20.npz",
+    "fields": [
+      "case_id"
+    ],
+    "role": "identity_condition_metadata_only",
+    "truth_or_chi_or_current_or_clean_values_read": false
+  },
+  {
+    "archive": "inputs/a28/results/a28/exact_states/p250072_ring_a1_snr20.npz",
+    "fields": [
+      "cache_protocol"
+    ],
+    "role": "identity_condition_metadata_only",
+    "truth_or_chi_or_current_or_clean_values_read": false
+  },
+  {
+    "archive": "inputs/a28/results/a28/anatomy/p250073_weak_a1_snr20.npz",
+    "fields": [
+      "case_id"
+    ],
+    "role": "identity_condition_metadata_only",
+    "truth_or_chi_or_current_or_clean_values_read": false
+  },
+  {
+    "archive": "inputs/a28/results/a28/exact_states/p250073_weak_a1_snr20.npz",
+    "fields": [
+      "cache_protocol"
+    ],
+    "role": "identity_condition_metadata_only",
+    "truth_or_chi_or_current_or_clean_values_read": false
+  },
+  {
+    "archive": "inputs/a28/results/a28/anatomy/p250073_ring_a1_snr20.npz",
+    "fields": [
+      "case_id"
+    ],
+    "role": "identity_condition_metadata_only",
+    "truth_or_chi_or_current_or_clean_values_read": false
+  },
+  {
+    "archive": "inputs/a28/results/a28/exact_states/p250073_ring_a1_snr20.npz",
+    "fields": [
+      "cache_protocol"
+    ],
+    "role": "identity_condition_metadata_only",
+    "truth_or_chi_or_current_or_clean_values_read": false
+  },
+  {
+    "archive": "inputs/a28/results/a28/anatomy/p250074_weak_a1_snr20.npz",
+    "fields": [
+      "case_id"
+    ],
+    "role": "identity_condition_metadata_only",
+    "truth_or_chi_or_current_or_clean_values_read": false
+  },
+  {
+    "archive": "inputs/a28/results/a28/exact_states/p250074_weak_a1_snr20.npz",
+    "fields": [
+      "cache_protocol"
+    ],
+    "role": "identity_condition_metadata_only",
+    "truth_or_chi_or_current_or_clean_values_read": false
+  },
+  {
+    "archive": "inputs/a28/results/a28/anatomy/p250074_ring_a1_snr20.npz",
+    "fields": [
+      "case_id"
+    ],
+    "role": "identity_condition_metadata_only",
+    "truth_or_chi_or_current_or_clean_values_read": false
+  },
+  {
+    "archive": "inputs/a28/results/a28/exact_states/p250074_ring_a1_snr20.npz",
+    "fields": [
+      "cache_protocol"
+    ],
+    "role": "identity_condition_metadata_only",
+    "truth_or_chi_or_current_or_clean_values_read": false
+  },
+  {
+    "archive": "inputs/a28/results/a28/anatomy/p250075_weak_a1_snr20.npz",
+    "fields": [
+      "case_id"
+    ],
+    "role": "identity_condition_metadata_only",
+    "truth_or_chi_or_current_or_clean_values_read": false
+  },
+  {
+    "archive": "inputs/a28/results/a28/exact_states/p250075_weak_a1_snr20.npz",
+    "fields": [
+      "cache_protocol"
+    ],
+    "role": "identity_condition_metadata_only",
+    "truth_or_chi_or_current_or_clean_values_read": false
+  },
+  {
+    "archive": "inputs/a28/results/a28/anatomy/p250075_ring_a1_snr20.npz",
+    "fields": [
+      "case_id"
+    ],
+    "role": "identity_condition_metadata_only",
+    "truth_or_chi_or_current_or_clean_values_read": false
+  },
+  {
+    "archive": "inputs/a28/results/a28/exact_states/p250075_ring_a1_snr20.npz",
+    "fields": [
+      "cache_protocol"
+    ],
+    "role": "identity_condition_metadata_only",
+    "truth_or_chi_or_current_or_clean_values_read": false
+  },
+  {
+    "archive": "inputs/a28/results/a28/anatomy/p250076_weak_a1_snr20.npz",
+    "fields": [
+      "case_id"
+    ],
+    "role": "identity_condition_metadata_only",
+    "truth_or_chi_or_current_or_clean_values_read": false
+  },
+  {
+    "archive": "inputs/a28/results/a28/exact_states/p250076_weak_a1_snr20.npz",
+    "fields": [
+      "cache_protocol"
+    ],
+    "role": "identity_condition_metadata_only",
+    "truth_or_chi_or_current_or_clean_values_read": false
+  },
+  {
+    "archive": "inputs/a28/results/a28/anatomy/p250076_ring_a1_snr20.npz",
+    "fields": [
+      "case_id"
+    ],
+    "role": "identity_condition_metadata_only",
+    "truth_or_chi_or_current_or_clean_values_read": false
+  },
+  {
+    "archive": "inputs/a28/results/a28/exact_states/p250076_ring_a1_snr20.npz",
+    "fields": [
+      "cache_protocol"
+    ],
+    "role": "identity_condition_metadata_only",
+    "truth_or_chi_or_current_or_clean_values_read": false
+  },
+  {
+    "archive": "inputs/a28/results/a28/anatomy/p250077_weak_a1_snr20.npz",
+    "fields": [
+      "case_id"
+    ],
+    "role": "identity_condition_metadata_only",
+    "truth_or_chi_or_current_or_clean_values_read": false
+  },
+  {
+    "archive": "inputs/a28/results/a28/exact_states/p250077_weak_a1_snr20.npz",
+    "fields": [
+      "cache_protocol"
+    ],
+    "role": "identity_condition_metadata_only",
+    "truth_or_chi_or_current_or_clean_values_read": false
+  },
+  {
+    "archive": "inputs/a28/results/a28/anatomy/p250077_ring_a1_snr20.npz",
+    "fields": [
+      "case_id"
+    ],
+    "role": "identity_condition_metadata_only",
+    "truth_or_chi_or_current_or_clean_values_read": false
+  },
+  {
+    "archive": "inputs/a28/results/a28/exact_states/p250077_ring_a1_snr20.npz",
+    "fields": [
+      "cache_protocol"
+    ],
+    "role": "identity_condition_metadata_only",
+    "truth_or_chi_or_current_or_clean_values_read": false
+  },
+  {
+    "archive": "inputs/a28/results/a28/anatomy/p250078_weak_a1_snr20.npz",
+    "fields": [
+      "case_id"
+    ],
+    "role": "identity_condition_metadata_only",
+    "truth_or_chi_or_current_or_clean_values_read": false
+  },
+  {
+    "archive": "inputs/a28/results/a28/exact_states/p250078_weak_a1_snr20.npz",
+    "fields": [
+      "cache_protocol"
+    ],
+    "role": "identity_condition_metadata_only",
+    "truth_or_chi_or_current_or_clean_values_read": false
+  },
+  {
+    "archive": "inputs/a28/results/a28/anatomy/p250078_ring_a1_snr20.npz",
+    "fields": [
+      "case_id"
+    ],
+    "role": "identity_condition_metadata_only",
+    "truth_or_chi_or_current_or_clean_values_read": false
+  },
+  {
+    "archive": "inputs/a28/results/a28/exact_states/p250078_ring_a1_snr20.npz",
+    "fields": [
+      "cache_protocol"
+    ],
+    "role": "identity_condition_metadata_only",
+    "truth_or_chi_or_current_or_clean_values_read": false
+  },
+  {
+    "archive": "inputs/a28/results/a28/anatomy/p250079_weak_a1_snr20.npz",
+    "fields": [
+      "case_id"
+    ],
+    "role": "identity_condition_metadata_only",
+    "truth_or_chi_or_current_or_clean_values_read": false
+  },
+  {
+    "archive": "inputs/a28/results/a28/exact_states/p250079_weak_a1_snr20.npz",
+    "fields": [
+      "cache_protocol"
+    ],
+    "role": "identity_condition_metadata_only",
+    "truth_or_chi_or_current_or_clean_values_read": false
+  },
+  {
+    "archive": "inputs/a28/results/a28/anatomy/p250079_ring_a1_snr20.npz",
+    "fields": [
+      "case_id"
+    ],
+    "role": "identity_condition_metadata_only",
+    "truth_or_chi_or_current_or_clean_values_read": false
+  },
+  {
+    "archive": "inputs/a28/results/a28/exact_states/p250079_ring_a1_snr20.npz",
+    "fields": [
+      "cache_protocol"
+    ],
+    "role": "identity_condition_metadata_only",
+    "truth_or_chi_or_current_or_clean_values_read": false
+  },
+  {
+    "archive": "inputs/a28/results/a28/anatomy/p250080_weak_a1_snr20.npz",
+    "fields": [
+      "case_id"
+    ],
+    "role": "identity_condition_metadata_only",
+    "truth_or_chi_or_current_or_clean_values_read": false
+  },
+  {
+    "archive": "inputs/a28/results/a28/exact_states/p250080_weak_a1_snr20.npz",
+    "fields": [
+      "cache_protocol"
+    ],
+    "role": "identity_condition_metadata_only",
+    "truth_or_chi_or_current_or_clean_values_read": false
+  },
+  {
+    "archive": "inputs/a28/results/a28/anatomy/p250080_ring_a1_snr20.npz",
+    "fields": [
+      "case_id"
+    ],
+    "role": "identity_condition_metadata_only",
+    "truth_or_chi_or_current_or_clean_values_read": false
+  },
+  {
+    "archive": "inputs/a28/results/a28/exact_states/p250080_ring_a1_snr20.npz",
+    "fields": [
+      "cache_protocol"
+    ],
+    "role": "identity_condition_metadata_only",
+    "truth_or_chi_or_current_or_clean_values_read": false
+  }
+]

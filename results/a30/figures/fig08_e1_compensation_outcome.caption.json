@@ -1,0 +1,36 @@
+{
+  "figure": "fig08_e1_compensation_outcome",
+  "sources": [
+    "results/a30/compensation_corrected/COMPENSATION_PAIRS.csv",
+    "results/a30/compensation_corrected/COMPENSATION_ENDPOINTS.npz",
+    "results/a30/hull/HULL_RECONSTRUCTIONS.npz"
+  ],
+  "constructed_conditions": 29,
+  "registered_conditions": 32,
+  "fixed_case_id": "p250065_weak_a1_snr20",
+  "axis_scale": "log",
+  "caption_zh": "修正 chart 下实际保存的 full-F nominal 与 compensated pair 距离。候选构造为 29/32，未构造条件在原表保留；颜色为 family、形状为 weak/ring。3/1 虚线沿用原协议筛选参照，不是普遍可识别性常数。每个点是局部可行 endpoint witness，不声称全局最优补偿。右侧是固定 p250065 weak 空腔 pair 补偿前后的实际 |chi-background|，共用 0–1.2 色标。first-pass invalid chart 未使用。",
+  "caption_en": "Actual saved nominal and compensated full-F pair distances from the corrected chart, with partial construction (29/32). Family is encoded by color and weak/ring by marker. References 3/1 come from the original screening protocol. Points are local endpoint witnesses. The fixed p250065 weak cavity pair shares one actual material-increment scale of 0–1.2. The first-pass invalid chart is not used.",
+  "implementation_limitations": [
+    "Distances are copied from saved full-F endpoint results; no F evaluation or certificate calculation is performed.",
+    "Candidate construction is partial (29/32 in this saved artifact); unavailable rows remain in the raw plotted table.",
+    "Points are individual weak/ring conditions and local endpoint witnesses, not global compensated minima or parent-level inference.",
+    "Only the corrected chart is displayed; the first-pass invalid chart is not used.",
+    "Material panels show magnitude on a fixed 0–1.2 scale; real/imaginary increments and any saturation remain in the raw CSV.",
+    "The p250065 weak example is fixed by the task and does not establish a family-wide outcome."
+  ],
+  "unavailable_case_ids": [
+    "p250069_weak_a1_snr20",
+    "p250074_ring_a1_snr20",
+    "p250072_ring_a1_snr20"
+  ],
+  "raw_plot_csv": "results/a30/figures/raw_plot_data/fig08_e1_compensation_outcome.csv",
+  "Maxwell_calls": 0,
+  "training_updates": 0,
+  "locked_reads": 0,
+  "timing": {
+    "wall_seconds": 0.49545512499753386,
+    "process_cpu_seconds": 0.467488,
+    "nested_in_existing_job_wrapper": true
+  }
+}

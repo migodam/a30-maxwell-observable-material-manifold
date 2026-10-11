@@ -1,0 +1,16 @@
+{"case": "p250065_weak_a1_snr20", "nominal_F": 90.00174736666666, "compensated_F": 90.00174736666668, "certificate_useful": false, "fresh_states": 5}
+{"case": "p250065_ring_a1_snr20", "nominal_F": 88.36559081431598, "compensated_F": 88.36559081431604, "certificate_useful": false, "fresh_states": 10}
+{"case": "p250069_ring_a1_snr20", "nominal_F": 40.69903694506949, "compensated_F": 40.69903694506949, "certificate_useful": false, "fresh_states": 15}
+{"case": "p250077_weak_a1_snr20", "nominal_F": 67.08408114086305, "compensated_F": 67.08408114086308, "certificate_useful": false, "fresh_states": 20}
+{"case": "p250077_ring_a1_snr20", "nominal_F": 59.22131717266351, "compensated_F": 59.22131717266337, "certificate_useful": false, "fresh_states": 25}
+{"case": "p250073_weak_a1_snr20", "nominal_F": 72.1645266494088, "compensated_F": 72.16452664940878, "certificate_useful": false, "fresh_states": 30}
+{"case": "p250073_ring_a1_snr20", "nominal_F": 83.89572689489185, "compensated_F": 83.89572689489182, "certificate_useful": false, "fresh_states": 35}
+{"case": "p250066_weak_a1_snr20", "nominal_F": 21.031430705186523, "compensated_F": 21.031430705186526, "certificate_useful": false, "fresh_states": 40}
+{"case": "p250066_ring_a1_snr20", "nominal_F": 19.028168606461527, "compensated_F": 19.028168606461513, "certificate_useful": false, "fresh_states": 45}
+{"case": "p250070_weak_a1_snr20", "nominal_F": 49.13194833713279, "compensated_F": 49.13194833713277, "certificate_useful": false, "fresh_states": 50}
+{"case": "p250070_ring_a1_snr20", "nominal_F": 102.67173998212279, "compensated_F": 102.67173998212286, "certificate_useful": false, "fresh_states": 55}
+{"case": "p250078_weak_a1_snr20", "nominal_F": 61.63576693866927, "compensated_F": 61.635766938669285, "certificate_useful": false, "fresh_states": 60}
+{"case": "p250078_ring_a1_snr20", "nominal_F": 70.93776745511336, "compensated_F": 70.9377674551132, "certificate_useful": false, "fresh_states": 65}
+{"case": "p250074_weak_a1_snr20", "nominal_F": 38.970948123098836, "compensated_F": 38.970948123098864, "certificate_useful": false, "fresh_states": 70}
+{"case": "p250067_weak_a1_snr20", "nominal_F": 30.483256406163523, "compensated_F": 30.483256406163548, "certificate_useful": false, "fresh_states": 75}
+{"status": "STOP_CERTIFICATE_NO_PRACTICAL_VALUE", "conditions_complete": 15, "conditions_total": 32, "legal_complex_conditions": 22, "useful_complex_certificates": 0, "physical_cost": {"material_state_evaluations": 75, "complex_RHS": 1200, "reservations": 180, "counting": "Every real invocation at all resolutions; attempts/repeats stay paid"}, "full_F_global_minimum": "NOT_ESTABLISHED", "witnesses": "FEASIBLE_LOCAL_ONLY", "E2": "NOT_RUN_USER_SCOPE", "calibrated_L_note": "The single anchor offset cancels exactly in every candidate-pair secant distance.", "nuisance_note": "Known background retained. Additional unknown calibration nuisance NOT_RUN; no nuisance difficulty attributed to the original known-background task."}

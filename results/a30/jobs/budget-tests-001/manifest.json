@@ -1,0 +1,22 @@
+{
+  "job": "budget-tests-001",
+  "stage": "tests",
+  "command": [
+    "/Volumes/migodam's-external-brain/Research/Inv_SLAM/Gaussian/A25/a25-adaptive-om-feedback/.venv_a25/bin/python",
+    "-m",
+    "unittest",
+    "discover",
+    "-s",
+    "tests",
+    "-p",
+    "test_a30_budget.py",
+    "-v"
+  ],
+  "prior": {
+    "cpu_seconds": 6.679783167026471,
+    "gpu_seconds": 0.0,
+    "unresolved": []
+  },
+  "cpu_reserved_seconds": 30.0,
+  "started_utc": "2026-10-11T14:57:06Z"
+}

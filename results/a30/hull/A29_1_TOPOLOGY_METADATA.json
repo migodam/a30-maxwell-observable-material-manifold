@@ -1,0 +1,15 @@
+{
+  "conditions": 32,
+  "parents": 16,
+  "new_Maxwell_states": 0,
+  "foreground_connectivity": 4,
+  "background_connectivity": 8,
+  "thresholds_truth_dependent_offline_only": [
+    0.15,
+    0.25,
+    0.35
+  ],
+  "primary_continuity_threshold": 0.25,
+  "interpretation": "Raster counts only. Matching counts does not imply matching topology location or continuous geometry.",
+  "L_estimator": "Data-dependent bank weighted estimates, not calibrated posterior"
+}

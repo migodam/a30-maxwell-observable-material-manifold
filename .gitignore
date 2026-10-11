@@ -1,0 +1,13 @@
+inputs/
+private/
+publication/
+results/a30/jobs/publish-*/
+__pycache__/
+*.pyc
+.pytest_cache/
+runs/
+*.tmp
+results/a30/*/*.npz
+results/a30/*/*.npy
+results/a30/arrays/
+results/a30/capacity/fits/

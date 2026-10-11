@@ -1,0 +1,18 @@
+{
+  "status": "STOP_CERTIFICATE_NO_PRACTICAL_VALUE",
+  "conditions_complete": 15,
+  "conditions_total": 32,
+  "legal_complex_conditions": 22,
+  "useful_complex_certificates": 0,
+  "physical_cost": {
+    "material_state_evaluations": 75,
+    "complex_RHS": 1200,
+    "reservations": 180,
+    "counting": "Every real invocation at all resolutions; attempts/repeats stay paid"
+  },
+  "full_F_global_minimum": "NOT_ESTABLISHED",
+  "witnesses": "FEASIBLE_LOCAL_ONLY",
+  "E2": "NOT_RUN_USER_SCOPE",
+  "calibrated_L_note": "The single anchor offset cancels exactly in every candidate-pair secant distance.",
+  "nuisance_note": "Known background retained. Additional unknown calibration nuisance NOT_RUN; no nuisance difficulty attributed to the original known-background task."
+}

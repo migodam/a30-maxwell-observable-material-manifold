@@ -1,0 +1,34 @@
+{
+  "url": "https://github.com/migodam/a29-material-hypothesis-coverage/releases/tag/a29-v0.1.0",
+  "tagName": "a29-v0.1.0",
+  "targetCommitish": "5d5e31fcfc56ac8ef9d64c46b4b7bbdedef96bb4",
+  "publishedAt": "2026-10-10T04:32:39Z",
+  "isDraft": false,
+  "isPrerelease": false,
+  "assets": [
+    {
+      "name": "A29_PUBLICATION_ACCOUNTING_SIDECAR-a29-publication-002.zip",
+      "size": 133465,
+      "url": "https://github.com/migodam/a29-material-hypothesis-coverage/releases/download/a29-v0.1.0/A29_PUBLICATION_ACCOUNTING_SIDECAR-a29-publication-002.zip",
+      "contentType": "application/zip",
+      "state": "uploaded",
+      "id": "RA_kwDOVDThKM4lX0c-"
+    },
+    {
+      "name": "A29_RAW_EVIDENCE.zip",
+      "size": 13502709,
+      "url": "https://github.com/migodam/a29-material-hypothesis-coverage/releases/download/a29-v0.1.0/A29_RAW_EVIDENCE.zip",
+      "contentType": "application/zip",
+      "state": "uploaded",
+      "id": "RA_kwDOVDThKM4lX0Qu"
+    },
+    {
+      "name": "A29_REPRO_INPUTS.zip",
+      "size": 283117157,
+      "url": "https://github.com/migodam/a29-material-hypothesis-coverage/releases/download/a29-v0.1.0/A29_REPRO_INPUTS.zip",
+      "contentType": "application/zip",
+      "state": "uploaded",
+      "id": "RA_kwDOVDThKM4lX0Qw"
+    }
+  ]
+}

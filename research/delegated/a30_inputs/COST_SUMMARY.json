@@ -1,0 +1,21 @@
+{
+  "status": "MEASURED_TRANSPORT_AND_AUDIT; acquisition orchestration CPU coverage explicitly partial",
+  "inclusive_charged_CPU_seconds": 37.091000625,
+  "native_acquisition_command_wall_seconds": 36.020961624,
+  "native_acquisition_command_process_CPU_seconds": 1.6375509999999998,
+  "acquisition_timestamp_wall_seconds": 36.02747,
+  "audit_inclusive_wall_seconds": 1.063530625,
+  "audit_inclusive_process_CPU_seconds": 0.40795899999999996,
+  "download_only_wall_seconds": 34.746451291999996,
+  "download_only_process_CPU_seconds": 1.4951379999999996,
+  "download_attempts": 2,
+  "download_retries": 0,
+  "download_failures": 0,
+  "source_or_metadata_transport_failures": 0,
+  "GPU_seconds": 0,
+  "Maxwell_material_states": 0,
+  "training_updates": 0,
+  "locked_payload_reads": 0,
+  "nested_not_double_counted": true,
+  "untimed_scope": "Interactive source/doc reads, preparatory probes and assistant work are outside native timing spans; parent execution ledger should retain its own orchestration accounting."
+}

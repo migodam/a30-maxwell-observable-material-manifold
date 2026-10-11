@@ -1,0 +1,29 @@
+{
+  "status": "PASS",
+  "checks": 17,
+  "examples": {
+    "raw_pair_distance": 10.000004999998751,
+    "compensated_distance": 0.01,
+    "conditional_weak_prior_variance": 1.04,
+    "conditional_weak_posterior_variance": 0.049900990099009904,
+    "conditional_irreducible_variance": 0.04,
+    "true_tangent_error_halving_ratio": 4.000021491065118,
+    "value_calibrated_wrong_slope_error_halving_ratio": 2.000078044938759,
+    "anchor_q": 0.0025221657546955147,
+    "feedback_remainder_norm": 0.0004092960096841166,
+    "feedback_remainder_upper_bound": 0.0015932250716891006,
+    "generalized_information_eigenvalues": [
+      21.180974144940365,
+      29.13781960770648,
+      76.9882888375231,
+      152.90966974592993
+    ]
+  },
+  "validation": {
+    "physical_Maxwell_backend_evaluations": 0,
+    "network_training_updates": 0,
+    "locked_payloads_read": 0,
+    "generic_matrix_state_evaluations": 29,
+    "interpretation": "Algebraic verification only; no A29 full-pool data available."
+  }
+}

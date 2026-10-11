@@ -1,0 +1,18 @@
+{
+  "job": "report-003",
+  "stage": "report",
+  "command": [
+    "/Volumes/migodam's-external-brain/Research/Inv_SLAM/Gaussian/A25/a25-adaptive-om-feedback/.venv_a25/bin/python",
+    "-m",
+    "a30.report",
+    "--root",
+    "."
+  ],
+  "prior": {
+    "cpu_seconds": 146.96861553998627,
+    "gpu_seconds": 0.0,
+    "unresolved": []
+  },
+  "cpu_reserved_seconds": 30.0,
+  "started_utc": "2026-10-11T15:44:47Z"
+}

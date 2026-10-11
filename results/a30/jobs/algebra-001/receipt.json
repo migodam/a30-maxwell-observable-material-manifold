@@ -1,0 +1,13 @@
+{
+  "job": "algebra-001",
+  "stage": "algebra",
+  "status": "COMPLETE",
+  "error": null,
+  "returncode": 0,
+  "wall_seconds": 0.9156117079546675,
+  "process_cpu_seconds": 0.37203299999999995,
+  "charged_cpu_seconds": 0.9156117079546675,
+  "gpu_occupied_seconds": 0,
+  "native_process_cpu": true,
+  "ended_utc": "2026-10-11T14:53:46Z"
+}

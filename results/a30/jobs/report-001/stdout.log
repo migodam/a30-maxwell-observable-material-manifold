@@ -1,0 +1,43 @@
+{
+  "E0": "PASS_OFFLINE_CAPACITY",
+  "E1": "NO_GO_TO_E2_UNDER_THIS_PROTOCOL",
+  "E1_materially_ambiguous_parents": 0,
+  "E1_required_parents": 6,
+  "E1_legitimate_conditions": 29,
+  "E1_planned_conditions": 32,
+  "E1_unavailable": [
+    {
+      "case_id": "p250069_weak_a1_snr20",
+      "status": "NO_REGISTERED_CAVITY_EDIT"
+    },
+    {
+      "case_id": "p250074_ring_a1_snr20",
+      "status": "NO_REGISTERED_CAVITY_EDIT"
+    },
+    {
+      "case_id": "p250072_ring_a1_snr20",
+      "status": "NO_REGISTERED_CAVITY_EDIT"
+    }
+  ],
+  "E1_global_absence_of_compensation": "NOT_PROVEN",
+  "E1_useful_uniform_bounds": 0,
+  "E1_remainder_bound_claim": "No useful uniform classification; noncontractive conservative bound is not physical instability.",
+  "E1_F_solver_capped": 6,
+  "E1_L_solver_capped": 6,
+  "E2": "NOT_RUN_EXPLICIT_USER_SCOPE",
+  "new_labels": 0,
+  "NN_training_updates": 0,
+  "locked_data_reads": 0,
+  "actual_physics": {
+    "material_state_evaluations": 161,
+    "complex_RHS": 3048,
+    "reservations": 410,
+    "counting": "Every real invocation at all resolutions; attempts/repeats stay paid"
+  },
+  "cost_at_report_generation": {
+    "charged_cpu_seconds": 144.20193041596528,
+    "gpu_occupied_seconds": 0.0,
+    "accounting_scope": "Native job max(wall,process CPU) plus external receipts. Interactive code editing and some input inspections were not fully instrumented; total is not a proof of all host CPU time."
+  },
+  "scientific_recommendation": "Keep sparse/PCA capacity and study measurement-conditioned selection; do not advance compensation-specific or selective-F claims on this evidence."
+}

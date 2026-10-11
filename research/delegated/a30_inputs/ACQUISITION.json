@@ -1,0 +1,107 @@
+{
+  "status": "ACQUIRED_EXTRACTED_AND_METADATA_AUDITED",
+  "repository": "https://github.com/migodam/a29-material-hypothesis-coverage",
+  "release_tag": "a29-v0.1.0",
+  "pinned_commit": "5d5e31fcfc56ac8ef9d64c46b4b7bbdedef96bb4",
+  "SHA256_checks": "NOT_RUN_BY_USER_POLICY",
+  "Maxwell_material_states": 0,
+  "training_updates": 0,
+  "locked_payload_reads": 0,
+  "downloads": [
+    {
+      "asset": "A29_RAW_EVIDENCE.zip",
+      "expected_bytes": 13502709,
+      "public_download_url": "https://github.com/migodam/a29-material-hypothesis-coverage/releases/download/a29-v0.1.0/A29_RAW_EVIDENCE.zip",
+      "attempts": [
+        {
+          "kind": "asset_download_attempt_1:A29_RAW_EVIDENCE.zip",
+          "started_utc": "2026-10-11T14:53:05.846133+00:00",
+          "finished_utc": "2026-10-11T14:53:09.514188+00:00",
+          "command": [
+            "gh",
+            "release",
+            "download",
+            "a29-v0.1.0",
+            "--repo",
+            "migodam/a29-material-hypothesis-coverage",
+            "--pattern",
+            "A29_RAW_EVIDENCE.zip",
+            "--dir",
+            "/Volumes/migodam's-external-brain/Research/Inv_SLAM/Gaussian/A30/a30-maxwell-material-manifold/inputs/releases/.download-A29_RAW_EVIDENCE.zip"
+          ],
+          "wall_seconds": 3.668161292,
+          "parent_process_cpu_seconds": 0.0016509999999999997,
+          "child_process_cpu_seconds": 0.18063799999999997,
+          "total_process_cpu_seconds": 0.18228899999999998,
+          "returncode": 0,
+          "stderr": "",
+          "GPU_seconds": 0,
+          "Maxwell_material_states": 0,
+          "training_updates": 0,
+          "locked_payload_reads": 0,
+          "attempt": 1,
+          "actual_bytes": 13502709,
+          "expected_bytes": 13502709,
+          "complete_size_match": true
+        }
+      ],
+      "status": "DOWNLOADED_SIZE_MATCH",
+      "actual_bytes": 13502709,
+      "local_path": "inputs/releases/A29_RAW_EVIDENCE.zip"
+    },
+    {
+      "asset": "A29_REPRO_INPUTS.zip",
+      "expected_bytes": 283117157,
+      "public_download_url": "https://github.com/migodam/a29-material-hypothesis-coverage/releases/download/a29-v0.1.0/A29_REPRO_INPUTS.zip",
+      "attempts": [
+        {
+          "kind": "asset_download_attempt_1:A29_REPRO_INPUTS.zip",
+          "started_utc": "2026-10-11T14:53:09.514882+00:00",
+          "finished_utc": "2026-10-11T14:53:40.592426+00:00",
+          "command": [
+            "gh",
+            "release",
+            "download",
+            "a29-v0.1.0",
+            "--repo",
+            "migodam/a29-material-hypothesis-coverage",
+            "--pattern",
+            "A29_REPRO_INPUTS.zip",
+            "--dir",
+            "/Volumes/migodam's-external-brain/Research/Inv_SLAM/Gaussian/A30/a30-maxwell-material-manifold/inputs/releases/.download-A29_REPRO_INPUTS.zip"
+          ],
+          "wall_seconds": 31.07829,
+          "parent_process_cpu_seconds": 0.0008369999999999905,
+          "child_process_cpu_seconds": 1.3120119999999997,
+          "total_process_cpu_seconds": 1.3128489999999997,
+          "returncode": 0,
+          "stderr": "",
+          "GPU_seconds": 0,
+          "Maxwell_material_states": 0,
+          "training_updates": 0,
+          "locked_payload_reads": 0,
+          "attempt": 1,
+          "actual_bytes": 283117157,
+          "expected_bytes": 283117157,
+          "complete_size_match": true
+        }
+      ],
+      "status": "DOWNLOADED_SIZE_MATCH",
+      "actual_bytes": 283117157,
+      "local_path": "inputs/releases/A29_REPRO_INPUTS.zip"
+    }
+  ],
+  "started_utc": "2026-10-11T14:53:04.566608+00:00",
+  "local_A29_HEAD": "5d5e31fcfc56ac8ef9d64c46b4b7bbdedef96bb4",
+  "source_files": [
+    "src/a26/metrics.py",
+    "src/a26/__init__.py"
+  ],
+  "source_copy_method": "git show exact pinned commit; copied bytes without working-tree imports",
+  "public_release_refs": {
+    "refs/tags/a29-v0.1.0": "5d5e31fcfc56ac8ef9d64c46b4b7bbdedef96bb4"
+  },
+  "public_release_tag_commit": "5d5e31fcfc56ac8ef9d64c46b4b7bbdedef96bb4",
+  "finished_utc": "2026-10-11T14:53:40.594078+00:00",
+  "audit_artifact": "research/delegated/a30_inputs/INPUT_AUDIT.json"
+}

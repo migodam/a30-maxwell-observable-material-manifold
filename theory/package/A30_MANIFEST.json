@@ -1,0 +1,27 @@
+{
+  "date": "2026-10-10",
+  "main_report": "A30_THEORY_REPORT_ZH.md",
+  "protocol": "A30_MINIMAL_PROTOCOL.md",
+  "scientific_status": "CONDITIONAL_GO_FOR_BOUNDED_PILOT_NOT_ESTABLISHED_STRONG_TAP_NOVELTY",
+  "full_A29_1_status": "NOT_RUN_MISSING_RELEASE_RAW_ARRAYS",
+  "A29_1_existing_scope": "Four fixed weak-background cases; convex hull of three images only; not 32 conditions",
+  "executed": {
+    "original_convex_self_test": "PASS",
+    "generic_matrix_checks": 17,
+    "generic_matrix_state_evaluations": 29,
+    "synthetic_digital_topology_self_test_cases": 4,
+    "physical_Maxwell_backend_calls": 0,
+    "training_updates": 0,
+    "locked_payloads_read": 0
+  },
+  "reading_limits": [
+    "Historical primary decisions and selected report/theory sections, not every repository file",
+    "A29 Release metadata accessible; binary raw arrays not acquired",
+    "LaMP 2026 metadata confirmed; full text not acquired"
+  ],
+  "source_commits": {
+    "A28": "c7819fa142bb70f9920835e8e91ba145f15ed8e3",
+    "A29": "5d5e31fcfc56ac8ef9d64c46b4b7bbdedef96bb4"
+  },
+  "script_validation": "Compilation and listed small self-tests passed. Full-data guard and topology positive paths not run without raw inputs."
+}

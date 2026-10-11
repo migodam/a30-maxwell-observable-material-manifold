@@ -1,0 +1,13 @@
+{
+  "job": "package-001",
+  "stage": "report",
+  "status": "COMPLETE",
+  "error": null,
+  "returncode": 0,
+  "wall_seconds": 2.1648187909740955,
+  "process_cpu_seconds": 1.9602600000000001,
+  "charged_cpu_seconds": 2.1648187909740955,
+  "gpu_occupied_seconds": 0,
+  "native_process_cpu": true,
+  "ended_utc": "2026-10-11T15:42:39Z"
+}

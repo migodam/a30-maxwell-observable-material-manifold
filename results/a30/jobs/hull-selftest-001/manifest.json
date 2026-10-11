@@ -1,0 +1,16 @@
+{
+  "job": "hull-selftest-001",
+  "stage": "tests",
+  "command": [
+    "/Volumes/migodam's-external-brain/Research/Inv_SLAM/Gaussian/A25/a25-adaptive-om-feedback/.venv_a25/bin/python",
+    "theory/package/a29_1_convex_diagnostic.py",
+    "--self-test"
+  ],
+  "prior": {
+    "cpu_seconds": 5.9156117079546675,
+    "gpu_seconds": 0.0,
+    "unresolved": []
+  },
+  "cpu_reserved_seconds": 30.0,
+  "started_utc": "2026-10-11T14:55:17Z"
+}

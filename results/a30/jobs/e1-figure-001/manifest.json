@@ -1,0 +1,16 @@
+{
+  "job": "e1-figure-001",
+  "stage": "report",
+  "command": [
+    "/Volumes/migodam's-external-brain/Research/Inv_SLAM/Gaussian/A25/a25-adaptive-om-feedback/.venv_a25/bin/python",
+    "-c",
+    "from pathlib import Path;from a30.e1_plots import main;main(Path('.'))"
+  ],
+  "prior": {
+    "cpu_seconds": 143.28733204098847,
+    "gpu_seconds": 0.0,
+    "unresolved": []
+  },
+  "cpu_reserved_seconds": 30.0,
+  "started_utc": "2026-10-11T15:35:48Z"
+}

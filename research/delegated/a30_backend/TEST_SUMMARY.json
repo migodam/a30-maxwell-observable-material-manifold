@@ -1,0 +1,23 @@
+{
+  "status": "PASS_FOR_JOB_001_REVISION",
+  "tests_run": 20,
+  "tests_passed": 20,
+  "scope": "Generic small complex matrices; no Maxwell geometries",
+  "receipt": {
+    "job": "backend-tests-001",
+    "stage": "tests",
+    "status": "COMPLETE",
+    "error": null,
+    "returncode": 0,
+    "wall_seconds": 1.6601555829984136,
+    "process_cpu_seconds": 0.959631,
+    "charged_cpu_seconds": 1.6601555829984136,
+    "gpu_occupied_seconds": 0,
+    "native_process_cpu": true,
+    "ended_utc": "2026-10-11T15:08:51Z"
+  },
+  "log": "results/a30/jobs/backend-tests-001/stderr.log",
+  "real_Maxwell_states": 0,
+  "GPU_jobs": 0,
+  "current_revision_recheck": "Existing suite repeat requested after immutable-array backing hardening"
+}

@@ -1,0 +1,111 @@
+{
+  "status": "PASS",
+  "basis": "ORIGINAL_A30_E0_FULL_HULL_CAPACITY_GATE",
+  "evidence": "OFFLINE_ONLY_NOT_DEPLOYABLE",
+  "continuous_capacity_complete": true,
+  "full_hull_complex_gain": {
+    "parent_count": 12,
+    "point": 0.1312249772475085,
+    "median": 0.136681361245658,
+    "ci95": [
+      0.1151027866000422,
+      0.1464608979270203
+    ],
+    "parents": [
+      {
+        "parent_id": 250065,
+        "baseline": 0.5824488902258226,
+        "candidate": 0.4948499243907659,
+        "gain": 0.15039768691308428
+      },
+      {
+        "parent_id": 250066,
+        "baseline": 0.6688199248656914,
+        "candidate": 0.5948123269379444,
+        "gain": 0.11065399695233184
+      },
+      {
+        "parent_id": 250067,
+        "baseline": 0.6855366255511308,
+        "candidate": 0.5598658761014328,
+        "gain": 0.18331733822196034
+      },
+      {
+        "parent_id": 250068,
+        "baseline": 0.5377103163320502,
+        "candidate": 0.48235655204533634,
+        "gain": 0.10294346715217474
+      },
+      {
+        "parent_id": 250069,
+        "baseline": 0.4948986486567196,
+        "candidate": 0.42618893155253573,
+        "gain": 0.1388359359854376
+      },
+      {
+        "parent_id": 250070,
+        "baseline": 0.8285073186001713,
+        "candidate": 0.703765793594073,
+        "gain": 0.15056176596829468
+      },
+      {
+        "parent_id": 250071,
+        "baseline": 0.788793246723219,
+        "candidate": 0.6826794260240059,
+        "gain": 0.1345267865058784
+      },
+      {
+        "parent_id": 250072,
+        "baseline": 0.7659676648762188,
+        "candidate": 0.6778672948412472,
+        "gain": 0.11501839317095551
+      },
+      {
+        "parent_id": 250077,
+        "baseline": 0.4997651662245609,
+        "candidate": 0.42845188879259444,
+        "gain": 0.14269357340508015
+      },
+      {
+        "parent_id": 250078,
+        "baseline": 0.5545423492965573,
+        "candidate": 0.4844811692116897,
+        "gain": 0.12634054040009918
+      },
+      {
+        "parent_id": 250079,
+        "baseline": 0.6012847627331684,
+        "candidate": 0.5596457123329532,
+        "gain": 0.06925013401461053
+      },
+      {
+        "parent_id": 250080,
+        "baseline": 0.6223909493132279,
+        "candidate": 0.5289326569717404,
+        "gain": 0.15016010828019474
+      }
+    ],
+    "statistical_unit": "EXPOSED_PARENT_EXPLORATORY",
+    "bootstrap_samples": 2000,
+    "seed": 291011
+  },
+  "edge": {
+    "point": 0.06065912495086303,
+    "ci95": [
+      0.020169800441475764,
+      0.1027516383286219
+    ],
+    "parent_count": 12
+  },
+  "iou": {
+    "point": 0.05437722380798388,
+    "ci95": [
+      0.03640289526233359,
+      0.07336574603946813
+    ],
+    "parent_count": 12
+  },
+  "reason": "Useful legal convex combinations exist; actual saved L weights do not recover them.",
+  "E1_authorized": true,
+  "E2_authorized": false
+}

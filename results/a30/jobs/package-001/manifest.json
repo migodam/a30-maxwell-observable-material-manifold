@@ -1,0 +1,15 @@
+{
+  "job": "package-001",
+  "stage": "report",
+  "command": [
+    "/Volumes/migodam's-external-brain/Research/Inv_SLAM/Gaussian/A25/a25-adaptive-om-feedback/.venv_a25/bin/python",
+    "tools/make_release.py"
+  ],
+  "prior": {
+    "cpu_seconds": 144.80379674901218,
+    "gpu_seconds": 0.0,
+    "unresolved": []
+  },
+  "cpu_reserved_seconds": 60.0,
+  "started_utc": "2026-10-11T15:42:36Z"
+}

@@ -1,0 +1,8 @@
+{
+  "date": "2026-10-11",
+  "status": "FROZEN_BEFORE_DEVELOPMENT_MATERIAL_SCORING",
+  "development_truth_scored": false,
+  "representation_rules": "TRAIN-only, real budgets16/32/64, at most8starts100iterations",
+  "A29_gate": "PRESERVED_NO_GO",
+  "new_full_wave_states": 0
+}

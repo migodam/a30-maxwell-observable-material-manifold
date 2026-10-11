@@ -1,0 +1,51 @@
+{
+  "status": "IMPLEMENTED_SYNTHETIC_ARITHMETIC_VERIFIED",
+  "source_commit": "5d5e31fcfc56ac8ef9d64c46b4b7bbdedef96bb4",
+  "files": [
+    "src/a30/physics.py",
+    "tests/test_a30_physics_arithmetic.py",
+    "vendor/frozen_a29/PROVENANCE.json",
+    "research/delegated/a30_backend/DESIGN.md"
+  ],
+  "interface": {
+    "constructor": "FrozenMaxwellAdapter.from_background_npz(path, book, allowed_cache_paths=[paid_n3_cache_path], device=\"cpu\")",
+    "methods": [
+      "full_state(chi, purpose=\"endpoint\")",
+      "cached_anchor(chi,path)",
+      "L_response(chi)",
+      "anchor_jvp(dchi,state)",
+      "solve_anchor(rhs,state,adjoint=False,role=\"certificate\")",
+      "receiver_transfer(state)",
+      "cached_material_dot_identity(dchi,load,state)"
+    ],
+    "state_layout": "chi(n),current(n,s),field(n,s),data(q,s),matrix(n,n); complex128 NumPy arrays; saved LU with SciPy 0-based pivots"
+  },
+  "accounting": {
+    "fresh_state": "reserve_state before matrix/LU/solve; each repeat remains paid",
+    "fresh_forward_rhs": "s complex columns",
+    "cached_anchor": "0 new state calls; s new RHS for existing-LU audit",
+    "JVP": "s*k RHS for k material directions",
+    "receiver_transfer": "q adjoint RHS first construction; subsequent saved transfer applies no new solve",
+    "RHS_meaning": "actual LU-solve complex columns, counted before solve; cached matrix-only applications are separate counted/timed actions"
+  },
+  "tests": {
+    "job": "backend-tests-001",
+    "status": "20_PASSED",
+    "scope": "4x4/5x5 nongeometric complex matrices only; actual Torch LU pivot conversion and frozen Torch CPU comparison",
+    "current_revision_note": "Immutable byte backing for public read-only arrays was added after job 001. Existing suite repeat is requested; no new fixture or probe is added."
+  },
+  "worker_executions": {
+    "real_Maxwell_state_calls": 0,
+    "real_Maxwell_fixtures": 0,
+    "TRAIN_or_development_scoring": 0,
+    "training": 0,
+    "remote_jobs": 0,
+    "GPU_jobs": 0
+  },
+  "limitations": [
+    "CUDA/RTX4060 memory and latency NOT_RUN",
+    "Real Maxwell consistency NOT_RUN by this worker",
+    "Original paid-cache payment/source provenance must be supplied by parent whitelist",
+    "Core certificates/compensation/gates/experiments remain parent-owned"
+  ]
+}

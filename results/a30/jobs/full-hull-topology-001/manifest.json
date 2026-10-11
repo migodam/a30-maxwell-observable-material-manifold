@@ -1,0 +1,19 @@
+{
+  "job": "full-hull-topology-001",
+  "stage": "e0",
+  "command": [
+    "/Volumes/migodam's-external-brain/Research/Inv_SLAM/Gaussian/A25/a25-adaptive-om-feedback/.venv_a25/bin/python",
+    "theory/package/a30_topology_supplement.py",
+    "--root",
+    "inputs/a29_release",
+    "--results",
+    "results/a30/hull"
+  ],
+  "prior": {
+    "cpu_seconds": 8.261080458003562,
+    "gpu_seconds": 0.0,
+    "unresolved": []
+  },
+  "cpu_reserved_seconds": 60.0,
+  "started_utc": "2026-10-11T15:00:24Z"
+}

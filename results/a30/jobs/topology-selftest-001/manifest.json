@@ -1,0 +1,16 @@
+{
+  "job": "topology-selftest-001",
+  "stage": "tests",
+  "command": [
+    "/Volumes/migodam's-external-brain/Research/Inv_SLAM/Gaussian/A25/a25-adaptive-om-feedback/.venv_a25/bin/python",
+    "theory/package/a30_topology_supplement.py",
+    "--self-test"
+  ],
+  "prior": {
+    "cpu_seconds": 6.460474958003033,
+    "gpu_seconds": 0.0,
+    "unresolved": []
+  },
+  "cpu_reserved_seconds": 30.0,
+  "started_utc": "2026-10-11T14:55:18Z"
+}

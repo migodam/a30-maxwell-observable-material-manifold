@@ -1,0 +1,13 @@
+{
+  "job": "capacity-001",
+  "stage": "e0",
+  "status": "COMPLETE",
+  "error": null,
+  "returncode": 0,
+  "wall_seconds": 63.916308416984975,
+  "process_cpu_seconds": 61.615298,
+  "charged_cpu_seconds": 63.916308416984975,
+  "gpu_occupied_seconds": 0,
+  "native_process_cpu": true,
+  "ended_utc": "2026-10-11T15:16:20Z"
+}

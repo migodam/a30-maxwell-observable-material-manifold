@@ -1,0 +1,13 @@
+{
+  "job": "compensation-001",
+  "stage": "e1",
+  "status": "COMPLETE",
+  "error": null,
+  "returncode": 0,
+  "wall_seconds": 7.8050794579903595,
+  "process_cpu_seconds": 2.808597,
+  "charged_cpu_seconds": 7.8050794579903595,
+  "gpu_occupied_seconds": 0,
+  "native_process_cpu": true,
+  "ended_utc": "2026-10-11T15:21:44Z"
+}

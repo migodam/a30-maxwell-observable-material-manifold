@@ -1,0 +1,31 @@
+{
+  "status": "PASS",
+  "scope": "SYNTHETIC_MECHANICAL_UNITTEST_ONLY",
+  "tests": 10,
+  "test_runner": "stdlib unittest discover",
+  "test_path": "tests/test_a30_representations.py",
+  "runtime": "existing A25 .venv_a25, numpy 2.5.3, scipy 1.18.1",
+  "reported_test_elapsed_seconds": 0.932,
+  "cpu_seconds": null,
+  "cpu_measurement_status": "NOT_MEASURED_FOR_INITIAL_TEST_INVOCATION",
+  "additional_checks_after_user_steering": "NONE",
+  "development_labels_opened": false,
+  "development_capacity_runs": "NOT_RUN_BY_WORKER",
+  "scientific_validation": "NOT_ESTABLISHED_BY_UNITTESTS",
+  "physics_calls": 0,
+  "training_calls": 0,
+  "package_installs": 0,
+  "hash_checks": 0,
+  "checks": [
+    "true 24x24 Haar hierarchy orthogonality and real/imag best-s tail reconstruction",
+    "uncentered TRAIN rank64, frozen arrays and exact16/32/64 geometric ranks",
+    "target-free freeze_case with exactly budget sparse coefficients",
+    "analytic geometric derivative against finite differences and normal PoU bounds",
+    "strict actual material box with zero tolerance and same-support coefficient ray repair",
+    "unconstrained fixed-chart convex solution and numerical residual",
+    "bound-active convex QP solution and KKT numerical residual",
+    "zero-imaginary-background zero-mean sparse reduced dimension",
+    "primary atlas digital topology preservation and local-only label",
+    "rank-deficient SVD refusal and8start/100iteration hard limits"
+  ]
+}

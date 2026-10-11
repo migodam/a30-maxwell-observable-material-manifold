@@ -1,0 +1,13 @@
+test_cap_cannot_expand (test_a30_budget.BudgetTests.test_cap_cannot_expand) ... ok
+test_e0_no_fixture (test_a30_budget.BudgetTests.test_e0_no_fixture) ... ok
+test_e2_forbidden (test_a30_budget.BudgetTests.test_e2_forbidden) ... ok
+test_gate_required (test_a30_budget.BudgetTests.test_gate_required) ... ok
+test_rhs_retries_paid (test_a30_budget.BudgetTests.test_rhs_retries_paid) ... ok
+test_same_material_and_all_resolutions_paid (test_a30_budget.BudgetTests.test_same_material_and_all_resolutions_paid) ... ok
+test_tests_no_fixture (test_a30_budget.BudgetTests.test_tests_no_fixture) ... ok
+test_unified_across_jobs (test_a30_budget.BudgetTests.test_unified_across_jobs) ... ok
+
+----------------------------------------------------------------------
+Ran 8 tests in 0.006s
+
+OK

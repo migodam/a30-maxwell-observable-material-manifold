@@ -1,0 +1,22 @@
+{
+  "job": "backend-tests-002",
+  "stage": "tests",
+  "command": [
+    "/Volumes/migodam's-external-brain/Research/Inv_SLAM/Gaussian/A25/a25-adaptive-om-feedback/.venv_a25/bin/python",
+    "-m",
+    "unittest",
+    "discover",
+    "-s",
+    "tests",
+    "-p",
+    "test_a30_physics_arithmetic.py",
+    "-v"
+  ],
+  "prior": {
+    "cpu_seconds": 112.09817262404908,
+    "gpu_seconds": 0.0,
+    "unresolved": []
+  },
+  "cpu_reserved_seconds": 15.0,
+  "started_utc": "2026-10-11T15:16:55Z"
+}

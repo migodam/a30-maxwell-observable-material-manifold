@@ -1,0 +1,19 @@
+{
+  "job": "full-hull-001",
+  "stage": "e0",
+  "command": [
+    "/Volumes/migodam's-external-brain/Research/Inv_SLAM/Gaussian/A25/a25-adaptive-om-feedback/.venv_a25/bin/python",
+    "theory/package/run_a29_1_guarded.py",
+    "--root",
+    "inputs/a29_release",
+    "--out",
+    "results/a30/hull"
+  ],
+  "prior": {
+    "cpu_seconds": 6.732311250001658,
+    "gpu_seconds": 0.0,
+    "unresolved": []
+  },
+  "cpu_reserved_seconds": 240.0,
+  "started_utc": "2026-10-11T14:58:21Z"
+}

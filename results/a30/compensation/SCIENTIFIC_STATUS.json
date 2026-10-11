@@ -1,0 +1,6 @@
+{
+  "status": "INVALID_COMPENSATION_IMPLEMENTATION",
+  "nominal_Maxwell_results": "VALID",
+  "compensation_conclusion": "INVALID",
+  "first_pass_states_charged": 75
+}

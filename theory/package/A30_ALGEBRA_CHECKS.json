@@ -1,0 +1,149 @@
+{
+  "status": "PASS",
+  "checks": [
+    {
+      "name": "finite_secant_right_endpoint",
+      "value": 2.256264300793803e-15,
+      "tolerance": 1e-12,
+      "passed": true,
+      "note": ""
+    },
+    {
+      "name": "finite_secant_left_endpoint",
+      "value": 2.221162962819715e-15,
+      "tolerance": 1e-12,
+      "passed": true,
+      "note": ""
+    },
+    {
+      "name": "real_directional_derivative",
+      "value": 1.1645400081281138e-10,
+      "tolerance": 2e-08,
+      "passed": true,
+      "note": ""
+    },
+    {
+      "name": "symmetric_second_derivative",
+      "value": 7.093607555829196e-09,
+      "tolerance": 2e-07,
+      "passed": true,
+      "note": ""
+    },
+    {
+      "name": "anchor_feedback_remainder_identity",
+      "value": 1.944337801040658e-12,
+      "tolerance": 1e-10,
+      "passed": true,
+      "note": ""
+    },
+    {
+      "name": "feedback_remainder_bound_excess",
+      "value": 0.0,
+      "tolerance": 1e-14,
+      "passed": true,
+      "note": ""
+    },
+    {
+      "name": "material_metric_reparameterization_invariance",
+      "value": 9.948578993870444e-17,
+      "tolerance": 1e-10,
+      "passed": true,
+      "note": ""
+    },
+    {
+      "name": "bilinear_constitutive_covariance",
+      "value": 1.7190058533609977e-16,
+      "tolerance": 1e-13,
+      "passed": true,
+      "note": ""
+    },
+    {
+      "name": "mean_response_commutator",
+      "value": 2.772723945169291e-12,
+      "tolerance": 1e-09,
+      "passed": true,
+      "note": ""
+    },
+    {
+      "name": "conditional_squared_material_risk_identity",
+      "value": 0.0,
+      "tolerance": 1e-12,
+      "passed": true,
+      "note": ""
+    },
+    {
+      "name": "different_pattern_same_algebraic_scattering",
+      "value": 1.2832458650039152e-16,
+      "tolerance": 1e-13,
+      "passed": true,
+      "note": "Generic rank-one matrix example, NOT a physical Green geometry."
+    },
+    {
+      "name": "compensated_distance",
+      "value": 0.0,
+      "tolerance": 1e-07,
+      "passed": true,
+      "note": ""
+    },
+    {
+      "name": "unobservable_conditional_variance_floor",
+      "value": 0.0,
+      "tolerance": 1e-14,
+      "passed": true,
+      "note": ""
+    },
+    {
+      "name": "likelihood_error_certificate",
+      "value": 0.0,
+      "tolerance": 1e-12,
+      "passed": true,
+      "note": ""
+    },
+    {
+      "name": "true_tangent_second_order_ratio",
+      "value": 2.151534895400431e-05,
+      "tolerance": 0.03,
+      "passed": true,
+      "note": ""
+    },
+    {
+      "name": "calibrated_wrong_slope_first_order_ratio",
+      "value": 7.804493965757331e-05,
+      "tolerance": 0.03,
+      "passed": true,
+      "note": ""
+    },
+    {
+      "name": "penalized_nuisance_schur_profile",
+      "value": 0.0,
+      "tolerance": 1e-11,
+      "passed": true,
+      "note": ""
+    }
+  ],
+  "validation": {
+    "physical_Maxwell_backend_evaluations": 0,
+    "network_training_updates": 0,
+    "locked_payloads_read": 0,
+    "generic_matrix_state_evaluations": 29,
+    "interpretation": "Algebraic verification only; no A29 full-pool data available."
+  },
+  "examples": {
+    "raw_pair_distance": 10.000004999998751,
+    "compensated_distance": 0.01,
+    "conditional_weak_prior_variance": 1.04,
+    "conditional_weak_posterior_variance": 0.049900990099009904,
+    "conditional_irreducible_variance": 0.04,
+    "true_tangent_error_halving_ratio": 4.000021515348954,
+    "value_calibrated_wrong_slope_error_halving_ratio": 2.0000780449396576,
+    "anchor_q": 0.0025221657546955142,
+    "feedback_remainder_norm": 0.0004092960096841167,
+    "feedback_remainder_upper_bound": 0.0015932250716890997,
+    "generalized_information_eigenvalues": [
+      21.180974144940368,
+      29.137819607706476,
+      76.98828883752307,
+      152.90966974592988
+    ]
+  }
+}

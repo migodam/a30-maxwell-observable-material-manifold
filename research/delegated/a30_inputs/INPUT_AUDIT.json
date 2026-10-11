@@ -1,0 +1,392 @@
+{
+  "status": "PASS_METADATA_AND_RELEASE_ACQUISITION",
+  "extraction": {
+    "asset_count": 2,
+    "entries": 337,
+    "uncompressed_bytes": 309839716,
+    "unsafe_entries": 0,
+    "locked_path_entries": 0,
+    "symlinks": 0,
+    "extract_root": "inputs/a29_release",
+    "extraction_numeric_interpretation": false
+  },
+  "source": {
+    "metrics.py": {
+      "bytes": 15807,
+      "pinned_commit": "5d5e31fcfc56ac8ef9d64c46b4b7bbdedef96bb4"
+    },
+    "__init__.py": {
+      "bytes": 56,
+      "pinned_commit": "5d5e31fcfc56ac8ef9d64c46b4b7bbdedef96bb4"
+    }
+  },
+  "train": {
+    "role": "train",
+    "rows": 512,
+    "parents": 64,
+    "parent_ids": [
+      250001,
+      250002,
+      250003,
+      250004,
+      250005,
+      250006,
+      250007,
+      250008,
+      250009,
+      250010,
+      250011,
+      250012,
+      250013,
+      250014,
+      250015,
+      250016,
+      250017,
+      250018,
+      250019,
+      250020,
+      250021,
+      250022,
+      250023,
+      250024,
+      250025,
+      250026,
+      250027,
+      250028,
+      250029,
+      250030,
+      250031,
+      250032,
+      250033,
+      250034,
+      250035,
+      250036,
+      250037,
+      250038,
+      250039,
+      250040,
+      250041,
+      250042,
+      250043,
+      250044,
+      250045,
+      250046,
+      250047,
+      250048,
+      250049,
+      250050,
+      250051,
+      250052,
+      250053,
+      250054,
+      250055,
+      250056,
+      250057,
+      250058,
+      250059,
+      250060,
+      250061,
+      250062,
+      250063,
+      250064
+    ],
+    "material_header": {
+      "archive": "inputs/a25/train.npz",
+      "field": "chi",
+      "shape": [
+        512,
+        576
+      ],
+      "dtype": "<c16",
+      "fortran_order": false,
+      "array_values_read": false
+    },
+    "measurement_header": {
+      "archive": "inputs/a25/train.npz",
+      "field": "data",
+      "shape": [
+        512,
+        32,
+        8
+      ],
+      "dtype": "<c16",
+      "fortran_order": false,
+      "array_values_read": false
+    },
+    "label_values_read": false,
+    "current_values_read": false,
+    "clean_values_read": false
+  },
+  "exposed_development": {
+    "role": "validation",
+    "rows": 128,
+    "parents": 16,
+    "parent_ids": [
+      250065,
+      250066,
+      250067,
+      250068,
+      250069,
+      250070,
+      250071,
+      250072,
+      250073,
+      250074,
+      250075,
+      250076,
+      250077,
+      250078,
+      250079,
+      250080
+    ],
+    "material_header": {
+      "archive": "inputs/a25/validation.npz",
+      "field": "chi",
+      "shape": [
+        128,
+        576
+      ],
+      "dtype": "<c16",
+      "fortran_order": false,
+      "array_values_read": false
+    },
+    "measurement_header": {
+      "archive": "inputs/a25/validation.npz",
+      "field": "data",
+      "shape": [
+        128,
+        32,
+        8
+      ],
+      "dtype": "<c16",
+      "fortran_order": false,
+      "array_values_read": false
+    },
+    "label_values_read": false,
+    "current_values_read": false,
+    "clean_values_read": false
+  },
+  "E0_case_ids": [
+    "p250065_weak_a1_snr20",
+    "p250065_ring_a1_snr20",
+    "p250066_weak_a1_snr20",
+    "p250066_ring_a1_snr20",
+    "p250067_weak_a1_snr20",
+    "p250067_ring_a1_snr20",
+    "p250068_weak_a1_snr20",
+    "p250068_ring_a1_snr20",
+    "p250069_weak_a1_snr20",
+    "p250069_ring_a1_snr20",
+    "p250070_weak_a1_snr20",
+    "p250070_ring_a1_snr20",
+    "p250071_weak_a1_snr20",
+    "p250071_ring_a1_snr20",
+    "p250072_weak_a1_snr20",
+    "p250072_ring_a1_snr20",
+    "p250073_weak_a1_snr20",
+    "p250073_ring_a1_snr20",
+    "p250074_weak_a1_snr20",
+    "p250074_ring_a1_snr20",
+    "p250075_weak_a1_snr20",
+    "p250075_ring_a1_snr20",
+    "p250076_weak_a1_snr20",
+    "p250076_ring_a1_snr20",
+    "p250077_weak_a1_snr20",
+    "p250077_ring_a1_snr20",
+    "p250078_weak_a1_snr20",
+    "p250078_ring_a1_snr20",
+    "p250079_weak_a1_snr20",
+    "p250079_ring_a1_snr20",
+    "p250080_weak_a1_snr20",
+    "p250080_ring_a1_snr20"
+  ],
+  "E0_parent_ids": [
+    250065,
+    250066,
+    250067,
+    250068,
+    250069,
+    250070,
+    250071,
+    250072,
+    250073,
+    250074,
+    250075,
+    250076,
+    250077,
+    250078,
+    250079,
+    250080
+  ],
+  "complex_parents": 12,
+  "smooth_parents": 4,
+  "pools": {
+    "count": 32,
+    "min_candidates": 58,
+    "max_candidates": 91,
+    "small_count": 12
+  },
+  "offline_target_headers": {
+    "case_id": {
+      "archive": "results/a29/OFFLINE_TARGETS.npz",
+      "field": "case_id",
+      "shape": [
+        32
+      ],
+      "dtype": "<U21",
+      "fortran_order": false,
+      "array_values_read": false
+    },
+    "parent_id": {
+      "archive": "results/a29/OFFLINE_TARGETS.npz",
+      "field": "parent_id",
+      "shape": [
+        32
+      ],
+      "dtype": "<i8",
+      "fortran_order": false,
+      "array_values_read": false
+    },
+    "family": {
+      "archive": "results/a29/OFFLINE_TARGETS.npz",
+      "field": "family",
+      "shape": [
+        32
+      ],
+      "dtype": "<U20",
+      "fortran_order": false,
+      "array_values_read": false
+    },
+    "background_id": {
+      "archive": "results/a29/OFFLINE_TARGETS.npz",
+      "field": "background_id",
+      "shape": [
+        32
+      ],
+      "dtype": "<U4",
+      "fortran_order": false,
+      "array_values_read": false
+    },
+    "truth": {
+      "archive": "results/a29/OFFLINE_TARGETS.npz",
+      "field": "truth",
+      "shape": [
+        32,
+        576
+      ],
+      "dtype": "<c16",
+      "fortran_order": false,
+      "array_values_read": false
+    },
+    "N3": {
+      "archive": "results/a29/OFFLINE_TARGETS.npz",
+      "field": "N3",
+      "shape": [
+        32,
+        576
+      ],
+      "dtype": "<c16",
+      "fortran_order": false,
+      "array_values_read": false
+    },
+    "background": {
+      "archive": "results/a29/OFFLINE_TARGETS.npz",
+      "field": "background",
+      "shape": [
+        32,
+        576
+      ],
+      "dtype": "<c16",
+      "fortran_order": false,
+      "array_values_read": false
+    }
+  },
+  "coverage_csv_columns": [
+    "case_id",
+    "parent_id",
+    "family",
+    "background_id",
+    "N3_error",
+    "old_bank_oracle",
+    "full_pool_oracle",
+    "small_pool_oracle",
+    "simple_oracle",
+    "new_repr_oracle",
+    "best_id",
+    "small_best_id",
+    "simple_best_id",
+    "full_oracle_edge",
+    "N3_edge",
+    "full_oracle_support",
+    "N3_support"
+  ],
+  "background_headers": {
+    "weak": {
+      "chi_b": {
+        "archive": "inputs/a25/background/weak.npz",
+        "field": "chi_b",
+        "shape": [
+          576
+        ],
+        "dtype": "<c16",
+        "fortran_order": false,
+        "array_values_read": false
+      },
+      "J": {
+        "archive": "inputs/a25/background/weak.npz",
+        "field": "J",
+        "shape": [
+          512,
+          1152
+        ],
+        "dtype": "<f8",
+        "fortran_order": false,
+        "array_values_read": false
+      }
+    },
+    "ring": {
+      "chi_b": {
+        "archive": "inputs/a25/background/ring.npz",
+        "field": "chi_b",
+        "shape": [
+          576
+        ],
+        "dtype": "<c16",
+        "fortran_order": false,
+        "array_values_read": false
+      },
+      "J": {
+        "archive": "inputs/a25/background/ring.npz",
+        "field": "J",
+        "shape": [
+          512,
+          1152
+        ],
+        "dtype": "<f8",
+        "fortran_order": false,
+        "array_values_read": false
+      }
+    }
+  },
+  "frozen_checkpoint": "present; unopened",
+  "historical_paid_caches": "32 present; headers/protocol metadata only; no cache equations or material matching computed",
+  "boundary": {
+    "locked_payload_reads": 0,
+    "development_truth_values_read": 0,
+    "TRAIN_label_values_read": 0,
+    "physics_calls": 0,
+    "training_updates": 0,
+    "material_scores_computed": 0,
+    "scope": "Release size/path/split/identity/shape audit; no numerical evidence claim"
+  },
+  "missing": [],
+  "issues": [],
+  "SHA256_checks": "NOT_RUN_BY_USER_POLICY",
+  "timing": {
+    "wall_seconds": 1.0340629999991506,
+    "process_cpu_seconds": 0.398472,
+    "nested_not_extra_charge": true,
+    "GPU_seconds": 0,
+    "finished_utc": "2026-10-11T14:57:22.878834+00:00"
+  }
+}

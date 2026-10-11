@@ -1,0 +1,25 @@
+test_actual_torch_pivot_conversion_on_synthetic_matrix (test_a30_physics_arithmetic.PhysicsArithmetic.test_actual_torch_pivot_conversion_on_synthetic_matrix) ... ok
+test_anchor_jvp_multiple_raw_complex_directions (test_a30_physics_arithmetic.PhysicsArithmetic.test_anchor_jvp_multiple_raw_complex_directions) ... ok
+test_background_L_is_cached_and_affine (test_a30_physics_arithmetic.PhysicsArithmetic.test_background_L_is_cached_and_affine) ... ok
+test_corrupt_saved_lu_is_a_paid_failure (test_a30_physics_arithmetic.PhysicsArithmetic.test_corrupt_saved_lu_is_a_paid_failure) ... ok
+test_finite_secant_and_remainder_identities (test_a30_physics_arithmetic.PhysicsArithmetic.test_finite_secant_and_remainder_identities) ... ok
+test_foreign_state_is_rejected (test_a30_physics_arithmetic.PhysicsArithmetic.test_foreign_state_is_rejected) ... ok
+test_forward_and_conjugate_adjoint_solve (test_a30_physics_arithmetic.PhysicsArithmetic.test_forward_and_conjugate_adjoint_solve) ... ok
+test_frozen_cpu_path_and_no_geometry_constructor (test_a30_physics_arithmetic.PhysicsArithmetic.test_frozen_cpu_path_and_no_geometry_constructor) ... ok
+test_invalid_pivots_and_label_paths_fail (test_a30_physics_arithmetic.PhysicsArithmetic.test_invalid_pivots_and_label_paths_fail) ... ok
+test_missing_stale_unlisted_cache_never_falls_back (test_a30_physics_arithmetic.PhysicsArithmetic.test_missing_stale_unlisted_cache_never_falls_back) ... ok
+test_optional_frozen_torch_cpu_matches_scipy_and_counts (test_a30_physics_arithmetic.PhysicsArithmetic.test_optional_frozen_torch_cpu_matches_scipy_and_counts) ... ok
+test_paid_cache_has_zero_new_states_and_paid_lu_audit (test_a30_physics_arithmetic.PhysicsArithmetic.test_paid_cache_has_zero_new_states_and_paid_lu_audit) ... ok
+test_physical_box_applies_to_material_not_background_difference (test_a30_physics_arithmetic.PhysicsArithmetic.test_physical_box_applies_to_material_not_background_difference) ... ok
+test_receiver_transfer_and_mass_dot_identity_reuse (test_a30_physics_arithmetic.PhysicsArithmetic.test_receiver_transfer_and_mass_dot_identity_reuse) ... ok
+test_repeated_material_evaluations_are_each_paid (test_a30_physics_arithmetic.PhysicsArithmetic.test_repeated_material_evaluations_are_each_paid) ... ok
+test_rhs_limit_stops_before_solve_and_state_stays_paid (test_a30_physics_arithmetic.PhysicsArithmetic.test_rhs_limit_stops_before_solve_and_state_stays_paid) ... ok
+test_saved_arrays_are_copied_and_read_only (test_a30_physics_arithmetic.PhysicsArithmetic.test_saved_arrays_are_copied_and_read_only) ... ok
+test_singular_failure_has_no_jitter_or_pinv (test_a30_physics_arithmetic.PhysicsArithmetic.test_singular_failure_has_no_jitter_or_pinv) ... ok
+test_state_and_rhs_reservations_precede_operations (test_a30_physics_arithmetic.PhysicsArithmetic.test_state_and_rhs_reservations_precede_operations) ... ok
+test_state_limit_stops_before_matrix_or_lu (test_a30_physics_arithmetic.PhysicsArithmetic.test_state_limit_stops_before_matrix_or_lu) ... ok
+
+----------------------------------------------------------------------
+Ran 20 tests in 1.103s
+
+OK

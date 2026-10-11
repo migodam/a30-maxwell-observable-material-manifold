@@ -1,0 +1,71 @@
+{
+  "figures": [
+    {
+      "figure": "fig04_capacity_parameter_budget",
+      "status": "COMPLETE",
+      "png": "results/a30/figures/fig04_capacity_parameter_budget.png",
+      "svg": "results/a30/figures/fig04_capacity_parameter_budget.svg",
+      "raw_plot_csv": "results/a30/figures/raw_plot_data/fig04_capacity_parameter_budget.csv",
+      "sources": [
+        "results/a30/capacity/CAPACITY_CASES.csv",
+        "results/a30/hull/HULL_AUDIT_SUMMARY.json"
+      ],
+      "caption_zh": "\u56db\u79cd\u6750\u6599\u8868\u793a\u5728\u5171\u540c 16/32/64 \u4e2a\u5b9e\u53c2\u6570\u9884\u7b97\u4e0b\u7684 achieved offline \u6750\u6599\u8bef\u5dee\u3002\u5148\u5e73\u5747\u6bcf\u4e2a parent \u7684 weak/ring \u4e24\u80cc\u666f\uff0c\u518d\u7b49\u6743\u5e73\u5747 parent\uff1b\u533a\u95f4\u4e3a 2000 \u6b21\u63a2\u7d22\u6027 parent bootstrap\u3002\u5b58\u5728\u7f3a\u5931\u6216 invalid parent \u7684\u7ec4\u4e0d\u7ed8\u5236\u5b8c\u6574\u7edf\u8ba1\u70b9\uff0c\u539f\u8868\u4fdd\u7559\u6240\u6709\u5931\u8d25\u884c\u3002\u975e\u51f8\u62df\u5408\u7684 achieved error \u4e0d\u662f\u5168\u5c40\u5bb9\u91cf\u4e0b\u754c\uff0c\u66f2\u7ebf\u4e0d\u63d0\u4f9b\u6d4b\u91cf\u53ef\u90e8\u7f72\u6027\u8bc1\u660e\u3002",
+      "caption_en": "Achieved offline material-fit error for four representations at matched real parameter budgets. Conditions are averaged inside each parent before equal-parent aggregation. Missing or invalid parent pairs suppress the corresponding aggregate point. Achieved nonconvex fits are not global capacity certificates or deployable recovery results.",
+      "notes": [],
+      "Maxwell_calls": 0,
+      "training_updates": 0,
+      "locked_reads": 0
+    },
+    {
+      "figure": "fig05_fixed_material_images",
+      "status": "COMPLETE",
+      "png": "results/a30/figures/fig05_fixed_material_images.png",
+      "svg": "results/a30/figures/fig05_fixed_material_images.svg",
+      "raw_plot_csv": "results/a30/figures/raw_plot_data/fig05_fixed_material_images.csv",
+      "sources": [
+        "results/a30/hull/HULL_RECONSTRUCTIONS.npz",
+        "results/a30/hull/HULL_MATERIAL_AND_STRUCTURE.csv",
+        "results/a30/capacity/CAPACITY_CASES.csv",
+        "results/a30/capacity/CAPACITY_IMAGES.npz"
+      ],
+      "caption_zh": "\u6bcf\u4e2a family \u9884\u5148\u56fa\u5b9a\u7684\u7b2c\u4e00\u4e2a weak \u6761\u4ef6\uff1a250065/250069/250073/250077\u3002\u56fe\u4e2d\u4e3a\u5b9e\u9645 |\u03c7\u2212\u03c7_b|\uff0c\u6240\u6709\u5217\u5171\u7528 0\u20131.2 \u8272\u6807\u4e14\u4e0d\u9010\u56fe\u5f52\u4e00\u5316\uff1b\u539f\u8868\u4fdd\u7559\u5b9e\u90e8\u3001\u865a\u90e8\u3001\u6a21\u4e0e\u8d85\u8272\u6807\u6807\u5fd7\u3002best-64 \u4e3a\u8fd9\u4e9b\u56fa\u5b9a case \u4e0a\u56db\u79cd\u5408\u6cd5\u8868\u793a\u7684 offline \u8bef\u5dee\u6700\u5c0f\u8005\uff0c\u660e\u786e\u4e3a ORACLE\uff1binvalid/NaN \u4e0d\u4f5c\u6709\u6548\u56fe\u50cf\u3002\u89c2\u5bdf\u56fe\u50cf\u4e0d\u66ff\u4ee3\u590d\u6742 parent \u603b\u4f53\u7edf\u8ba1\u6216 topology \u8bc1\u4e66\u3002",
+      "caption_en": "The first weak-background case of each family is fixed before inspecting error. Images show actual |chi minus background| on one shared 0\u20131.2 scale; exported pixels retain real/imaginary components and clipping flags. Best-64 is an explicitly offline per-case oracle among valid saved representations. NaN/invalid fits are not rendered as valid materials.",
+      "notes": [
+        "Pixel row/column coordinates; no physical coordinate or unit is invented.",
+        "Values above 1.2 saturate visually and remain unchanged in the raw table."
+      ],
+      "Maxwell_calls": 0,
+      "training_updates": 0,
+      "locked_reads": 0
+    },
+    {
+      "figure": "fig06_every_parent_gain",
+      "status": "COMPLETE",
+      "png": "results/a30/figures/fig06_every_parent_gain.png",
+      "svg": "results/a30/figures/fig06_every_parent_gain.svg",
+      "raw_plot_csv": "results/a30/figures/raw_plot_data/fig06_every_parent_gain.csv",
+      "sources": [
+        "results/a30/hull/HULL_AUDIT_SUMMARY.json",
+        "results/a30/capacity/CAPACITY_CASES.csv"
+      ],
+      "caption_zh": "\u5168\u90e8 16 \u4e2a exposed parent \u7684\u6750\u6599\u76f8\u5bf9\u6539\u5584\uff0c\u6309 family \u539f\u987a\u5e8f\u5217\u51fa\u3002\u6bcf\u4e2a\u5355\u5143\u5148\u5e73\u5747 weak/ring \u8bef\u5dee\uff0c\u518d\u8ba1\u7b97 (N3\u2212candidate)/N3\u3002\u5de6\u4fa7\u5f15\u7528\u4fdd\u5b58 hull \u6c47\u603b\uff1b\u53f3\u4fa7\u4e3a budget64 \u8868\u793a\u7684\u5b9e\u9645\u4fdd\u5b58\u7ed3\u679c\u3002\u7f3a\u5931\u6807 NR\u3001invalid \u6807 INV\uff0c\u5747\u4e0d\u66ff\u6362\u4e3a\u96f6\u3002smooth \u5355\u5217\u4fdd\u7559\uff0c\u4e0d\u8fdb\u5165 12 complex parents \u7684\u4e3b\u7edf\u8ba1\u3002",
+      "caption_en": "All 16 exposed parents, with both backgrounds averaged before relative gain is calculated. Hull cells are copied from saved summaries; representation cells use saved budget-64 fits. NR and INV denote missing and invalid evidence, not zero gain. Smooth parents remain distinct from the complex primary group.",
+      "notes": [],
+      "Maxwell_calls": 0,
+      "training_updates": 0,
+      "locked_reads": 0
+    }
+  ],
+  "timing": {
+    "wall_seconds": 1.052220750018023,
+    "process_cpu_seconds": 1.004013,
+    "GPU_seconds": 0,
+    "Maxwell_calls": 0,
+    "training_updates": 0,
+    "locked_reads": 0,
+    "charge_method": "nested evidence; use the inclusive a30_job wrapper receipt once"
+  },
+  "timing_is_nested_in_job_wrapper": true,
+  "SHA256_checks": "NOT_RUN_BY_USER_POLICY"
+}

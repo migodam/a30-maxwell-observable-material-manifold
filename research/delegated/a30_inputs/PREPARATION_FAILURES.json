@@ -1,0 +1,23 @@
+[
+  {
+    "action": "System python NumPy probe",
+    "status": "FAILED",
+    "error": "ModuleNotFoundError: numpy",
+    "resolution": "Existing Gaussian/.venv_nn environment used; NumPy 2.5.3 available",
+    "native_process_CPU_seconds": "NOT_MEASURED"
+  },
+  {
+    "action": "Existing Python path probe",
+    "status": "FAILED",
+    "error": "unmatched shell quote",
+    "resolution": "Correct absolute-path quoting used; no filesystem effect",
+    "native_process_CPU_seconds": "NOT_MEASURED"
+  },
+  {
+    "action": "Git status at Inv_SLAM root",
+    "status": "FAILED",
+    "error": "not a Git repository",
+    "resolution": "Git status inspected in the A30 repository instead",
+    "native_process_CPU_seconds": "NOT_MEASURED"
+  }
+]

@@ -1,0 +1,15 @@
+{
+  "status": "FULL_A29_1_NOT_RUN_MISSING_RAW_INPUTS",
+  "new_Maxwell_states": 0,
+  "network_training": false,
+  "locked_evaluation": false,
+  "expected_conditions": 32,
+  "expected_independent_parents": 16,
+  "expected_complex_independent_parents": 12,
+  "missing": [
+    "/mnt/data/A30/work/a29/results/a29/OFFLINE_TARGETS.npz",
+    "/mnt/data/A30/work/a29/results/a29/COVERAGE_CASES.csv"
+  ],
+  "wall_seconds": 3.1077000016921374e-05,
+  "cpu_seconds": 2.8852999999995355e-05
+}

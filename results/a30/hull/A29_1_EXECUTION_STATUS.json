@@ -1,0 +1,655 @@
+{
+  "status": "COMPLETED_NUMERICALLY_CERTIFIED",
+  "new_Maxwell_states": 0,
+  "network_training": false,
+  "locked_evaluation": false,
+  "expected_conditions": 32,
+  "expected_independent_parents": 16,
+  "expected_complex_independent_parents": 12,
+  "observed_conditions": 32,
+  "certificates": [
+    {
+      "case_id": "p250065_weak_a1_snr20",
+      "pool": "full",
+      "achieved_error": 0.4940552634478384,
+      "optimal_error_lower_bound": 0.49405526148051754,
+      "optimal_error_upper_bound": 0.4940552634478384,
+      "error_interval_width": 1.967320861773203e-09,
+      "simplex_dual_gap": 9.719652235840037e-10,
+      "gap_pass": true
+    },
+    {
+      "case_id": "p250065_weak_a1_snr20",
+      "pool": "small",
+      "achieved_error": 0.5835719930419073,
+      "optimal_error_lower_bound": 0.583571991460302,
+      "optimal_error_upper_bound": 0.5835719930419073,
+      "error_interval_width": 1.5816052911787892e-09,
+      "simplex_dual_gap": 9.229805842257283e-10,
+      "gap_pass": true
+    },
+    {
+      "case_id": "p250065_ring_a1_snr20",
+      "pool": "full",
+      "achieved_error": 0.4956445853336935,
+      "optimal_error_lower_bound": 0.49564458335919803,
+      "optimal_error_upper_bound": 0.4956445853336935,
+      "error_interval_width": 1.974495456025238e-09,
+      "simplex_dual_gap": 9.786479682194482e-10,
+      "gap_pass": true
+    },
+    {
+      "case_id": "p250065_ring_a1_snr20",
+      "pool": "small",
+      "achieved_error": 0.5260861057853856,
+      "optimal_error_lower_bound": 0.5260861039223714,
+      "optimal_error_upper_bound": 0.5260861057853856,
+      "error_interval_width": 1.8630141873643424e-09,
+      "simplex_dual_gap": 9.801058935797469e-10,
+      "gap_pass": true
+    },
+    {
+      "case_id": "p250066_weak_a1_snr20",
+      "pool": "full",
+      "achieved_error": 0.4972646929477097,
+      "optimal_error_lower_bound": 0.49726469096683884,
+      "optimal_error_upper_bound": 0.4972646929477097,
+      "error_interval_width": 1.980870856232997e-09,
+      "simplex_dual_gap": 9.850171355657578e-10,
+      "gap_pass": true
+    },
+    {
+      "case_id": "p250066_weak_a1_snr20",
+      "pool": "small",
+      "achieved_error": 0.516900104473097,
+      "optimal_error_lower_bound": 0.5169001039254922,
+      "optimal_error_upper_bound": 0.516900104473097,
+      "error_interval_width": 5.476047393315753e-10,
+      "simplex_dual_gap": 2.8305695269307085e-10,
+      "gap_pass": true
+    },
+    {
+      "case_id": "p250066_ring_a1_snr20",
+      "pool": "full",
+      "achieved_error": 0.6923599609281791,
+      "optimal_error_lower_bound": 0.6923599594957858,
+      "optimal_error_upper_bound": 0.6923599609281791,
+      "error_interval_width": 1.4323933150706125e-09,
+      "simplex_dual_gap": 9.917317592145203e-10,
+      "gap_pass": true
+    },
+    {
+      "case_id": "p250066_ring_a1_snr20",
+      "pool": "small",
+      "achieved_error": 0.7252116388112065,
+      "optimal_error_lower_bound": 0.7252116374388838,
+      "optimal_error_upper_bound": 0.7252116388112065,
+      "error_interval_width": 1.372322699921824e-09,
+      "simplex_dual_gap": 9.952244054908799e-10,
+      "gap_pass": true
+    },
+    {
+      "case_id": "p250067_weak_a1_snr20",
+      "pool": "full",
+      "achieved_error": 0.5533788110132434,
+      "optimal_error_lower_bound": 0.553378809377966,
+      "optimal_error_upper_bound": 0.5533788110132434,
+      "error_interval_width": 1.6352773579697555e-09,
+      "simplex_dual_gap": 9.049278548722839e-10,
+      "gap_pass": true
+    },
+    {
+      "case_id": "p250067_weak_a1_snr20",
+      "pool": "small",
+      "achieved_error": 0.6560229763540563,
+      "optimal_error_lower_bound": 0.6560229748500963,
+      "optimal_error_upper_bound": 0.6560229763540563,
+      "error_interval_width": 1.503959956572487e-09,
+      "simplex_dual_gap": 9.86632279348365e-10,
+      "gap_pass": true
+    },
+    {
+      "case_id": "p250067_ring_a1_snr20",
+      "pool": "full",
+      "achieved_error": 0.5663529411896221,
+      "optimal_error_lower_bound": 0.5663529395932264,
+      "optimal_error_upper_bound": 0.5663529411896221,
+      "error_interval_width": 1.5963956823128456e-09,
+      "simplex_dual_gap": 9.041233629825118e-10,
+      "gap_pass": true
+    },
+    {
+      "case_id": "p250067_ring_a1_snr20",
+      "pool": "small",
+      "achieved_error": 0.6084048570487031,
+      "optimal_error_lower_bound": 0.6084048554254153,
+      "optimal_error_upper_bound": 0.6084048570487031,
+      "error_interval_width": 1.623287726459921e-09,
+      "simplex_dual_gap": 9.876161173594245e-10,
+      "gap_pass": true
+    },
+    {
+      "case_id": "p250068_weak_a1_snr20",
+      "pool": "full",
+      "achieved_error": 0.512025208901864,
+      "optimal_error_lower_bound": 0.5120252071234755,
+      "optimal_error_upper_bound": 0.512025208901864,
+      "error_interval_width": 1.778388436513012e-09,
+      "simplex_dual_gap": 9.10579703795801e-10,
+      "gap_pass": true
+    },
+    {
+      "case_id": "p250068_weak_a1_snr20",
+      "pool": "small",
+      "achieved_error": 0.5250359788726056,
+      "optimal_error_lower_bound": 0.5250359788726056,
+      "optimal_error_upper_bound": 0.5250359788726056,
+      "error_interval_width": 0.0,
+      "simplex_dual_gap": 3.903892601029784e-18,
+      "gap_pass": true
+    },
+    {
+      "case_id": "p250068_ring_a1_snr20",
+      "pool": "full",
+      "achieved_error": 0.45268789518880864,
+      "optimal_error_lower_bound": 0.4526878931456157,
+      "optimal_error_upper_bound": 0.45268789518880864,
+      "error_interval_width": 2.043192948164574e-09,
+      "simplex_dual_gap": 9.249287169499354e-10,
+      "gap_pass": true
+    },
+    {
+      "case_id": "p250068_ring_a1_snr20",
+      "pool": "small",
+      "achieved_error": 0.4668034547702515,
+      "optimal_error_lower_bound": 0.46680345266924195,
+      "optimal_error_upper_bound": 0.4668034547702515,
+      "error_interval_width": 2.101009533017617e-09,
+      "simplex_dual_gap": 9.807585169344102e-10,
+      "gap_pass": true
+    },
+    {
+      "case_id": "p250069_weak_a1_snr20",
+      "pool": "full",
+      "achieved_error": 0.4408560959434561,
+      "optimal_error_lower_bound": 0.440856093762661,
+      "optimal_error_upper_bound": 0.4408560959434561,
+      "error_interval_width": 2.1807951000596404e-09,
+      "simplex_dual_gap": 9.614168102042506e-10,
+      "gap_pass": true
+    },
+    {
+      "case_id": "p250069_weak_a1_snr20",
+      "pool": "small",
+      "achieved_error": 0.46088126632487525,
+      "optimal_error_lower_bound": 0.46088126632487525,
+      "optimal_error_upper_bound": 0.46088126632487525,
+      "error_interval_width": 0.0,
+      "simplex_dual_gap": 8.261681067611754e-19,
+      "gap_pass": true
+    },
+    {
+      "case_id": "p250069_ring_a1_snr20",
+      "pool": "full",
+      "achieved_error": 0.4115217671616154,
+      "optimal_error_lower_bound": 0.411521764861476,
+      "optimal_error_upper_bound": 0.4115217671616154,
+      "error_interval_width": 2.3001394122701413e-09,
+      "simplex_dual_gap": 9.465574365985496e-10,
+      "gap_pass": true
+    },
+    {
+      "case_id": "p250069_ring_a1_snr20",
+      "pool": "small",
+      "achieved_error": 0.44549613617564005,
+      "optimal_error_lower_bound": 0.44549613414956457,
+      "optimal_error_upper_bound": 0.44549613617564005,
+      "error_interval_width": 2.026075474059752e-09,
+      "simplex_dual_gap": 9.026087880587008e-10,
+      "gap_pass": true
+    },
+    {
+      "case_id": "p250070_weak_a1_snr20",
+      "pool": "full",
+      "achieved_error": 0.6731345243534329,
+      "optimal_error_lower_bound": 0.6731345229203664,
+      "optimal_error_upper_bound": 0.6731345243534329,
+      "error_interval_width": 1.4330665543127452e-09,
+      "simplex_dual_gap": 9.646465501389478e-10,
+      "gap_pass": true
+    },
+    {
+      "case_id": "p250070_weak_a1_snr20",
+      "pool": "small",
+      "achieved_error": 0.6906688846664565,
+      "optimal_error_lower_bound": 0.6906688833735659,
+      "optimal_error_upper_bound": 0.6906688846664565,
+      "error_interval_width": 1.2928905723796902e-09,
+      "simplex_dual_gap": 8.9295926902766e-10,
+      "gap_pass": true
+    },
+    {
+      "case_id": "p250070_ring_a1_snr20",
+      "pool": "full",
+      "achieved_error": 0.7343970628347132,
+      "optimal_error_lower_bound": 0.734397061516672,
+      "optimal_error_upper_bound": 0.7343970628347132,
+      "error_interval_width": 1.318041231712641e-09,
+      "simplex_dual_gap": 9.67965610443322e-10,
+      "gap_pass": true
+    },
+    {
+      "case_id": "p250070_ring_a1_snr20",
+      "pool": "small",
+      "achieved_error": 0.7897770488001342,
+      "optimal_error_lower_bound": 0.7897770476535005,
+      "optimal_error_upper_bound": 0.7897770488001342,
+      "error_interval_width": 1.1466336768961582e-09,
+      "simplex_dual_gap": 9.055849750638778e-10,
+      "gap_pass": true
+    },
+    {
+      "case_id": "p250071_weak_a1_snr20",
+      "pool": "full",
+      "achieved_error": 0.6504474111805816,
+      "optimal_error_lower_bound": 0.6504474032724542,
+      "optimal_error_upper_bound": 0.6504474111805816,
+      "error_interval_width": 7.908127375166885e-09,
+      "simplex_dual_gap": 5.143820949043976e-09,
+      "gap_pass": true
+    },
+    {
+      "case_id": "p250071_weak_a1_snr20",
+      "pool": "small",
+      "achieved_error": 0.6796058737963799,
+      "optimal_error_lower_bound": 0.6796058724297612,
+      "optimal_error_upper_bound": 0.6796058737963799,
+      "error_interval_width": 1.3666187070882074e-09,
+      "simplex_dual_gap": 9.28762078963169e-10,
+      "gap_pass": true
+    },
+    {
+      "case_id": "p250071_ring_a1_snr20",
+      "pool": "full",
+      "achieved_error": 0.7149114408674302,
+      "optimal_error_lower_bound": 0.714911439483818,
+      "optimal_error_upper_bound": 0.7149114408674302,
+      "error_interval_width": 1.38361222479233e-09,
+      "simplex_dual_gap": 9.891601981948384e-10,
+      "gap_pass": true
+    },
+    {
+      "case_id": "p250071_ring_a1_snr20",
+      "pool": "small",
+      "achieved_error": 0.7806202836896435,
+      "optimal_error_lower_bound": 0.780620283670437,
+      "optimal_error_upper_bound": 0.7806202836896435,
+      "error_interval_width": 1.920652525910782e-11,
+      "simplex_dual_gap": 1.4993020713838234e-11,
+      "gap_pass": true
+    },
+    {
+      "case_id": "p250072_weak_a1_snr20",
+      "pool": "full",
+      "achieved_error": 0.7309818237409438,
+      "optimal_error_lower_bound": 0.7309818205557331,
+      "optimal_error_upper_bound": 0.7309818237409438,
+      "error_interval_width": 3.185210650791248e-09,
+      "simplex_dual_gap": 2.3283310349175856e-09,
+      "gap_pass": true
+    },
+    {
+      "case_id": "p250072_weak_a1_snr20",
+      "pool": "small",
+      "achieved_error": 0.7528092910445432,
+      "optimal_error_lower_bound": 0.7528092904852531,
+      "optimal_error_upper_bound": 0.7528092910445432,
+      "error_interval_width": 5.5929005871036e-10,
+      "simplex_dual_gap": 4.21038733391943e-10,
+      "gap_pass": true
+    },
+    {
+      "case_id": "p250072_ring_a1_snr20",
+      "pool": "full",
+      "achieved_error": 0.6247527659415508,
+      "optimal_error_lower_bound": 0.6247527643531688,
+      "optimal_error_upper_bound": 0.6247527659415508,
+      "error_interval_width": 1.5883819814987987e-09,
+      "simplex_dual_gap": 9.923460560223862e-10,
+      "gap_pass": true
+    },
+    {
+      "case_id": "p250072_ring_a1_snr20",
+      "pool": "small",
+      "achieved_error": 0.7110475856416982,
+      "optimal_error_lower_bound": 0.7110475856384247,
+      "optimal_error_upper_bound": 0.7110475856416982,
+      "error_interval_width": 3.273492588107274e-12,
+      "simplex_dual_gap": 2.3275790745224186e-12,
+      "gap_pass": true
+    },
+    {
+      "case_id": "p250073_weak_a1_snr20",
+      "pool": "full",
+      "achieved_error": 0.04304618297840571,
+      "optimal_error_lower_bound": 0.04304603589945242,
+      "optimal_error_upper_bound": 0.04304618297840571,
+      "error_interval_width": 1.4707895329424403e-07,
+      "simplex_dual_gap": 6.3311767196060076e-09,
+      "gap_pass": true
+    },
+    {
+      "case_id": "p250073_weak_a1_snr20",
+      "pool": "small",
+      "achieved_error": 0.20628792731391393,
+      "optimal_error_lower_bound": 0.20628792438855273,
+      "optimal_error_upper_bound": 0.20628792731391393,
+      "error_interval_width": 2.9253612032764664e-09,
+      "simplex_dual_gap": 6.034666935540896e-10,
+      "gap_pass": true
+    },
+    {
+      "case_id": "p250073_ring_a1_snr20",
+      "pool": "full",
+      "achieved_error": 0.0540276356147733,
+      "optimal_error_lower_bound": 0.054027617301505716,
+      "optimal_error_upper_bound": 0.0540276356147733,
+      "error_interval_width": 1.8313267582947823e-08,
+      "simplex_dual_gap": 9.894223803978697e-10,
+      "gap_pass": true
+    },
+    {
+      "case_id": "p250073_ring_a1_snr20",
+      "pool": "small",
+      "achieved_error": 0.13501958394650707,
+      "optimal_error_lower_bound": 0.13501958360810798,
+      "optimal_error_upper_bound": 0.13501958394650707,
+      "error_interval_width": 3.3839908653021666e-10,
+      "simplex_dual_gap": 4.5690505198758835e-11,
+      "gap_pass": true
+    },
+    {
+      "case_id": "p250074_weak_a1_snr20",
+      "pool": "full",
+      "achieved_error": 0.04809359586337125,
+      "optimal_error_lower_bound": 0.04809357620300291,
+      "optimal_error_upper_bound": 0.04809359586337125,
+      "error_interval_width": 1.966036834027962e-08,
+      "simplex_dual_gap": 9.455376160857898e-10,
+      "gap_pass": true
+    },
+    {
+      "case_id": "p250074_weak_a1_snr20",
+      "pool": "small",
+      "achieved_error": 0.06414248927556265,
+      "optimal_error_lower_bound": 0.0641424743424305,
+      "optimal_error_upper_bound": 0.06414248927556265,
+      "error_interval_width": 1.493313214750991e-08,
+      "simplex_dual_gap": 9.578481566935304e-10,
+      "gap_pass": true
+    },
+    {
+      "case_id": "p250074_ring_a1_snr20",
+      "pool": "full",
+      "achieved_error": 0.06237247721392062,
+      "optimal_error_lower_bound": 0.062372398005001446,
+      "optimal_error_upper_bound": 0.06237247721392062,
+      "error_interval_width": 7.920891917367889e-08,
+      "simplex_dual_gap": 4.940453369323139e-09,
+      "gap_pass": true
+    },
+    {
+      "case_id": "p250074_ring_a1_snr20",
+      "pool": "small",
+      "achieved_error": 0.11748248984717975,
+      "optimal_error_lower_bound": 0.11748248980789533,
+      "optimal_error_upper_bound": 0.11748248984717975,
+      "error_interval_width": 3.92844229368805e-11,
+      "simplex_dual_gap": 4.615232458357599e-12,
+      "gap_pass": true
+    },
+    {
+      "case_id": "p250075_weak_a1_snr20",
+      "pool": "full",
+      "achieved_error": 0.08222820136279287,
+      "optimal_error_lower_bound": 0.0822281299351824,
+      "optimal_error_upper_bound": 0.08222820136279287,
+      "error_interval_width": 7.14276104651912e-08,
+      "simplex_dual_gap": 5.873361385352188e-09,
+      "gap_pass": true
+    },
+    {
+      "case_id": "p250075_weak_a1_snr20",
+      "pool": "small",
+      "achieved_error": 0.1544816464028625,
+      "optimal_error_lower_bound": 0.1544816399827571,
+      "optimal_error_upper_bound": 0.1544816464028625,
+      "error_interval_width": 6.420105391757858e-09,
+      "simplex_dual_gap": 9.917884288628779e-10,
+      "gap_pass": true
+    },
+    {
+      "case_id": "p250075_ring_a1_snr20",
+      "pool": "full",
+      "achieved_error": 0.07838890020040401,
+      "optimal_error_lower_bound": 0.078388888146428,
+      "optimal_error_upper_bound": 0.07838890020040401,
+      "error_interval_width": 1.2053976011783263e-08,
+      "simplex_dual_gap": 9.448978500678495e-10,
+      "gap_pass": true
+    },
+    {
+      "case_id": "p250075_ring_a1_snr20",
+      "pool": "small",
+      "achieved_error": 0.13545259262090495,
+      "optimal_error_lower_bound": 0.13545258534381305,
+      "optimal_error_upper_bound": 0.13545259262090495,
+      "error_interval_width": 7.27709190129211e-09,
+      "simplex_dual_gap": 9.857009390570187e-10,
+      "gap_pass": true
+    },
+    {
+      "case_id": "p250076_weak_a1_snr20",
+      "pool": "full",
+      "achieved_error": 0.08229535136808193,
+      "optimal_error_lower_bound": 0.08229533974123868,
+      "optimal_error_upper_bound": 0.08229535136808193,
+      "error_interval_width": 1.1626843252066088e-08,
+      "simplex_dual_gap": 9.568350833877304e-10,
+      "gap_pass": true
+    },
+    {
+      "case_id": "p250076_weak_a1_snr20",
+      "pool": "small",
+      "achieved_error": 0.11135549461773782,
+      "optimal_error_lower_bound": 0.11135548891031502,
+      "optimal_error_upper_bound": 0.11135549461773782,
+      "error_interval_width": 5.707422798262307e-09,
+      "simplex_dual_gap": 6.355528726844251e-10,
+      "gap_pass": true
+    },
+    {
+      "case_id": "p250076_ring_a1_snr20",
+      "pool": "full",
+      "achieved_error": 0.08547323666814495,
+      "optimal_error_lower_bound": 0.08547317271232631,
+      "optimal_error_upper_bound": 0.08547323666814495,
+      "error_interval_width": 6.395581864104827e-08,
+      "simplex_dual_gap": 5.466508777758616e-09,
+      "gap_pass": true
+    },
+    {
+      "case_id": "p250076_ring_a1_snr20",
+      "pool": "small",
+      "achieved_error": 0.107561756102152,
+      "optimal_error_lower_bound": 0.10756174786562918,
+      "optimal_error_upper_bound": 0.107561756102152,
+      "error_interval_width": 8.236522824889292e-09,
+      "simplex_dual_gap": 8.859348255008115e-10,
+      "gap_pass": true
+    },
+    {
+      "case_id": "p250077_weak_a1_snr20",
+      "pool": "full",
+      "achieved_error": 0.42685669297620493,
+      "optimal_error_lower_bound": 0.42685669065396853,
+      "optimal_error_upper_bound": 0.42685669297620493,
+      "error_interval_width": 2.3222364031738607e-09,
+      "simplex_dual_gap": 9.912621452834447e-10,
+      "gap_pass": true
+    },
+    {
+      "case_id": "p250077_weak_a1_snr20",
+      "pool": "small",
+      "achieved_error": 0.4366806366247661,
+      "optimal_error_lower_bound": 0.4366806344843571,
+      "optimal_error_upper_bound": 0.4366806366247661,
+      "error_interval_width": 2.140408961182061e-09,
+      "simplex_dual_gap": 9.346751445732382e-10,
+      "gap_pass": true
+    },
+    {
+      "case_id": "p250077_ring_a1_snr20",
+      "pool": "full",
+      "achieved_error": 0.43004708460898394,
+      "optimal_error_lower_bound": 0.4300470779299586,
+      "optimal_error_upper_bound": 0.43004708460898394,
+      "error_interval_width": 6.6790253328008475e-09,
+      "simplex_dual_gap": 2.872295349481968e-09,
+      "gap_pass": true
+    },
+    {
+      "case_id": "p250077_ring_a1_snr20",
+      "pool": "small",
+      "achieved_error": 0.4427077222803161,
+      "optimal_error_lower_bound": 0.4427077203405993,
+      "optimal_error_upper_bound": 0.4427077222803161,
+      "error_interval_width": 1.939716776089284e-09,
+      "simplex_dual_gap": 8.587275907717684e-10,
+      "gap_pass": true
+    },
+    {
+      "case_id": "p250078_weak_a1_snr20",
+      "pool": "full",
+      "achieved_error": 0.4347417087003244,
+      "optimal_error_lower_bound": 0.43474170654793437,
+      "optimal_error_upper_bound": 0.4347417087003244,
+      "error_interval_width": 2.1523900439746058e-09,
+      "simplex_dual_gap": 9.357337162063661e-10,
+      "gap_pass": true
+    },
+    {
+      "case_id": "p250078_weak_a1_snr20",
+      "pool": "small",
+      "achieved_error": 0.4512050611325434,
+      "optimal_error_lower_bound": 0.4512050591299229,
+      "optimal_error_upper_bound": 0.4512050611325434,
+      "error_interval_width": 2.002620458352311e-09,
+      "simplex_dual_gap": 9.035924985675847e-10,
+      "gap_pass": true
+    },
+    {
+      "case_id": "p250078_ring_a1_snr20",
+      "pool": "full",
+      "achieved_error": 0.5342206297230552,
+      "optimal_error_lower_bound": 0.534220627878696,
+      "optimal_error_upper_bound": 0.5342206297230552,
+      "error_interval_width": 1.8443592209038684e-09,
+      "simplex_dual_gap": 9.852947737212792e-10,
+      "gap_pass": true
+    },
+    {
+      "case_id": "p250078_ring_a1_snr20",
+      "pool": "small",
+      "achieved_error": 0.5765484470030707,
+      "optimal_error_lower_bound": 0.5765484465776528,
+      "optimal_error_upper_bound": 0.5765484470030707,
+      "error_interval_width": 4.254179231111266e-10,
+      "simplex_dual_gap": 2.452740619114657e-10,
+      "gap_pass": true
+    },
+    {
+      "case_id": "p250079_weak_a1_snr20",
+      "pool": "full",
+      "achieved_error": 0.5312435494873432,
+      "optimal_error_lower_bound": 0.53124354762504,
+      "optimal_error_upper_bound": 0.5312435494873432,
+      "error_interval_width": 1.8623032005393725e-09,
+      "simplex_dual_gap": 9.89336564061194e-10,
+      "gap_pass": true
+    },
+    {
+      "case_id": "p250079_weak_a1_snr20",
+      "pool": "small",
+      "achieved_error": 0.5459662949968765,
+      "optimal_error_lower_bound": 0.5459662949968765,
+      "optimal_error_upper_bound": 0.5459662949968765,
+      "error_interval_width": 0.0,
+      "simplex_dual_gap": 8.890457814381136e-18,
+      "gap_pass": true
+    },
+    {
+      "case_id": "p250079_ring_a1_snr20",
+      "pool": "full",
+      "achieved_error": 0.5880478751785634,
+      "optimal_error_lower_bound": 0.588047870976724,
+      "optimal_error_upper_bound": 0.5880478751785634,
+      "error_interval_width": 4.20183943194985e-09,
+      "simplex_dual_gap": 2.4708827484065665e-09,
+      "gap_pass": true
+    },
+    {
+      "case_id": "p250079_ring_a1_snr20",
+      "pool": "small",
+      "achieved_error": 0.6089959106457502,
+      "optimal_error_lower_bound": 0.6089959106397734,
+      "optimal_error_upper_bound": 0.6089959106457502,
+      "error_interval_width": 5.976774630767068e-12,
+      "simplex_dual_gap": 3.639803275402517e-12,
+      "gap_pass": true
+    },
+    {
+      "case_id": "p250080_weak_a1_snr20",
+      "pool": "full",
+      "achieved_error": 0.5282297264939789,
+      "optimal_error_lower_bound": 0.5282297198938123,
+      "optimal_error_upper_bound": 0.5282297264939789,
+      "error_interval_width": 6.6001666354509325e-09,
+      "simplex_dual_gap": 3.486404210467642e-09,
+      "gap_pass": true
+    },
+    {
+      "case_id": "p250080_weak_a1_snr20",
+      "pool": "small",
+      "achieved_error": 0.5680432146353798,
+      "optimal_error_lower_bound": 0.5680432129700913,
+      "optimal_error_upper_bound": 0.5680432146353798,
+      "error_interval_width": 1.6652884626822129e-09,
+      "simplex_dual_gap": 9.459558032720583e-10,
+      "gap_pass": true
+    },
+    {
+      "case_id": "p250080_ring_a1_snr20",
+      "pool": "full",
+      "achieved_error": 0.529635587449502,
+      "optimal_error_lower_bound": 0.5296355856972405,
+      "optimal_error_upper_bound": 0.529635587449502,
+      "error_interval_width": 1.7522615580745082e-09,
+      "simplex_dual_gap": 9.280601148686785e-10,
+      "gap_pass": true
+    },
+    {
+      "case_id": "p250080_ring_a1_snr20",
+      "pool": "small",
+      "achieved_error": 0.5527148863922524,
+      "optimal_error_lower_bound": 0.5527148846709545,
+      "optimal_error_upper_bound": 0.5527148863922524,
+      "error_interval_width": 1.7212978820069225e-09,
+      "simplex_dual_gap": 9.513869587973733e-10,
+      "gap_pass": true
+    }
+  ],
+  "interpretation": "Floating-point KKT/FW certificates, not interval-arithmetic proofs. Only offline capacity and data-dependent L weighted estimators; not calibrated posterior or F selection.",
+  "wall_seconds": 1.419627750001382,
+  "cpu_seconds": 1.220764
+}
